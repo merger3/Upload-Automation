@@ -58,7 +58,7 @@ async def main():
 
 	print("Enter the platform the games loaded should be tagged with.\nNOTE: it is recommended to type the name as it appears in the Dat-O-Matic, ie 'Nintendo Entertainment System' instead of NES.")
 	print("If you use a nonstandard name you may have to remember it later.")
-	game_vals["platform"] = "Nintendo 64" #input("Platform: ")
+	game_vals["platform"] = input("Platform: ")
 	async with db.acquire() as conn:
 		# Reset DB
 		# await conn.execute("DROP TABLE IF EXISTS games CASCADE;")
