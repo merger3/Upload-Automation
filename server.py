@@ -48,7 +48,7 @@ app.debug = True
 # </table> 
 
 def buildTable(records):
-	table = "<table><tr>"
+	table = '<table id="games_returned" class="game_selection"><tr id="found_games" style="text-align:left;">'
 	for field in records[0].keys():
 		table += f"<th>{field}</th>"
 	table += "</tr>"
@@ -71,7 +71,7 @@ async def initDB():
 
 async def createDescription(gameTitle, platform):
 	async with db.acquire() as conn:
-		game = await conn.fetch("SELECT name, platform FROM games WHERE name ILIKE $1 AND platform ILIKE $2 ORDER BY platform, name LIMIT 100;", f"%{gameTitle}%", f"%{platform}%")
+		game = await conn.fetch("SELECT platform AS Platform, name AS Name  FROM games WHERE name ILIKE $1 AND platform ILIKE $2 ORDER BY platform, name LIMIT 5;", f"%{gameTitle}%", f"%{platform}%")
 		if game == None:
 			return "No Game Found!"
 		else:
@@ -80,8 +80,7 @@ async def createDescription(gameTitle, platform):
 @app.route('/', methods = ['POST', 'GET'])
 def hello_world():
 	if request.method == 'POST':
-		print("here")
-		response = jsonify({'some': 'data'})
+		response = jsonify({'val': request.form['action']})
 		response.headers.add('Access-Control-Allow-Origin', '*')
 		user = request.form['action']
 		return response
@@ -90,7 +89,11 @@ def hello_world():
 @app.route('/data', methods = ['POST', 'GET'])
 def load_response():
 	if request.method == 'POST':
-		game = loop.run_until_complete(createDescription(request.form['name'], request.form['platform']))
+		# game = loop.run_until_complete(createDescription(request.form['name'], request.form['platform']))
+		game = loop.run_until_complete(createDescription(request.form['name'], ""))
+		response = jsonify({'val': game})
+		response.headers.add('Access-Control-Allow-Origin', '*')
+		return response
 		return render_template('table.html', title='Welcome', records=game)
 	return "error"
 
