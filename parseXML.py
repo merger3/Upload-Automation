@@ -51,7 +51,6 @@ async def main():
 
 	game_vals = {}
 	source_vals = {}
-	serial_vals = {}
 	release_vals = {}
 	file_vals = {}
 

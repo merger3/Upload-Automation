@@ -71,7 +71,7 @@ async def initDB():
 
 async def createDescription(gameTitle):
 	async with db.acquire() as conn:
-		game = await conn.fetch("SELECT name, game_name FROM games WHERE name ILIKE $1 LIMIT 3;", f"%{gameTitle}%")
+		game = await conn.fetch("SELECT name, platform FROM games WHERE name ILIKE $1 ORDER BY platform, name LIMIT 100;", f"%{gameTitle}%")
 		if game == None:
 			return "No Game Found!"
 		else:
