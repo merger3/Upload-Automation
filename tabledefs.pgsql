@@ -61,6 +61,7 @@ CREATE TABLE IF NOT EXISTS files (
 	file_id		INT,
 	source_id 	BIGINT,
 	extension 	TEXT,
+	forcename	TEXT,
 	size 		BIGINT,
 	crc32 		VARCHAR(8),
 	md5 		VARCHAR(32),
