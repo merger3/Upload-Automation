@@ -7,6 +7,7 @@ import asyncio
 import asyncpg
 from os.path import join, dirname
 from dotenv import load_dotenv
+from resources import queries
 import os
 import sys
 
@@ -49,14 +50,18 @@ app.debug = True
 
 def buildTable(records):
 	table = '<table id="games_returned" class="game_selection"><tr id="found_games" style="text-align:left;">'
+	table += '<th>Select</th>'
 	for field in records[0].keys():
-		table += f"<th>{field}</th>"
+		if field != 'id':
+			table += f"<th>{field}</th>"
 	table += "</tr>"
 
 	for r in records:
 		table += "<tr>"
+		table += f'<td><input class="select_game" type="button" style="background-color:coral;color:black;padding:.01px 9px;border-radius: 100%;" data-value="{r["id"]}"/></td>'
 		for v in r.values():
-			table += f"<td>{v}</td>"
+			if type(v) != int:
+				table += f"<td>{v}</td>"
 		table += "</tr>"
 	
 	table += "</table>"
@@ -71,7 +76,7 @@ async def initDB():
 
 async def createDescription(gameTitle, platform):
 	async with db.acquire() as conn:
-		game = await conn.fetch("SELECT platform AS Platform, name AS Name  FROM games WHERE name ILIKE $1 AND platform ILIKE $2 ORDER BY platform, name LIMIT 5;", f"%{gameTitle}%", f"%{platform}%")
+		game = await conn.fetch("SELECT platform AS Platform, name AS Name, id FROM games WHERE name ILIKE $1 AND platform ILIKE $2 ORDER BY platform, name LIMIT 5;", f"%{gameTitle}%", f"%{platform}%")
 		if game == None:
 			return "No Game Found!"
 		else:
@@ -96,6 +101,28 @@ def load_response():
 		return response
 		return render_template('table.html', title='Welcome', records=game)
 	return "error"
+
+async def queryDetails(releaseID):
+	async with db.acquire() as conn:
+		# desc = "[/b]\n" + game_id + "[/b]\n\nVerified against No Intro Checksums [url=" + params.discid + "]Datomatic - Nintendo - Nintendo 3DS (Digital) (CDN)[/url]\n" + content_text +"\nTo use these files, install them on a modified 3DS or install them to Citra. These files can be converted to CIA using a program listed on the [url=https://gbatemp.net/threads/batch-cia-3ds-decryptor-a-simple-batch-file-to-decrypt-cia-3ds.512385/page-3#post-9137481]gbatemp forums[/url] \n [url=https://i.postimg.cc/d3vRHC0j/image.png]Image of post provided here to ensure longevity[/url][/align]";
+		game = await conn.fetchrow(queries.SELECTDETAILS, int(releaseID))
+		if game == None:
+			return "No Game Found!"
+		else:
+			return game["crc32"]
+
+
+@app.route('/details', methods = ['POST', 'GET'])
+def get_details():
+	if request.method == 'POST':
+		# game = loop.run_until_complete(createDescription(request.form['name'], request.form['platform']))
+		game = loop.run_until_complete(queryDetails(request.form['id']))
+		response = jsonify({'val': game})
+		response.headers.add('Access-Control-Allow-Origin', '*')
+		return response
+		return render_template('table.html', title='Welcome', records=game)
+	return "error"
+
 
 
 if __name__ == '__main__':

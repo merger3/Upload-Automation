@@ -14,13 +14,20 @@
 // @require      https://code.jquery.com/jquery-3.1.0.min.js
 // ==/UserScript==
 
+
+//$(this).data("value"))
+
 (function() {
     'use strict';
     if (window.location.hostname == "gazellegames.net") {
         add_search_buttons()
     }
-    // Your code here...
+
 })();
+
+function fillData(data, textStatus) {
+    $("#release_desc")[0].value = data.val;
+}
 
 function processResult (data, textStatus) {
     //const obj = JSON.parse(data);
@@ -33,8 +40,14 @@ function processResult (data, textStatus) {
     }
 
     $(".game_selection>*").css("border: 1px solid #0088ff; border-collapse: collapse; padding: 5px; font-family:Verdana;font-size:12px; text-align: left;");
+    $(".select_game").click(function () {
+       $.post("http://192.168.0.33:5000/details", {"id": $(this).data("value")}, fillData)
+       //$("#release_desc")[0].value = desc;
+       //alert($(this).data("value"))
+    });
 
 }
+
 
 function add_search_buttons() {
     $("#announce_uri td:nth-child(2)").css({"width": "5px"});
