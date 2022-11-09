@@ -28,7 +28,7 @@ async def np(arg: str, format="str"):
 			try:
 				return int(arg)
 			except TypeError:
-				pass
+				return 1
 		elif format == "datetime":
 			try:
 				return datetime.strptime(arg, "%Y-%m-%d")
@@ -41,7 +41,6 @@ async def main():
 	if len(sys.argv) == 1:
 		print("Please specify a file to parse!")
 		return 0
-	print(os.getcwd())    
  
 	credentials = {"user": DBUSER, "password": DBPASS, "database": DBDATABASE, "host": DBHOST}
 	db = await asyncpg.create_pool(**credentials)
@@ -148,6 +147,7 @@ async def main():
 							file_vals["file_id"] 		= await np(info.getAttribute("id"), format="int")
 							file_vals["source_id"] 	= source_vals["id"]
 							file_vals["extension"] 	= await np(info.getAttribute("extension"))
+							file_vals["forcename"] 	= await np(info.getAttribute("forcename"))
 							file_vals["size"] 		= await np(info.getAttribute("size"), format="int")
 							file_vals["crc32"] 		= await np(info.getAttribute("crc32"))
 							file_vals["md5"] 		= await np(info.getAttribute("md5"))
@@ -157,7 +157,7 @@ async def main():
 							file_vals["id"] 			= zlib.crc32(bytes(str(file_vals["file_id"]) + str(file_vals["source_id"]), 'utf-8'))
 
 							try:
-								await conn.execute(queries.INSERTINTOFILES, file_vals["id"], file_vals["file_id"], file_vals["source_id"], file_vals["extension"], file_vals["size"], file_vals["crc32"], file_vals["md5"], file_vals["sha1"], file_vals["serial"], file_vals["format"])
+								await conn.execute(queries.INSERTINTOFILES, file_vals["id"], file_vals["file_id"], file_vals["source_id"], file_vals["extension"], file_vals["forcename"], file_vals["size"], file_vals["crc32"], file_vals["md5"], file_vals["sha1"], file_vals["serial"], file_vals["format"])
 							except asyncpg.UniqueViolationError:
 								print(f"Unable to add file with id {file_vals['file_id']} from game {game_vals['game_name']} due to duplicate ID")
 							else:

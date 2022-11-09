@@ -70,6 +70,7 @@ CREATE TABLE IF NOT EXISTS files (
 	file_id		INT,
 	source_id 	BIGINT,
 	extension 	TEXT,
+	forcename	TEXT,
 	size 		BIGINT,
 	crc32 		VARCHAR(8),
 	md5 		VARCHAR(32),
@@ -141,13 +142,14 @@ INSERT INTO files (
 	file_id,
 	source_id,
 	extension,
+	forcename,
 	size,
 	crc32,
 	md5,
 	sha1,
 	serial_code,
 	format
-	) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10);
+	) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11);
 """
 
 INSERTINTOSERIALS = """
