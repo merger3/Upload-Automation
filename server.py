@@ -85,7 +85,7 @@ def hello_world():
 		response.headers.add('Access-Control-Allow-Origin', '*')
 		user = request.form['action']
 		return response
-	return render_template('index.html', title='Welcome', username="merger3")
+	return render_template('index.html', title='Welcome', username="User")
 
 @app.route('/data', methods = ['POST', 'GET'])
 def load_response():
