@@ -5,8 +5,10 @@
     <body>
         <h1>Hello {{ username }}</h1>
 		<form action="{{ url_for('load_response') }}" method="post">
-			<label for="fname">First name:</label><br>
+			<label for="title">Title:</label><br>
 			<input type="text" id="name" name="name" value=""><br>
+			<label for="platform">Platform:</label><br>
+			<input type="text" id="platform" name="platform" value=""><br>
 			<input type="submit" value="Submit">
 		</form> 
     </body>

@@ -69,9 +69,9 @@ async def initDB():
 	db = await asyncpg.create_pool(**credentials)
 	return
 
-async def createDescription(gameTitle):
+async def createDescription(gameTitle, platform):
 	async with db.acquire() as conn:
-		game = await conn.fetch("SELECT name, platform FROM games WHERE name ILIKE $1 ORDER BY platform, name LIMIT 100;", f"%{gameTitle}%")
+		game = await conn.fetch("SELECT name, platform FROM games WHERE name ILIKE $1 AND platform ILIKE $2 ORDER BY platform, name LIMIT 100;", f"%{gameTitle}%", f"%{platform}%")
 		if game == None:
 			return "No Game Found!"
 		else:
@@ -90,7 +90,7 @@ def hello_world():
 @app.route('/data', methods = ['POST', 'GET'])
 def load_response():
 	if request.method == 'POST':
-		game = loop.run_until_complete(createDescription(request.form['name']))
+		game = loop.run_until_complete(createDescription(request.form['name'], request.form['platform']))
 		return render_template('table.html', title='Welcome', records=game)
 	return "error"
 
