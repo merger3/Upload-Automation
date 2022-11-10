@@ -9,7 +9,7 @@ To use this script you first have to populate the database. This only has to be 
 3. Rename the files to the correct syntax. This is "ID Company - Platform.xml".
 No-Intro database files are named like this by default: "Nintendo - Game Boy Advance (DB Export) (20221110-045334).xml"
 Get the platform ID from the URL, by opening any game for that platform in the Datomatic.
-Using our GBA example: https://datomatic.no-intro.org/index.php?page=show_record&s=_23_&n=0115
+Using our GBA example: https://datomatic.no-intro.org/index.php?page=show_record&s=23   &n=0115
 The number following the "s=" is the platform ID, here it's 23.
 Don't forget to remove the (DB Export) and numbers following the platform name.
 So our final filename will be "23 Nintendo - Game Boy Advance.xml"
