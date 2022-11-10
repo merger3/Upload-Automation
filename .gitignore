@@ -132,5 +132,5 @@ dmypy.json
 bin/
 .vscode/
 lib64/
-
+resources/*.db*
 # userscript.js

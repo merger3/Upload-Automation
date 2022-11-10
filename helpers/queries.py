@@ -99,7 +99,7 @@ INSERT INTO games (
 	languages, 
 	version, 
 	devstatus
-	) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14);
+	) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 INSERTINTOSOURCES = """
@@ -116,7 +116,7 @@ INSERT INTO sources (
 	original_format, 
 	comment, 		
 	tool	
-	) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12);
+	) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 INSERTINTORELEASES = """
@@ -136,7 +136,7 @@ INSERT INTO releases (
 	region,	
 	origin,
 	serial_code
-	) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15);
+	) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 
@@ -153,7 +153,7 @@ INSERT INTO files (
 	sha1,
 	serial_code,
 	format
-	) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11);
+	) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 INSERTINTOSERIALS = """
@@ -161,13 +161,13 @@ INSERT INTO serials (
 	serial_type,
 	code,
 	source_id
-	) VALUES ($1, $2, $3);
+	) VALUES (?, ?, ?);
 """
 
 SELECTDETAILS = """
 WITH single AS (
 SELECT
-	DISTINCT ON (games.id)
+	MIN(sources.source_id),
 	games.archive_number,
 	games.name,
 	games.platform,
@@ -182,7 +182,9 @@ SELECT
 FROM 
 	games INNER JOIN sources ON games.id = sources.game_id
 	INNER JOIN files ON files.source_id = sources.id 
-WHERE games.id = $1
+WHERE games.id = ?
+GROUP BY 
+	games.id
 ORDER BY 
 	games.id,
 	sources.source_id
@@ -198,7 +200,7 @@ SELECT
 	single.regions,
 	single.languages,
 	single.platform_id,
-	EXTRACT(YEAR FROM single.d_date) AS year,
+	single.d_date AS year,
 	files.*
 FROM
 	single INNER JOIN files ON files.source_id = single.source_id;
@@ -210,5 +212,5 @@ SELECT
 FROM 
 	games INNER JOIN releases ON games.id = releases.game_id 
 WHERE 
-	games.id = $1;
+	games.id = ?;
 """

@@ -3,26 +3,13 @@ from flask import request
 from flask_debugtoolbar import DebugToolbarExtension
 from flask import render_template
 from flask import jsonify
-import asyncio
-import asyncpg
-from os.path import join, dirname
-from dotenv import load_dotenv
-from resources import queries
-import os
-import sys
+from helpers import queries
+import sqlite3
 
+db = sqlite3.connect(r'resources/nointro.db', detect_types = sqlite3.PARSE_DECLTYPES, check_same_thread=False)
+db.row_factory = sqlite3.Row 
+db.execute('PRAGMA journal_mode=wal;')
 
-dotenv_path = join(dirname(__file__), '.env')
-load_dotenv(dotenv_path)
- 
-# Accessing variables.
-DBPASS = os.getenv('DBPASS')
-DBHOST = os.getenv('DBHOST')
-DBUSER= os.getenv('DBUSER')
-DBDATABASE= os.getenv('DBDATABASE')
-
-loop = asyncio.get_event_loop()
-db = None
 app = Flask(__name__)
  
 app.config['SECRET_KEY'] = 'some random string'
@@ -52,7 +39,7 @@ def buildTable(records):
 	for r in records:
 		table += "<tr>"
 		table += f'<td><input class="select_game" type="button" style="background-color:coral;color:black;padding:.01px 9px;border-radius: 100%;" data-value="{r["id"]}"/></td>'
-		for v in r.values():
+		for v in dict(r).values():
 			if type(v) != int:
 				table += f"<td>{v}</td>"
 		table += "</tr>"
@@ -61,19 +48,14 @@ def buildTable(records):
 
 	return table
 
-async def initDB():
-	credentials = {"user": DBUSER, "password": DBPASS, "database": DBDATABASE, "host": DBHOST}
-	global db 
-	db = await asyncpg.create_pool(**credentials)
-	return
-
-async def createDescription(gameTitle, platform):
-	async with db.acquire() as conn:
-		game = await conn.fetch("SELECT platform AS Platform, name AS Name, id FROM games WHERE name ILIKE $1 AND platform ILIKE $2 ORDER BY platform, name LIMIT 5;", f"%{gameTitle}%", f"%{platform}%")
-		if len(game) == 0:
-			return {'val': None, 'game': -1}
-		else:
-			return {'val': buildTable(game), 'game': game[0]['id']}
+def createDescription(gameTitle, platform):
+	conn = db.cursor()
+	conn.execute("SELECT platform AS Platform, name AS Name, id FROM games WHERE name LIKE ? AND platform LIKE ? ORDER BY platform, name LIMIT 5;", (f"%{gameTitle}%", f"%{platform}%"))
+	game = conn.fetchall()
+	if len(game) == 0:
+		return {'val': None, 'game': -1}
+	else:
+		return {'val': buildTable(game), 'game': game[0]['id']}
 
 @app.route('/', methods = ['POST', 'GET'])
 def hello_world():
@@ -87,57 +69,60 @@ def hello_world():
 @app.route('/data', methods = ['POST', 'GET'])
 def load_response():
 	if request.method == 'POST':
-		response = jsonify(loop.run_until_complete(createDescription(request.form['name'], "")))
+		response = jsonify(createDescription(request.form['name'], ""))
 		response.headers.add('Access-Control-Allow-Origin', '*')
 		return response
 	return "error"
 
-async def queryDetails(gameID):
-	async with db.acquire() as conn:
-		files = await conn.fetch(queries.SELECTDETAILS, int(gameID))
-		if len(files) == 0:
-			releases = await conn.fetch(queries.TESTFORRELEASES, int(gameID))
-			if len(releases) == 0:
-				return {'status': 1, "msg": "That game has no sources or releases!"}
+def queryDetails(gameID):
+	conn = db.cursor()
+	conn.execute(queries.SELECTDETAILS, (int(gameID),))
+	files = conn.fetchall()
+	if len(files) == 0:
+		conn.execute(queries.TESTFORRELEASES, (int(gameID),))
+		releases = conn.fetchall() 
+		
+		if len(releases) == 0:
+			return {'status': 1, "msg": "That game has no sources or releases!"}
+		else:
+			url = f"https://datomatic.no-intro.org/index.php?page=show_record&s={releases[0]['platform_id']}&n={releases[0]['archive_number']}"
+			return {'status': 1, "msg": f"That game has no sources but a release was found.\nYou may be able to manually enter the info from the address below:\n{url}"}
+	else:
+		fileString = ""
+		for f in files:
+			fileString += "File: [b]"
+			if f["forcename"]:
+				fileString += f["forcename"]
+			elif f["extension"]:
+				fileString += f'{f["name"]}.{f["extension"]}'
 			else:
-				url = f"https://datomatic.no-intro.org/index.php?page=show_record&s={releases[0]['platform_id']}&n={releases[0]['archive_number']}"
-				return {'status': 1, "msg": f"That game has no sources but a release was found.\nYou may be able to manually enter the info from the address below:\n{url}"}
-		else:
-			fileString = ""
-			for f in files:
-				fileString += "File: [b]"
-				if f["forcename"]:
-					fileString += f["forcename"]
-				elif f["extension"]:
-					fileString += f'{f["name"]}.{f["extension"]}'
-				else:
-					fileString += f["file_id"]
+				fileString += f["file_id"]
 
-				fileString += f'[/b] | CRC32: [b]{f["crc32"]}[/b] | MD5: [b]{f["md5"]}[/b] | SHA-1: [b]{f["sha1"]}[/b] \n'
+			fileString += f'[/b] | CRC32: [b]{f["crc32"]}[/b] | MD5: [b]{f["md5"]}[/b] | SHA-1: [b]{f["sha1"]}[/b] \n'
 
-		f = files[0]
-		desc = f"[align=center][b]{f['name']}[/b]\n\nVerified against No Intro Checksums [url=https://datomatic.no-intro.org/index.php?page=show_record&s={f['platform_id']}&n={f['archive_number']}]Datomatic - {f['company']} - {f['platform']}[/url]\n{fileString}[/align]"
+	f = files[0]
+	desc = f"[align=center][b]{f['name']}[/b]\n\nVerified against No Intro Checksums [url=https://datomatic.no-intro.org/index.php?page=show_record&s={f['platform_id']}&n={f['archive_number']}]Datomatic - {f['company']} - {f['platform']}[/url]\n{fileString}[/align]"
 
-		if ',' in f["languages"]:
-			lang = "Multi-Language"
-		else:
-			try:
-				lang = language_codes[f["languages"].lower()]
-			except KeyError:
-				lang = "Other"
+	if ',' in f["languages"]:
+		lang = "Multi-Language"
+	else:
+		try:
+			lang = language_codes[f["languages"].lower()]
+		except KeyError:
+			lang = "Other"
 
-		if f["regions"] in valid_regions:
-			region = f["regions"]
-		else:
-			region = "Other"
+	if f["regions"] in valid_regions:
+		region = f["regions"]
+	else:
+		region = "Other"
 
-		return {'status': 0, 'description': desc, 'year': str(f["year"]), "name": f["name"], "region": region, "lang": lang}
+	return {'status': 0, 'description': desc, 'year': str(f["year"]), "name": f["name"], "region": region, "lang": lang}
 
 
 @app.route('/details', methods = ['POST', 'GET'])
 def get_details():
 	if request.method == 'POST':
-		response = jsonify(loop.run_until_complete(queryDetails(request.form['id'])))
+		response = jsonify(queryDetails(request.form['id']))
 		response.headers.add('Access-Control-Allow-Origin', '*')
 		return response
 		
@@ -148,8 +133,8 @@ def process_details():
 	if request.method == 'POST':
 		# C:\fakepath\Bosses Forever 2.Bro (World) (v2.23).torrent
 		name = request.form['name'][12:-8]
-		table = loop.run_until_complete(createDescription(name, ""))
-		fields = loop.run_until_complete(queryDetails(table['game']))
+		table = createDescription(name, "")
+		fields = queryDetails(table['game'])
 		response = jsonify(table | fields)
 		response.headers.add('Access-Control-Allow-Origin', '*')
 		return response
@@ -159,6 +144,4 @@ def process_details():
 
 
 if __name__ == '__main__':
-	loop.run_until_complete(initDB())
-	print("initialized DB")
 	app.run(host='0.0.0.0', port=5000)
