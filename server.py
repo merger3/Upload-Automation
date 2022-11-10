@@ -36,6 +36,9 @@ valid_regions = ["USA", "Europe", "Japan", "Asia", "Australia", "France", "Germa
 
 
 def buildTable(records):
+	if len(records) == 0:
+		return 1
+
 	table = '<table id="games_returned" class="game_selection"><tr id="found_games" style="text-align:left;">'
 	table += '<th>Select</th>'
 	for field in records[0].keys():
@@ -67,8 +70,8 @@ async def initDB():
 async def createDescription(gameTitle, platform):
 	async with db.acquire() as conn:
 		game = await conn.fetch("SELECT platform AS Platform, name AS Name, id FROM games WHERE name ILIKE $1 AND platform ILIKE $2 ORDER BY platform, name LIMIT 5;", f"%{gameTitle}%", f"%{platform}%")
-		if game == None:
-			return "No Game Found!"
+		if len(game) == 0:
+			return {'val': None, 'game': -1}
 		else:
 			return {'val': buildTable(game), 'game': game[0]['id']}
 
@@ -95,10 +98,10 @@ async def queryDetails(gameID):
 		if len(files) == 0:
 			releases = await conn.fetch(queries.TESTFORRELEASES, int(gameID))
 			if len(releases) == 0:
-				return jsonify({'status': 1, "msg": "That game has no sources or releases!"})
+				return {'status': 1, "msg": "That game has no sources or releases!"}
 			else:
 				url = f"https://datomatic.no-intro.org/index.php?page=show_record&s={releases[0]['platform_id']}&n={releases[0]['archive_number']}"
-				return jsonify({'status': 1, "msg": f"That game has no sources but a release was found.\nYou may be able to manually enter the info from the address below:\n{url}"})
+				return {'status': 1, "msg": f"That game has no sources but a release was found.\nYou may be able to manually enter the info from the address below:\n{url}"}
 		else:
 			fileString = ""
 			for f in files:
