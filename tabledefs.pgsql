@@ -1,7 +1,9 @@
 CREATE TABLE IF NOT EXISTS games (
 	id BIGINT PRIMARY KEY,
 	name TEXT,
+	company TEXT,
 	platform TEXT,
+	platform_id INT,
 	archive_number INT,
 	clone INT,
 	regparent TEXT,
