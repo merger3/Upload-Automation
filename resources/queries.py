@@ -5,8 +5,8 @@ CREATE TABLE IF NOT EXISTS games (
 	company TEXT,
 	platform TEXT,
 	platform_id INT,
-	archive_number INT,
-	clone INT,
+	archive_number VARCHAR,
+	clone VARCHAR,
 	regparent TEXT,
 	game_name TEXT,
 	alt_name TEXT,
@@ -87,7 +87,9 @@ INSERTINTOGAMES = """
 INSERT INTO games (
 	id,
 	name, 
-	platform, 
+	company,
+	platform,
+	platform_id,
 	archive_number, 
 	clone, 
 	regparent, 
@@ -97,7 +99,7 @@ INSERT INTO games (
 	languages, 
 	version, 
 	devstatus
-	) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12);
+	) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14);
 """
 
 INSERTINTOSOURCES = """
@@ -168,6 +170,12 @@ SELECT
 	DISTINCT ON (games.id)
 	games.archive_number,
 	games.name,
+	games.platform,
+	games.company,
+	games.platform_id,
+	games.regions,
+	games.languages,
+	sources.d_date,
 	sources.source_id as s_id,
 	sources.id as source_id,
 	games.id as games_id
@@ -182,9 +190,25 @@ ORDER BY
 
 SELECT
 	single.games_id,
+	single.archive_number,
 	single.s_id,
 	single.name,
-	files.crc32
+	single.platform,
+	single.company,
+	single.regions,
+	single.languages,
+	single.platform_id,
+	EXTRACT(YEAR FROM single.d_date) AS year,
+	files.*
 FROM
 	single INNER JOIN files ON files.source_id = single.source_id;
+"""
+
+TESTFORRELEASES = """
+SELECT 
+	*
+FROM 
+	games INNER JOIN releases ON games.id = releases.game_id 
+WHERE 
+	games.id = $1;
 """

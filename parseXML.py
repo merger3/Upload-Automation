@@ -33,10 +33,24 @@ async def main():
 	
 	
 	async with db.acquire() as conn:
+		# Reset DB
+		await conn.execute("DROP TABLE IF EXISTS games CASCADE;")
+		await conn.execute("DROP TABLE IF EXISTS sources CASCADE;")
+		await conn.execute("DROP TABLE IF EXISTS serials CASCADE;")
+		await conn.execute("DROP TABLE IF EXISTS releases CASCADE;")
+		await conn.execute("DROP TABLE IF EXISTS files CASCADE;")
+
+		# Initialize tables
+		await conn.execute(queries.CREATEGAMESTABLE)
+		await conn.execute(queries.CREATESOURCESTABLE)
+		await conn.execute(queries.CREATESERIALSTABLE)
+		await conn.execute(queries.CREATERELEASESTABLE)
+		await conn.execute(queries.CREATEFILESTABLE)
 		for root, dirs, files in os.walk(xmls):
 			for i in files:
 				with open(os.path.join(root, i)) as file:
-					await parse(conn, file, i)
+					print(os.path.join(root, i))
+					await parseXML(conn, file, i)
 
 
 
@@ -58,7 +72,7 @@ async def np(arg: str, format="str"):
 
 		return arg
 
-async def parse(conn, fileObj, fileName):
+async def parseXML(conn, fileObj, fileName):
 	document = parse(fileObj)
 	
 	game_vals = {}
@@ -66,23 +80,12 @@ async def parse(conn, fileObj, fileName):
 	release_vals = {}
 	file_vals = {}
 
-	game_vals["platform"] = input("Platform: ")
-	# Reset DB
-	await conn.execute("DROP TABLE IF EXISTS games CASCADE;")
-	await conn.execute("DROP TABLE IF EXISTS sources CASCADE;")
-	await conn.execute("DROP TABLE IF EXISTS serials CASCADE;")
-	await conn.execute("DROP TABLE IF EXISTS releases CASCADE;")
-	await conn.execute("DROP TABLE IF EXISTS files CASCADE;")
+	
 
 
-	# Initialize tables
-	await conn.execute(queries.CREATEGAMESTABLE)
-	await conn.execute(queries.CREATESOURCESTABLE)
-	await conn.execute(queries.CREATESERIALSTABLE)
-	await conn.execute(queries.CREATERELEASESTABLE)
-	await conn.execute(queries.CREATEFILESTABLE)
+	
 
-	game_vals["platform_id"] = fileName[:fileName.find(' ')]
+	game_vals["platform_id"] = int(fileName[:fileName.find(' ')])
 	game_vals["company"] = fileName[fileName.find(' ') + 1:fileName.find(" - ")]
 	game_vals["platform"] = fileName[fileName.find(" - ") + 3:-4]
 	games = document.getElementsByTagName("game")
@@ -90,8 +93,8 @@ async def parse(conn, fileObj, fileName):
 		game_vals["release_name"] = game.getAttribute("name")
 		for child in game.childNodes:
 			if child.nodeName == "archive":
-				game_vals["archive_number"] = await np(child.getAttribute("number"), format="int")
-				game_vals["clone"]          = await np(child.getAttribute("clone"), format="int")
+				game_vals["archive_number"] = await np(child.getAttribute("number"))
+				game_vals["clone"]          = await np(child.getAttribute("clone"))
 				game_vals["regparent"]      = await np(child.getAttribute("regparent"))
 				game_vals["game_name"]      = child.getAttribute("name")
 				game_vals["alt_name"]       = child.getAttribute("name_alt")
@@ -100,7 +103,7 @@ async def parse(conn, fileObj, fileName):
 				game_vals["version"]        = await np(child.getAttribute("version"))
 				game_vals["devstatus"]      = await np(child.getAttribute("devstatus"))
 				
-				game_vals["id"] 			= zlib.crc32(bytes(str(game_vals["archive_number"]) + game_vals["release_name"], 'utf-8'))
+				game_vals["id"] 			= zlib.crc32(bytes(game_vals["archive_number"] + game_vals["release_name"], 'utf-8'))
 
 				# while True:
 				# 	try:
@@ -115,7 +118,8 @@ async def parse(conn, fileObj, fileName):
 				except asyncpg.UniqueViolationError:
 					print(f"Unable to add {game_vals['game_name']} due to duplicate ID")
 				else:
-					print("Added Game")
+					pass
+					# print("Added Game")
 
 			elif child.nodeName == "source":
 				for info in child.childNodes:
@@ -139,7 +143,8 @@ async def parse(conn, fileObj, fileName):
 						except asyncpg.UniqueViolationError:
 							print(f"Unable to add source with id {source_vals['source_id']} from game {game_vals['game_name']} due to duplicate ID")
 						else:
-							print("Added Source")
+							pass
+							#print("Added Source")
 
 
 					elif info.nodeName == "serials":
@@ -149,7 +154,8 @@ async def parse(conn, fileObj, fileName):
 							except asyncpg.UniqueViolationError:
 								print(f"Unable to add serial {attrName} ({attrValue}) to game {game_vals['game_name']} due to duplicate ID")
 							else:
-								print("Added Serial")
+								pass
+								# print("Added Serial")
 							
 
 
@@ -171,7 +177,8 @@ async def parse(conn, fileObj, fileName):
 						except asyncpg.UniqueViolationError:
 							print(f"Unable to add file with id {file_vals['file_id']} from game {game_vals['game_name']} due to duplicate ID")
 						else:
-							print("Added File")
+							pass
+							# print("Added File")
 
 
 			elif child.nodeName == "release":
@@ -201,7 +208,8 @@ async def parse(conn, fileObj, fileName):
 				except asyncpg.UniqueViolationError:
 					print(f"Unable to add release with id {release_vals['release_id']} from game {game_vals['game_name']} due to duplicate ID")
 				else:
-					print("Added Release")
+					pass
+					# print("Added Release")
 
 if __name__ == '__main__':
 	asyncio.run(main())						

@@ -14,8 +14,8 @@
 // @require      https://code.jquery.com/jquery-3.1.0.min.js
 // ==/UserScript==
 
-
-//$(this).data("value"))
+// Set to the ip:port of the flask server
+const server = "http://localhost:5000";
 
 (function() {
     'use strict';
@@ -25,37 +25,83 @@
 
 })();
 
-function fillData(data, textStatus) {
-    $("#release_desc")[0].value = data.val;
-}
+function processFile(data, textStatus) {
+    if (data.status == 1) {
+        alert(data.msg);
+    } else {
+        $("#release_desc")[0].value = data.description;
+        if (!$('#remaster').prop('checked')) {
+            $("#remaster").click();
+        }
+        $("#remaster_year")[0].value = data.year;
+        $("#remaster_title")[0].value = "No-Intro";
+        $("#ripsrc_home").click();
+        $("#release_title")[0].value = data.name;
+        $("#miscellaneous")[0].value = "ROM";
+        $("#region")[0].value = "ROM";
+        $("#region")[0].value = data.region;
+        $("#language")[0].value = data.lang;
+    }
 
-function processResult (data, textStatus) {
-    //const obj = JSON.parse(data);
-	console.log(data);
-	//alert(data.val);
     if ($('#games_returned').length) {
-       $("#games_returned").replaceWith(data.val);
+        $("#games_returned").replaceWith(data.val);
     } else {
         $("#torrent_file").append(data.val);
     }
 
     $(".game_selection>*").css("border: 1px solid #0088ff; border-collapse: collapse; padding: 5px; font-family:Verdana;font-size:12px; text-align: left;");
     $(".select_game").click(function () {
-       $.post("http://192.168.0.33:5000/details", {"id": $(this).data("value")}, fillData)
-       //$("#release_desc")[0].value = desc;
-       //alert($(this).data("value"))
+        $.post(server + "/details", {"id": $(this).data("value")}, fillData)
     });
+}
 
+function fillData(data, textStatus) {
+    if (data.status == 1) {
+        alert(data.msg);
+    } else {
+        $("#release_desc")[0].value = data.description;
+        if (!$('#remaster').prop('checked')) {
+            $("#remaster").click();
+        }
+        $("#remaster_year")[0].value = data.year;
+        $("#remaster_title")[0].value = "No-Intro";
+        $("#ripsrc_home").click();
+        $("#release_title")[0].value = data.name;
+        $("#miscellaneous")[0].value = "ROM";
+        $("#region")[0].value = "ROM";
+        $("#region")[0].value = data.region;
+        $("#language")[0].value = data.lang;
+    }
+}
+
+function processResult (data, textStatus) {
+    if ($('#games_returned').length) {
+        $("#games_returned").replaceWith(data.val);
+    } else {
+        $("#torrent_file").append(data.val);
+    }
+
+    $(".game_selection>*").css("border: 1px solid #0088ff; border-collapse: collapse; padding: 5px; font-family:Verdana;font-size:12px; text-align: left;");
+    $(".select_game").click(function () {
+        $.post(server + "/details", {"id": $(this).data("value")}, fillData)
+    });
 }
 
 
 function add_search_buttons() {
     $("#announce_uri td:nth-child(2)").css({"width": "5px"});
     $("#torrent_file td:nth-child(2)").css({"vertical-align": "top"});
-    $("#announce_uri").append('<tr><td><input id="ask_redump" type="text" value=""/><input id="search" type="button" style="background-color:coral;color:black" value="Fill form"/><input type="checkbox" id="NoPost"  title="Check this to delay uploading" /input></td></tr>');
+    $("#announce_uri").append('<tr><td><input id="ask_redump" type="text" value=""/><input id="search" type="button" style="background-color:coral;color:black" value="Search"/><input id="torrent_fill" type="button" style="background-color:CornflowerBlue;color:black" value="Use Torrent"/><input type="checkbox" id="NoPost"  title="Check this to delay uploading" /input></td></tr>');
 
+    $("#torrent_fill").click(function () {
+        if ($("#file")[0].value == "") {
+            alert("Upload a torrent file first!");
+        } else {
+            $.post(server + "/file", {"name": $("#file")[0].value}, processFile)
+        }
+    });
 
     $("#search").click(function () {
-       $.post("http://192.168.0.33:5000/data", {"name": $("#ask_redump").val()}, processResult)
+        $.post(server + "/data", {"name": $("#ask_redump").val()}, processResult)
     });
 }
