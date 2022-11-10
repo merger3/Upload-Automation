@@ -116,7 +116,7 @@ def queryDetails(gameID):
 	else:
 		region = "Other"
 
-	return {'status': 0, 'description': desc, 'year': str(f["year"]), "name": f["name"], "region": region, "lang": lang}
+	return {'status': 0, 'description': desc, 'year': str(f["year"].year), "name": f["name"], "region": region, "lang": lang}
 
 
 @app.route('/details', methods = ['POST', 'GET'])
