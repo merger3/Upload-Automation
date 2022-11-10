@@ -1,0 +1,1767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datafile>
+	<game name="Bakumatsu Rouman Tokubetsu Hen - Gekka no Kenshi - Tsuki ni Saku Hana, Chiri Yuku Hana (Japan)">
+		<archive number="0001" clone="0033" regparent="(JPN PARENT)" name="Bakumatsu Rouman Tokubetsu Hen - Gekka no Kenshi - Tsuki ni Saku Hana, Chiri Yuku Hana" region="Japan" languages="Ja"/>
+		<source>
+			<details id="338" section="Trusted Dump" d_date="2022-02-15" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni Cart Reader v7.3" comment1="Last_Blade_JAP_NGPC-MNC contains save init data from 0x1F0000 to 0x1F00FF" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=28835#p28835"/>
+			<serials media_serial1="NEOP00640" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="56592V (9935)"/>
+			<file id="204" extension="ngc" size="2097152" crc32="be913cfa" md5="d485fcdef8f9f4fb0de39849334aca66" sha1="cf94cd3812a8905432ecba30ed874be97efc792e" sha256="1cc826db8cfb3c5a3d4de3323ce29f73ac152c7919bed1098e9233a8d93b6a9d" version="1F" serial="0064" format="Default"/>
+		</source>
+		<release>
+			<details id="35" dirname="Last_Blade_JAP_NGPC-MNC" rominfo="Bad" nfoname="mnc-lbld" nfosize="2712" nfocrc="e72820a1" archivename="MNC-LBLD" originalformat="Default" date="2000-03-31" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Baseball Stars Color - Pocket Sports Series (World) (En,Ja)">
+		<archive number="0002" clone="P" regparent="(JPN PARENT) (USA PARENT) (EUR PARENT)" name="Baseball Stars Color - Pocket Sports Series" region="World" languages="En,Ja"/>
+		<source>
+			<details id="147" section="Third Party" rominfo="Bad" d_date="2000-06-15" r_date="2016-03-13" region="USA" dumper="!unknown" project="GoodTools" originalformat="Default" comment1="Verified according to GoodNGPx V3.27"/>
+			<serials/>
+			<file id="2" extension="ngc" size="1048576" crc32="ffa7e88d" md5="f2f296f4be215e826fac519fba96609b" sha1="5a9792d7674ead92c08fb6f2d108b26e47a696bf" sha256="647dc8cd38063fa0fd460a57d11c9b8751f7b0e3f72f32e262c6e0aaa4f4661c" version="07" serial="0025" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="340" section="Trusted Dump" d_date="2022-02-15" r_date="2022-02-15" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni Cart Reader v7.3" comment1="-Baseball_Stars_Color_JAP_NGPC-MNC (crc 06d54e81) and Third Party dump (crc ffa7e88d) both contains save data from 0xF0000 to 0xFA0FF&#10;&#13;-These two redumps are clean from any save data" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=28837#p28837"/>
+			<serials media_serial1="NEOP00250" pcb_serial="NP-CFL16" romchip_serial1="31847V (9839)"/>
+			<file id="205" extension="ngc" size="1048576" crc32="d1434df5" md5="6f9f680b659369448f01508501c5a709" sha1="495199cd783e7cd962eece160dbc238a648c5e39" sha256="795a60b329dae73af701de42c941e1c9e63119c6ec332cd07a1d232df0f164be" version="07" serial="0025" format="Default"/>
+		</source>
+		<source>
+			<details id="341" section="Trusted Dump" d_date="2022-02-15" r_date="2022-02-15" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni Cart Reader v7.3" comment1="-Baseball_Stars_Color_JAP_NGPC-MNC (crc 06d54e81) and Third Party dump (crc ffa7e88d) both contains save data from 0xF0000 to 0xFA0FF&#10;&#13;-These two redumps are clean from any save data" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=28837#p28837"/>
+			<serials media_serial1="NEOP00250" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="33160V (9841)"/>
+			<file id="205" extension="ngc" size="1048576" crc32="d1434df5" md5="6f9f680b659369448f01508501c5a709" sha1="495199cd783e7cd962eece160dbc238a648c5e39" sha256="795a60b329dae73af701de42c941e1c9e63119c6ec332cd07a1d232df0f164be" version="07" serial="0025" format="Default"/>
+		</source>
+		<release>
+			<details id="1" dirname="Baseball_Stars_Color_JAP_NGPC-MNC" rominfo="Bad" nfoname="mnc-bstr" nfosize="2626" nfocrc="ee069f34" archivename="MNC-BSTR" originalformat="Default" date="2000-04-25" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Big Bang Pro Wrestling (Japan) (En,Ja)">
+		<archive number="0003" clone="P" regparent="(JPN PARENT)" name="Big Bang Pro Wrestling" region="Japan" languages="En,Ja"/>
+		<release>
+			<details id="2" dirname="Big_Bang_Pro_Wrestling_JAP_NGPC-MNC" nfoname="mnc-bbpw" nfosize="4674" nfocrc="9e0cab24" archivename="MNC-BBPW" originalformat="Default" date="2000-12-01" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Bikkuriman 2000 - Viva! Pocket Festival! (Japan)">
+		<archive number="0004" clone="P" regparent="(JPN PARENT)" name="Bikkuriman 2000 - Viva! Pocket Festival!" region="Japan" languages="Ja"/>
+		<source>
+			<details id="4" section="Trusted Dump" d_date="2009-03-16" r_date="2009-05-01" region="Japan" dumper="!unknown" project="nanocosmos.blogbus.com" originalformat="Default" link1="http://web.archive.org/web/20100428085338/http://nanocosmos.blogbus.com:80/logs/38749965.html"/>
+			<serials/>
+			<file id="4" extension="ngc" size="1048576" crc32="7a2d7635" md5="ca3e26e2f539dbd35092fa9d7f561aff" sha1="62898d43cfc9ace86a53520ecf62abc6b0c404f3" sha256="2f930f4711ed36c66889a6ee84bc6446753aae264c27b1b3d0100bcf4f2e813a" version="04" serial="0083" format="Default"/>
+		</source>
+		<source>
+			<details id="349" section="Trusted Dump" d_date="2022-07-08" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni Cart Reader hw v3 / sw v8.4" comment2="Chip manufacturer ID: 0x98&#10;&#13;Chip device ID: 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=30665#p30665"/>
+			<serials media_serial1="NEOP00830" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="58075V (9938)"/>
+			<file id="4" extension="ngc" size="1048576" crc32="7a2d7635" md5="ca3e26e2f539dbd35092fa9d7f561aff" sha1="62898d43cfc9ace86a53520ecf62abc6b0c404f3" sha256="2f930f4711ed36c66889a6ee84bc6446753aae264c27b1b3d0100bcf4f2e813a" version="04" serial="0083" format="Default"/>
+		</source>
+		<release>
+			<details id="4" dirname="Bikkuriman_2000_JAP_NGPC-MNC" rominfo="Bad" nfoname="mnc-bikk" nfosize="2185" nfocrc="35e85a53" archivename="MNC-BIKK" originalformat="Default" date="2000-06-05" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Biomotor Unitron (Japan)">
+		<archive number="0005" clone="0006" regparent="(JPN PARENT)" name="Biomotor Unitron" region="Japan" languages="Ja"/>
+		<source>
+			<details id="234" section="Trusted Dump" d_date="2021-09-10" r_date="2021-09-10" region="Japan" dumper="psykopat" project="No-Intro" originalformat="" tool="Sanni's cart reader v6.4" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=27308#p27308"/>
+			<serials media_serial1="NEOP00100" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK32097V (9843)"/>
+			<file id="163" extension="ngc" size="1048576" crc32="fcbbe494" md5="c98b2b19971effcedac7bf2abaf3d485" sha1="c81c21dd3536c91166181a36bee93d1803dceb07" sha256="c8307ddbffdd0151a77d5528164c0dda7b96320191c7ebf0929df30e5f734b8f" version="00" serial="0010" format="Default"/>
+		</source>
+		<source>
+			<details id="314" section="Trusted Dump" d_date="2021-11-18" r_date="2021-11-18" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=28043#p28043"/>
+			<serials media_serial1="NEOP00100" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK58253V (9939)"/>
+			<file id="163" extension="ngc" size="1048576" crc32="fcbbe494" md5="c98b2b19971effcedac7bf2abaf3d485" sha1="c81c21dd3536c91166181a36bee93d1803dceb07" sha256="c8307ddbffdd0151a77d5528164c0dda7b96320191c7ebf0929df30e5f734b8f" version="00" serial="0010" format="Default"/>
+		</source>
+		<release>
+			<details id="5" dirname="Biomotor_Unitron_JAP_NGPC-iND" rominfo="Bad" nfoname="!missing" nfosize="0" nfocrc="0" archivename="BIOMOTOR_UNITRON" originalformat="Default" date="2000-01-13" group="Independent" comment="ROM last modified date: 1999-12-15&#10;&#13;The ROM contains save data from 0xfa000 to 0xfbfff." region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Biomotor Unitron (USA, Europe)">
+		<archive number="0006" clone="P" regparent="(USA PARENT) (EUR PARENT)" name="Biomotor Unitron" region="USA, Europe" languages="En"/>
+		<release>
+			<details id="6" dirname="Biomotor_Unitron_USA_NGPC-MNC" nfoname="mnc-buni" nfosize="2615" nfocrc="2c49a071" archivename="MNC-BUNI" originalformat="Default" date="2000-05-22" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Biomotor Unitron (Japan) (Demo)">
+		<archive number="0109" clone="0006" name="Biomotor Unitron" region="Japan" languages="Ja" devstatus="Demo" complete="0"/>
+		<source>
+			<details id="111" section="Third Party" rominfo="Bad" d_date="2007-05-02" r_date="2012-02-27" region="Japan" dumper="!unknown" project="nesbbs.com" originalformat="Default" comment1="Note: Note: The current dump was a real mess... With bad dumped data in many different blocks, and save data from 0xfa000 to 0xfc000." link1="https://forum.no-intro.org/viewtopic.php?p=10895#p10895"/>
+			<serials/>
+			<file id="109" extension="ngc" size="1048576" crc32="c6fb900f" md5="4e9e47682cdb5bc314131548a4fb1a95" sha1="3a1aac359ef05a37c9bbb80265bb534c79e02837" sha256="d13a9d7458bb719afaf5da43257fe21f7416af42ffc8257acba3d89141220a23" version="20" serial="9008" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="355" section="Trusted Dump" d_date="2022-10-22" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="OSCR HW3 v10.3" comment1="Note: This redump is save free and was done again three times to confirm all contents." comment2="Chip manufacturer ID: 0x98&#10;&#13;Chip device ID: 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=31472#p31472"/>
+			<serials pcb_serial="NP-CFL16-S 1998.4.9" romchip_serial1="N82383"/>
+			<file id="208" extension="ngc" size="1048576" crc32="6011dab0" md5="cba3c133f77a3529a0c7578ce9d27fba" sha1="a6da90f734efc69b68ebcfa35f178af3446a33d2" sha256="0a51b4832ed37ef5585ee274a71965e866f73174b1514abfc2ef3c8bbface666" version="20" serial="9008" format="Default"/>
+		</source>
+	</game>
+	<game name="Bust-A-Move Pocket (USA)">
+		<archive number="0007" clone="0073" regparent="(USA PARENT)" name="Bust-A-Move Pocket" region="USA" languages="En"/>
+		<source>
+			<details id="308" section="Trusted Modification" d_date="2021-11-17" r_date="2021-11-17" region="USA" dumper="omonim2007" project="No-Intro" originalformat="Default" comment1="Save data blocks starting at $060000 and &amp;070000 has been filled with FF according to new trusted (Japan,Europe) redump."/>
+			<serials/>
+			<file id="190" extension="ngc" size="1048576" crc32="b073d601" md5="d91fd1c6c941bc2bde4ada3580fe408f" sha1="3b102e32fccf8ff389c508be55517368d56b144f" format="Default"/>
+		</source>
+		<release>
+			<details id="7" dirname="Bust_a_Move_Pocket_USA_NGPC-MNC" rominfo="Bad" nfoname="mnc-bamp" nfosize="2755" nfocrc="358068de" archivename="MNC-BAMP" originalformat="Default" date="2000-05-12" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Bust-A-Move Pocket (USA) (Demo)">
+		<archive number="0113" clone="0073" name="Bust-A-Move Pocket" region="USA" languages="En" devstatus="Demo" complete="0"/>
+		<source>
+			<details id="309" section="Third Party" rominfo="HasSave" d_date="2011-04-05" r_date="2011-04-05" r_date_info="0" region="USA" dumper="!unknown" project="!unknown" originalformat="Default" comment1="ROM contains save data"/>
+			<serials/>
+			<file id="191" extension="ngc" size="1048576" crc32="4c2160bc" md5="c45ed02039d4a9d961c94cf3bed9cf56" sha1="fdef7891c5d5b211b6f7a4da4830c42d86d98d74" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="115" section="Trusted Dump" d_date="2011-11-30" r_date="2011-11-30" region="USA" dumper="xxxddd" project="No-Intro" originalformat="Default" link1="http://forum.no-intro.org/viewtopic.php?f=7&amp;t=2186"/>
+			<serials/>
+			<file id="113" extension="ngc" size="1048576" crc32="78a1361d" md5="29a8a310b704e8dafee71cea0ad53df0" sha1="2af0197415bdf1679342d8aeca5c35ea3eff8b73" sha256="753a5d4003ec8facaf794a2d8cd930055e516ddfa465be49f11a3e1e17707c9d" version="09" serial="0020" format="Default"/>
+		</source>
+	</game>
+	<game name="Cool Boarders Pocket (Japan, Europe) (En,Ja)">
+		<archive number="0008" clone="P" regparent="(JPN PARENT) (EUR PARENT)" name="Cool Boarders Pocket" region="Japan, Europe" languages="En,Ja"/>
+		<source>
+			<details id="353" section="Trusted Dump" d_date="2022-09-10" region="Japan, Europe" dumper="psykopat" project="No-Intro" originalformat="Default" tool="OSCR v9.5" comment2="Chip manufacturer ID: 0x98&#10;&#13;Chip device ID: 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=31173#p31173"/>
+			<serials media_serial1="NEOP00750" pcb_serial="NP-CFL16"/>
+			<file id="206" extension="ngc" size="1048576" crc32="2ed72635" md5="57b757bec66c0e53220593b78c63c6c0" sha1="86d30070b01e822fb042daeb41d6823d4ee6060a" sha256="cf5181576371e6fc394cb767a94f0f9dbd5eb93fcff395f7f7bfe9300d6ca814" version="02" serial="0075" format="Default"/>
+		</source>
+		<release>
+			<details id="10" dirname="Cool_Boarders_Pocket_JAP_NGPC-MNC" rominfo="Bad" nfoname="mnc-cbdr" nfosize="2466" nfocrc="7a5092b8" archivename="MNC-CBDR" originalformat="Default" date="2000-05-04" group="Menace" comment="Cool_Boarders_Pocket_JAP_NGPC-MNC only haves save init data from 0xf8000 to 0xfa000" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Cool Cool Jam (Japan)">
+		<archive number="0009" clone="P" regparent="(JPN PARENT)" name="Cool Cool Jam" region="Japan" languages="Ja"/>
+		<source>
+			<details id="261" section="Trusted Dump" d_date="2021-11-11" r_date="2021-11-11" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="CRC32 4FDA5D8A isn't clean and contains save data from 0x1F0000 to 0x1F01FF." comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=27991#p27991"/>
+			<serials media_serial1="NEOP01000" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK56722V (9934)"/>
+			<file id="170" extension="ngc" size="2097152" crc32="0fd6f378" md5="a4567e247b16d07e9c9085c5b35bd8c9" sha1="525b5fe7aa4bbbe767598e96c2a3904a056e702a" sha256="a451ffc4170e15168f4e7c882c38c9f9f1c87aa780f04cbbceb4cb0a5c46cce8" format="Default"/>
+		</source>
+		<release>
+			<details id="11" dirname="Cool_Cool_Jam_JAP_NGPC-SA" rominfo="Bad" nfoname="sa-ccjm" nfosize="3104" nfocrc="9106b55d" archivename="SA-CCJM" originalformat="Default" date="2000-09-08" group="Stone Arts" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Cool Cool Jam (USA) (Proto)">
+		<archive number="0010" clone="0009" regparent="(USA PARENT)" name="Cool Cool Jam" region="USA" languages="En" devstatus="Proto" complete="0"/>
+		<release>
+			<details id="12" dirname="Cool_Cool_Jam_SAMPLE_USA_NGPC-LFC" nfoname="lfc-ccjs" nfosize="7159" nfocrc="91afaed4" archivename="LFC-CCJS" originalformat="Default" date="2000-06-15" group="Lightforce" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Crush Roller (World) (En,Ja)">
+		<archive number="0011" clone="P" regparent="(JPN PARENT) (USA PARENT) (EUR PARENT)" name="Crush Roller" region="World" languages="En,Ja"/>
+		<source>
+			<details id="12" section="Third Party" rominfo="Bad" d_date="2000-09-07" r_date="2016-03-13" region="USA" dumper="!unknown" project="GoodTools" originalformat="Default" comment1="Alternative according to GoodNGPx V3.27" comment2="Suspected unclean SRAM"/>
+			<serials/>
+			<file id="122" extension="ngc" size="1048576" crc32="6200c65e" md5="277ff030c2092b1b88e70197a78a1423" sha1="da34a11d3602e249dbc322d6cce823423330c53b" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="11" section="Trusted Dump" d_date="2006-04-10" r_date="2011-06-03" region="USA" dumper="xxxddd" project="No-Intro" originalformat="Default" comment1="Cleaned up ROM" link1="http://forum.no-intro.org/viewtopic.php?f=7&amp;t=2069"/>
+			<serials/>
+			<file id="11" extension="ngc" size="1048576" crc32="f20ff9f2" md5="100f6086bbcd6bccd2ac6f79242f5a87" sha1="b68e7f5f43d35feda39f0c46ebd6baadc942ac4f" sha256="d4c70b24a51923a60a715b77bbc205f6c06146bedb11d066e629f498af3392bd" version="00" serial="0038" format="Default"/>
+		</source>
+		<release>
+			<details id="15" dirname="Crush_Roller_JAP_NGPC-MNC" rominfo="Bad" nfoname="mnc-crlr" nfosize="3016" nfocrc="9c83b6f5" archivename="MNC-CRLR" originalformat="Default" date="2000-04-25" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Dark Arms - Beast Buster 1999 (World) (En,Ja)">
+		<archive number="0012" clone="P" regparent="(JPN PARENT) (USA PARENT) (EUR PARENT)" name="Dark Arms - Beast Buster 1999" region="World" languages="En,Ja"/>
+		<source>
+			<details id="293" section="Third Party" rominfo="Bad" d_date="2000-04-16" r_date="2016-03-13" region="USA" dumper="!unknown" project="GoodTools" originalformat="Default" comment1="Verified according to GoodNGPx V3.27"/>
+			<serials/>
+			<file id="12" extension="ngc" size="2097152" crc32="6f353f34" md5="fe0e58d34d650ae5174ca03d3efc67b0" sha1="727d8100fa7c4a39a6be9133bd903b868b4cc834" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="135" section="Third Party" rominfo="HasSave" d_date="2008-04-17" d_date_info="0" r_date="2008-04-17" region="Europe" dumper="geezup" project="No-Intro" originalformat="Default" comment1="Save data is all 00s - system init sets the save data like this, so that's probably why" link1="http://forum.no-intro.org/viewtopic.php?t=519"/>
+			<serials pcb_serial="NP-CFL-16 1998.4.9" romchip_serial1="SNK57191V (9938)"/>
+			<file id="12" extension="ngc" size="2097152" crc32="6f353f34" md5="fe0e58d34d650ae5174ca03d3efc67b0" sha1="727d8100fa7c4a39a6be9133bd903b868b4cc834" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="219" section="Trusted Dump" rominfo="Other" d_date="2011-11-30" r_date="2011-11-30" region="Europe" dumper="xxxddd" project="No-Intro" originalformat="Default" comment1="Prototype cart dump" comment2="Save data is all FFs" link1="http://forum.no-intro.org/viewtopic.php?f=7&amp;t=2186"/>
+			<serials/>
+			<file id="167" extension="ngc" size="2097152" crc32="77caa548" md5="4fb30b1b905ed1f975efb9a8fceb9a62" sha1="c32afc4348a1adbf9f6855b658b5eb5767e7ebcd" sha256="127eb5b597920f6f7aab2e0f92671b46c0d865cd5dec63581312af9b116cfd24" version="14" serial="0045" format="Default"/>
+		</source>
+		<source>
+			<details id="254" section="Trusted Dump" d_date="2021-10-18" r_date="2021-10-18" region="Europe" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=27695#p27695"/>
+			<serials media_serial1="NEOP0045" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK55457V (9932)"/>
+			<file id="167" extension="ngc" size="2097152" crc32="77caa548" md5="4fb30b1b905ed1f975efb9a8fceb9a62" sha1="c32afc4348a1adbf9f6855b658b5eb5767e7ebcd" sha256="127eb5b597920f6f7aab2e0f92671b46c0d865cd5dec63581312af9b116cfd24" version="14" serial="0045" format="Default"/>
+		</source>
+		<source>
+			<details id="342" section="Trusted Dump" d_date="2022-03-10" r_date="2022-03-10" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni Cart Reader v7.3" comment1="Matching the previous USA redump" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=28956#p28956"/>
+			<serials media_serial1="NEOP00450" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="56260V (9934)"/>
+			<file id="167" extension="ngc" size="2097152" crc32="77caa548" md5="4fb30b1b905ed1f975efb9a8fceb9a62" sha1="c32afc4348a1adbf9f6855b658b5eb5767e7ebcd" sha256="127eb5b597920f6f7aab2e0f92671b46c0d865cd5dec63581312af9b116cfd24" version="14" serial="0045" format="Default"/>
+		</source>
+		<release>
+			<details id="16" dirname="Dark_Arms_USA_NGPC-iND" rominfo="Bad" nfoname="!missing" nfosize="0" nfocrc="0" archivename="dark_arms_usa" originalformat="Default" date="2000-01-13" group="Independent" comment="ROM last modified date: 1999-12-24" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Delta Warp (Japan) (En,Ja)">
+		<archive number="0013" clone="P" regparent="(JPN PARENT)" name="Delta Warp" region="Japan" languages="En,Ja"/>
+		<release>
+			<details id="17" dirname="Delta_Warp_JAP_NGPC-SA" nfoname="sa-dwap" nfosize="3060" nfocrc="d14ee80d" archivename="SA-DWAP" originalformat="Default" date="2000-09-08" group="Stone Arts" comment="ROM last modified date: 2000-09-06" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Delta Warp (Japan) (Demo)">
+		<archive number="0110" clone="0013" name="Delta Warp" region="Japan" languages="Ja" devstatus="Demo" complete="0"/>
+		<source>
+			<details id="310" section="Third Party" rominfo="Bad" d_date="2006-06-02" r_date="2016-03-13" region="Japan" dumper="!unknown" project="GoodTools" originalformat="Default" comment1="Overdumped according to GoodNGPx V3.27"/>
+			<serials/>
+			<file id="192" extension="ngc" size="1048576" crc32="abfc15d8" md5="bc663b7d728e6fb72c0048d211ad8335" sha1="77f9fbef83d81eb45968708257fa101f39c115b7" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="112" section="Third Party" d_date="2012-02-27" d_date_info="0" r_date="2012-02-27" region="Japan" dumper="!unknown" project="nesbbs.com" originalformat="Default" link1="https://forum.no-intro.org/viewtopic.php?p=10895#p10895"/>
+			<serials/>
+			<file id="110" extension="ngc" size="524288" crc32="a3c89788" md5="415e33891c1eff49cadd35d400d350ce" sha1="f1d52256c2c8c19e3944d6ac0f6370db91fd9f09" sha256="1a80997dacd5786a1639fd62b09809c621a437283a7f861e4ba81558f3aaf13f" version="04" serial="9026" format="Default"/>
+		</source>
+	</game>
+	<game name="Densetsu no Ogre Battle Gaiden - Zenobia no Ouji (Japan)">
+		<archive number="0014" clone="P" regparent="(JPN PARENT)" name="Densetsu no Ogre Battle Gaiden - Zenobia no Ouji" region="Japan" languages="Ja"/>
+		<source>
+			<details id="263" section="Trusted Dump" d_date="2021-11-11" r_date="2021-11-11" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=27994#p27994"/>
+			<serials media_serial1="NEOP00850" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNKL17390 (9917)"/>
+			<file id="14" extension="ngc" size="2097152" crc32="eeeefd6a" md5="26d0557d8a465aa8f430d5e4d94c679a" sha1="5ac794c0f125bfb97efe9cd06c2aca3afdf549ea" sha256="d8f69f3d622d5ee3927c1b049cefd445aed4292e7f91b6b86c4341e1f8da1fda" version="08" serial="0085" format="Default"/>
+		</source>
+		<release>
+			<details id="59" dirname="Ogre_Battle_Gaiden_JAP_NGPC-MNC" nfoname="mnc-ogre" nfosize="2259" nfocrc="17cd8ac9" archivename="MNC-OGRE" originalformat="Default" date="2000-06-20" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Densha de Go! 2 on Neo Geo Pocket (Japan)">
+		<archive number="0015" clone="P" regparent="(JPN PARENT)" name="Densha de Go! 2 on Neo Geo Pocket" region="Japan" languages="Ja"/>
+		<source>
+			<details id="262" section="Trusted Dump" d_date="2021-11-11" r_date="2021-11-11" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : dual chips 0x98&#10;&#13;Chip device ID : dual chips 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=27992#p27992"/>
+			<serials media_serial1="NEOP00600" pcb_serial="NP-CFL32-D 1999.07.13" romchip_serial1="58303V (9940)" romchip_serial2="58303V (9940)"/>
+			<file id="171" extension="ngc" size="4194304" crc32="a0334549" md5="a816fc06a864ae3fdcbc72656774fc19" sha1="be8f5b4699e5b38f330d4ac02a1507f67544b571" sha256="e7f48866144ca5d2f8645e7fb8607f8fcfca98a737334bb4f54b387e6df76d10" format="Default"/>
+		</source>
+		<source>
+			<details id="337" section="Trusted Dump" d_date="2022-02-15" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni Cart Reader v7.3" comment1="Already redumped, this dump is matching the previous one" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f dual chips" link1="https://forum.no-intro.org/viewtopic.php?p=28834#p28834"/>
+			<serials media_serial1="NEOP00600" pcb_serial="NP-CFL32-D 1999.07.13" romchip_serial1="56334V (9936)" romchip_serial2="56334V (9936)"/>
+			<file id="171" extension="ngc" size="4194304" crc32="a0334549" md5="a816fc06a864ae3fdcbc72656774fc19" sha1="be8f5b4699e5b38f330d4ac02a1507f67544b571" sha256="e7f48866144ca5d2f8645e7fb8607f8fcfca98a737334bb4f54b387e6df76d10" format="Default"/>
+		</source>
+		<release>
+			<details id="18" dirname="Densha_de_GO_2_JAP_NGPC-MNC" rominfo="Bad" nfoname="mnc-ddg2" nfosize="2436" nfocrc="69ec2843" archivename="MNC-DDG2" originalformat="Default" date="2000-05-12" group="Menace" comment="Contains save data from 0x1F0000 to 0x1F01FF" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Densha de Go! 2 on Neo Geo Pocket (Japan) (Beta)">
+		<archive number="0096" clone="0015" name="Densha de Go! 2 on Neo Geo Pocket" region="Japan" languages="Ja" devstatus="Beta" complete="0"/>
+		<source>
+			<details id="97" section="Trusted Dump" d_date="2009-03-10" r_date="2009-11-05" region="Japan" dumper="!unknown" project="nanocosmos.blogbus.com" originalformat="Default" link1="http://web.archive.org/web/20100427095400/http://nanocosmos.blogbus.com/logs/50284460.html"/>
+			<serials/>
+			<file id="96" extension="ngc" size="4194304" crc32="2fc4623e" md5="13f0584aeab81fdbcdb09bc89367bd89" sha1="4934987cd275a013d05d02b1ddd8fd1fb2ded0da" sha256="c2e2ee9eac38e21ed56072541d2521cad6de52850eed45059cb848548caa0ae3" version="30" serial="0060" format="Default"/>
+		</source>
+	</game>
+	<game name="Dive Alert - Becky's Version (USA, Europe)">
+		<archive number="0016" clone="P" regparent="(USA PARENT) (EUR PARENT))" name="Dive Alert - Becky's Version" region="USA, Europe" languages="En"/>
+		<source>
+			<details id="129" section="Trusted Dump" d_date="2008-04-17" d_date_info="0" r_date="2008-04-17" region="Europe" dumper="geezup" project="No-Intro" originalformat="Default" link1="http://forum.no-intro.org/viewtopic.php?t=519"/>
+			<serials/>
+			<file id="16" extension="ngc" size="2097152" crc32="83db5772" md5="c148b30103de704eeed63dfe7a7d6100" sha1="64467acf90be6931f9aa532ed8e1fd4dc60946c6" sha256="977e4d520f4c885acc8b6ba815623d9b1ff8f3924ccab4db02a24b7bff0f80c7" version="02" serial="0089" format="Default"/>
+		</source>
+		<source>
+			<details id="290" section="Trusted Dump" d_date="2021-11-15" r_date="2021-11-15" region="Europe" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="The source cartridge for this dump has been bought via auctions in Europe, but its real origin is unknown. These stickers are usually used for press/review copies. Game serial and version is the same than retail copies." comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=28028#p28028"/>
+			<serials pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK50155V (9926)"/>
+			<file id="16" extension="ngc" size="2097152" crc32="83db5772" md5="c148b30103de704eeed63dfe7a7d6100" sha1="64467acf90be6931f9aa532ed8e1fd4dc60946c6" sha256="977e4d520f4c885acc8b6ba815623d9b1ff8f3924ccab4db02a24b7bff0f80c7" version="02" serial="0089" format="Default"/>
+		</source>
+		<source>
+			<details id="344" section="Trusted Dump" d_date="2022-03-10" r_date="2022-03-10" region="USA" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni Cart Reader v7.3" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=28958#p28958"/>
+			<serials media_serial1="NEOP00891" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="46362V (9911)"/>
+			<file id="16" extension="ngc" size="2097152" crc32="83db5772" md5="c148b30103de704eeed63dfe7a7d6100" sha1="64467acf90be6931f9aa532ed8e1fd4dc60946c6" sha256="977e4d520f4c885acc8b6ba815623d9b1ff8f3924ccab4db02a24b7bff0f80c7" version="02" serial="0089" format="Default"/>
+		</source>
+		<release>
+			<details id="19" dirname="Dive_Alert_Beckys_Version_USA_NGPC-MNC" nfoname="mnc-dabv" nfosize="3073" nfocrc="090478c7" archivename="MNC-DABV" originalformat="Default" date="2000-05-25" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Dive Alert - Burn Hen (Japan)">
+		<archive number="0017" clone="0018" regparent="(JPN PARENT)" name="Dive Alert - Burn Hen" region="Japan" languages="Ja"/>
+		<source>
+			<details id="288" section="Trusted Dump" d_date="2021-11-14" r_date="2021-11-14" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=28026#p28026"/>
+			<serials media_serial1="NEOP00360" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK54354V (9929)"/>
+			<file id="17" extension="ngc" size="2097152" crc32="c213941d" md5="b149cb1f866942eca70df78bb25351cf" sha1="66624028ec986084a95237c74173849a8a729398" sha256="73c036ba53cf2530736e4668f5487c819b9b7b6c1ad6fe912a1c0cd2ab397a4b" version="03" serial="0036" format="Default"/>
+		</source>
+		<release>
+			<details id="22" dirname="Dive_Alert_Burn_Version_JAP_NGPC-MNC" nfoname="mnc-dalb" nfosize="2539" nfocrc="824258e0" archivename="MNC-DALB" originalformat="Default" date="2000-04-20" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Dive Alert - Burn Hen (Japan) (Beta)">
+		<archive number="0115" clone="0018" name="Dive Alert - Burn Hen" region="Japan" languages="Ja" devstatus="Beta" complete="0"/>
+		<source>
+			<details id="117" section="Trusted Dump" d_date="2011-04-05" r_date="2011-11-30" region="Japan" dumper="xxxddd" project="No-Intro" originalformat="Default" link1="http://forum.no-intro.org/viewtopic.php?f=7&amp;t=2186"/>
+			<serials/>
+			<file id="115" extension="ngc" size="2097152" crc32="d9817a88" md5="d96c97bd9c0675b9b81348b06977b60f" sha1="03e1f5b60c4fdc7665932c1c51e965788d4895f5" sha256="c4104709759161214ac70b579f451d7cb8e5282a55a393d7fc2096beee483dbc" version="00" serial="0000" format="Default"/>
+		</source>
+	</game>
+	<game name="Dive Alert - Matt's Version (USA, Europe)">
+		<archive number="0018" clone="P" regparent="(USA PARENT) (EUR PARENT)" name="Dive Alert - Matt's Version" region="USA, Europe" languages="En"/>
+		<source>
+			<details id="347" section="Trusted Dump" d_date="2022-04-05" r_date="2022-04-05" region="Europe" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni Cart Reader v7.3" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=29127#p29127"/>
+			<serials media_serial1="NEOP00088" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="55730V (9937)"/>
+			<file id="18" extension="ngc" size="2097152" crc32="ef75081b" md5="0c38b2d5d1a2be15d6c15c6b16b7bc98" sha1="0abdf64dd402a8192b0af8127a6ee214173dfe3c" sha256="7a16dda1c503e272544e25b336cd0e67c5c8e36ef57c4dedf72d590604893704" version="02" serial="0088" format="Default"/>
+		</source>
+		<release>
+			<details id="21" dirname="Dive_Alert_Matts_Version_USA_NGPC-MNC" nfoname="mnc-damv" nfosize="3073" nfocrc="9d8f13a3" archivename="MNC-DAMV" originalformat="Default" date="2000-05-12" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Dive Alert - Rebecca Hen (Japan)">
+		<archive number="0019" clone="0016" regparent="(JPN PARENT)" name="Dive Alert - Rebecca Hen" region="Japan" languages="Ja"/>
+		<source>
+			<details id="331" section="Trusted Dump" d_date="2022-02-12" r_date="2022-02-12" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni Cart Reader v7.3" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=28812#p28812"/>
+			<serials media_serial1="NEOP00370" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="55082V (9938)"/>
+			<file id="19" extension="ngc" size="2097152" crc32="3c4af4f5" md5="b26c96ee636795787cf58e2d5db56c4a" sha1="ac81de4f9c1473c5ecd761dc449ae5af0e98915f" sha256="e14feb986c64c0a5fac5babe233eef5572d1961d8a11ddf15e3713fef6f4773f" version="03" serial="0037" format="Default"/>
+		</source>
+		<release>
+			<details id="20" dirname="Dive_Alert_Rebecca_Version_JAP_NGPC-MNC" nfoname="mnc-dalr" nfosize="2540" nfocrc="5c48dd1b" archivename="MNC-DALR" originalformat="Default" date="2000-04-20" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Dokodemo Mahjong (Japan)">
+		<archive number="0103" clone="P" regparent="(JPN PARENT)" name="Dokodemo Mahjong" region="Japan" languages="Ja"/>
+		<source>
+			<details id="100" section="Trusted Dump" d_date="2011-06-13" d_date_info="0" r_date="2011-06-13" region="Japan" dumper="xxxddd" project="No-Intro" originalformat="Default" link1="https://forum.no-intro.org/viewtopic.php?f=40&amp;t=2075"/>
+			<serials/>
+			<file id="99" extension="ngc" size="524288" crc32="78c21b5e" md5="66885d788f8474295fccbeba107f2421" sha1="d7edf6bb3773a5319dfd2a20e204c70e8cc6971e" sha256="7475fe4d70401273e23b4c1898cd0ac3747763a43ff532b87334e600e7f1639c" version="21" serial="0033" format="Default"/>
+		</source>
+		<release>
+			<details id="23" dirname="Dokodemo_Mahjong_JAP_NGPC-MNC" nfoname="mnc-ddmj" nfosize="2537" nfocrc="1a3b2426" archivename="MNC-DDMJ" originalformat="Default" date="2000-04-26" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Dynamite Slugger (Japan, Europe) (En,Ja)">
+		<archive number="0020" clone="P" regparent="(JPN PARENT) (EUR PARENT)" name="Dynamite Slugger" region="Japan, Europe" languages="En,Ja"/>
+		<release>
+			<details id="24" dirname="Dynamite_Slugger_JAP_NGPC-HS" nfoname="hs" nfosize="8382" nfocrc="9dd78611" archivename="HS-DYMSL" originalformat="Default" date="2000-06-05" group="High Society" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Evolution - Eternal Dungeons (Europe) (vA1)">
+		<archive number="0021" clone="P" regparent="(EUR PARENT)" name="Evolution - Eternal Dungeons" region="Europe" languages="En" version="vA1"/>
+		<release>
+			<details id="26" dirname="Evolution_USA_NGPC-LFC" nfoname="lfc-eu" nfosize="7158" nfocrc="be7b0be4" archivename="LFC-EU" originalformat="Default" date="2000-06-15" group="Lightforce" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Evolution - Eternal Dungeons (Europe) (v03)">
+		<archive number="0135" clone="0021" name="Evolution - Eternal Dungeons" region="Europe" languages="En" version="v03"/>
+		<source>
+			<details id="324" section="Trusted Dump" d_date="2021-12-22" r_date="2021-12-22" region="Europe" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0xec&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=28406#p28406"/>
+			<serials media_serial1="NEOP0099" pcb_serial="NP-CFL16-S 1998.6.23" romchip_serial1="SNK KOREA 919 R6B033A1"/>
+			<file id="200" extension="ngc" size="2097152" crc32="a60582f8" md5="277ce8138fbf2d493c0478bfdb30e21f" sha1="b054fffae64f3c97c6d9fb68dd68ef7c8a92053c" sha256="0c6e90a7c4031c418b402485c18bea3b8e91c11c9f8bbe8bfbdb6ed24b85e8c0" format="Default"/>
+		</source>
+	</game>
+	<game name="Fantastic Night Dreams - Cotton (Europe)">
+		<archive number="0022" clone="P" regparent="(EUR PARENT)" name="Fantastic Night Dreams - Cotton" region="Europe" languages="En"/>
+		<release>
+			<details id="13" dirname="Cotton_Fantastic_Night_Dreams_ASN_NGPC-MNC" nfoname="mnc-cott" nfosize="2779" nfocrc="c73399df" archivename="MNC-COTT" originalformat="Default" date="2000-06-10" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+		<release>
+			<details id="97" dirname="Cotton_Fantastic_Night_Dreams_ASN_Plus4_Trainer-CPL" rominfo="Other" category="Tool" nfoname="CPL-CTTR" nfosize="3744" nfocrc="54f5aa11" archivename="CPL-CTTR" originalformat="Default" date="2000-06-11" group="Capital" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Fantastic Night Dreams - Cotton (Japan)">
+		<archive number="0023" clone="0022" regparent="(JPN PARENT)" name="Fantastic Night Dreams - Cotton" region="Japan" languages="Ja"/>
+		<release>
+			<details id="14" dirname="Cotton_Fantastic_Night_Dreams_JAP_NGPC-MNC" nfoname="mnc-cttn" nfosize="2459" nfocrc="8b90c10d" archivename="MNC-CTTN" originalformat="Default" date="2000-04-25" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+		<release>
+			<details id="98" dirname="Cotton_Fantastic_Night_Dreams_JAP_Plus4_Trainer-CPL" rominfo="Other" category="Tool" nfoname="CPL-COTR" nfosize="3571" nfocrc="0734fd2a" archivename="CPL-COTR" originalformat="Default" date="2000-06-06" group="Capital" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Faselei! (USA, Europe)">
+		<archive number="0024" clone="P" regparent="(USA PARENT) (EUR PARENT)" name="Faselei!" region="USA, Europe" languages="En"/>
+		<release>
+			<details id="27" dirname="Faselei_INT_NGPC-HS" nfoname="hs" nfosize="8678" nfocrc="df6b4aad" archivename="HS-FASLI" originalformat="Default" date="2000-05-30" group="High Society" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Faselei! (Japan)">
+		<archive number="0025" clone="0024" regparent="(JPN PARENT)" name="Faselei!" region="Japan" languages="Ja"/>
+		<source>
+			<details id="229" section="Trusted Dump" d_date="2021-08-30" r_date="2021-08-30" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0xec&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=27256#p27256"/>
+			<serials media_serial1="NEOP00510" pcb_serial="NP-CFL16-S 1998.6.23" romchip_serial1="SNK KOREA 940 R8FE48A1"/>
+			<file id="25" extension="ngc" size="2097152" crc32="8f585838" md5="08b5385bd6d1fdcfed39bdb411fabd85" sha1="04a65a7529098bfb2295ab4bc3782ea45ec116ee" sha256="c607e2512a77edc2a3797a631bebc5a0d32cbf45371c14b702eb7c9b61ecafee" version="09" serial="0051" format="Default"/>
+		</source>
+		<source>
+			<details id="230" section="Trusted Dump" d_date="2021-08-30" r_date="2021-08-30" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0xec&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=27256#p27256"/>
+			<serials media_serial1="NEOP00510" pcb_serial="NP-CFL16-S 1998.6.23" romchip_serial1="SNK KOREA 943 R5H084AA"/>
+			<file id="25" extension="ngc" size="2097152" crc32="8f585838" md5="08b5385bd6d1fdcfed39bdb411fabd85" sha1="04a65a7529098bfb2295ab4bc3782ea45ec116ee" sha256="c607e2512a77edc2a3797a631bebc5a0d32cbf45371c14b702eb7c9b61ecafee" version="09" serial="0051" format="Default"/>
+		</source>
+		<release>
+			<details id="28" dirname="Faselei_JAP_NGPC-MNC" nfoname="mnc-flei" nfosize="2540" nfocrc="4e4ab78e" archivename="MNC-FLEI" originalformat="Default" date="2000-04-19" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Fatal Fury F-Contact - Pocket Fighting Series (World) (En,Ja)">
+		<archive number="0026" clone="P" regparent="(JPN PARENT) (USA PARENT) (EUR PARENT)" name="Fatal Fury F-Contact - Pocket Fighting Series" region="World" languages="En,Ja"/>
+		<source>
+			<details id="130" section="Third Party" rominfo="HasSave" d_date="2008-04-17" d_date_info="0" r_date="2008-04-17" region="Europe" dumper="geezup" project="No-Intro" originalformat="Default" comment1="Has save data init from 0x1FA000 to 0x1FA0FF. This is created by the game after selecting the &#34;memory erase&#34; option via in-game menu." link1="http://forum.no-intro.org/viewtopic.php?t=519"/>
+			<serials/>
+			<file id="26" extension="ngc" size="2097152" crc32="a9119b5a" md5="690a3397f20e31b2c4a2833f51670245" sha1="ecfccd7e971d8e9d46b97aa05dc7eb61d69e16cd" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="220" section="Third Party" rominfo="HasSave" d_date="2011-07-06" d_date_info="0" r_date="2011-07-06" region="Japan" dumper="xxxddd" project="No-Intro" originalformat="Default" comment1="Has save data init from 0x1FA000 to 0x1FA0FF. This is created by the game after selecting the &#34;memory erase&#34; option via in-game menu." link1="http://forum.no-intro.org/viewtopic.php?f=7&amp;t=2087"/>
+			<serials/>
+			<file id="26" extension="ngc" size="2097152" crc32="a9119b5a" md5="690a3397f20e31b2c4a2833f51670245" sha1="ecfccd7e971d8e9d46b97aa05dc7eb61d69e16cd" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="289" section="Trusted Dump" d_date="2021-11-15" r_date="2021-11-15" region="Europe" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="This redump is totally clean from any save or init data" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=28027#p28027"/>
+			<serials media_serial1="NEOP0011" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK56587V (9934)"/>
+			<file id="182" extension="ngc" size="2097152" crc32="e7e5d6e8" md5="8f3175df433b78dfa1a0663f493e1fea" sha1="d33da5587a27344221a4f925867047addaafa97c" sha256="6f088209f5000f52a68f70e64bf1def9146d9dbbbd0bbaa2c457634f45143f88" format="Default"/>
+		</source>
+		<source>
+			<details id="335" section="Trusted Dump" d_date="2022-02-12" r_date="2022-02-12" region="USA" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni Cart Reader v7.3" comment1="Matches the previous EUR redump" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=28817#p28817"/>
+			<serials media_serial1="NEOP00111" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="47489V (9915)"/>
+			<file id="182" extension="ngc" size="2097152" crc32="e7e5d6e8" md5="8f3175df433b78dfa1a0663f493e1fea" sha1="d33da5587a27344221a4f925867047addaafa97c" sha256="6f088209f5000f52a68f70e64bf1def9146d9dbbbd0bbaa2c457634f45143f88" format="Default"/>
+		</source>
+		<release>
+			<details id="29" dirname="Fatal_Fury_First_Contact_JAP_NGPC-iND" rominfo="Bad" nfoname="!missing" nfosize="0" nfocrc="0" archivename="FFRB" originalformat="Default" date="2000-01-13" group="Independent" comment="ROM last modified date: 1999-11-27&#10;&#13;Has save data init from 0x1FA000 to 0x1FA0FF. This is created by the game after selecting the &#34;memory erase&#34; option via in-game menu." region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Ganbare Neo Poke-kun (Kari) (Japan)">
+		<archive number="0027" clone="P" regparent="(JPN PARENT)" name="Ganbare Neo Poke-kun (Kari)" region="Japan" languages="Ja"/>
+		<source>
+			<details id="238" section="Trusted Dump" d_date="2021-09-10" r_date="2021-09-10" region="Japan" dumper="psykopat" project="No-Intro" originalformat="" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=27312#p27312"/>
+			<serials media_serial1="NEOP00970" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK56459V (9936)"/>
+			<file id="27" extension="ngc" size="2097152" crc32="6df986a3" md5="99ed127490f9d5d6482d20cc6abc8056" sha1="bc8be263618601d5967538d125be1d58103ca7b7" sha256="a2771b07d93934501b3bc66bc5ba1d237b98aa5d676b4dcd6c505c00d22eefbf" version="02" serial="0097" format="Default"/>
+		</source>
+		<release>
+			<details id="30" dirname="Gambare_NeoPoke_Kun_JAP_NGPC-HS" nfoname="hs" nfosize="8461" nfocrc="68bfb0bd" archivename="HS-GBNPK" originalformat="Default" date="2000-06-07" group="High Society" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Infinity Cure (Japan)">
+		<archive number="0028" clone="P" regparent="(JPN PARENT)" name="Infinity Cure" region="Japan" languages="Ja"/>
+		<release>
+			<details id="31" dirname="Infinity_Cure_JAP_NGPC-MNC" nfoname="mnc-cure" nfosize="4674" nfocrc="24352a42" archivename="MNC-CURE" originalformat="Default" date="2000-12-01" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Kikou Seiki Unitron - Sono Tsuide. Hikari Umareru Chi Yori. (Japan)">
+		<archive number="0029" clone="P" regparent="(JPN PARENT)" name="Kikou Seiki Unitron - Sono Tsuide. Hikari Umareru Chi Yori." region="Japan" languages="Ja"/>
+		<source>
+			<details id="285" section="Trusted Dump" d_date="2021-11-14" r_date="2021-11-14" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0xec&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=28017#p28017"/>
+			<serials media_serial1="NEOP00500" pcb_serial="NP-CFL16-S 1998.6.23" romchip_serial1="SNK KOREA 943 R5H070AA"/>
+			<file id="179" extension="ngc" size="2097152" crc32="f029f1c0" md5="67eda4af4c84c71667d0e0fb7b4c7873" sha1="b1ae3d5ee557821fe1be024f8b8bbbf6c8c13290" sha256="3033ac4911185e37bc3dbc2fcba29dedf424ace2fcb425b5017034d4901bf246" format="Default"/>
+		</source>
+		<release>
+			<details id="32" dirname="Kikouseki_Unitron_JAP_NGPC-MNC" rominfo="Bad" nfoname="mnc-uni2" nfosize="2436" nfocrc="955bd388" archivename="MNC-UNI2" originalformat="Default" date="2000-06-01" group="Menace" comment="Contains save init from 0x1E1000 to 0x1E10FF, and from 0x1FDF00 to 0x1FDF7F" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="King of Fighters R-2 - Pocket Fighting Series (World) (En,Ja)">
+		<archive number="0030" clone="P" regparent="(JPN PARENT) (USA PARENT) (EUR PARENT)" name="King of Fighters R-2 - Pocket Fighting Series" region="World" languages="En,Ja"/>
+		<source>
+			<details id="295" section="Third Party" rominfo="Bad" d_date="2000-06-15" r_date="2016-03-13" region="USA" dumper="!unknown" project="GoodTools" originalformat="Default" comment1="Verified according to GoodNGPx V3.27"/>
+			<serials/>
+			<file id="185" extension="ngc" size="2097152" crc32="17f8e61e" md5="d5c583a11012494c2ed738b2a2c5ab53" sha1="c2f7231acdf5d214162d2c82bb7cdda7ec5dce5e" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="131" section="Third Party" rominfo="HasSave" d_date="2008-04-17" d_date_info="0" r_date="2008-04-17" region="Europe" dumper="geezup" project="No-Intro" originalformat="Default" comment1="ROM has save data" link1="http://forum.no-intro.org/viewtopic.php?t=519"/>
+			<serials/>
+			<file id="30" extension="ngc" size="2097152" crc32="47e490a2" md5="b361ed78f6126f94179dc69fe4c58781" sha1="7f2257fe6f9b90292d0332c06b9d68bfaeb2ed08" sha256="1355e58b88a255b0f6a56338f840df13aea7b4af7ae70ecc4a5873aa513fd3b8" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="232" section="Trusted Dump" d_date="2021-08-30" r_date="2021-08-30" region="Europe" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="CRC32 47E490A2 isn't totally clean. The ROM contains save data in last sectors (0x1f8000 and 0x1fa000). this one has had those areas removed." comment2="Cart #1 dump&#10;&#13;Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=27260#p27260"/>
+			<serials media_serial1="NEOP0023" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK43852V (9907)"/>
+			<file id="162" extension="ngc" size="2097152" crc32="9bc63f27" md5="269ee4a53a63ec36f996fd9d205513ae" sha1="72d2b8f19f51b7cd5da18ebe7f3e2c90263c0a0c" sha256="1355e58b88a255b0f6a56338f840df13aea7b4af7ae70ecc4a5873aa513fd3b8" version="15" serial="0023" format="Default"/>
+		</source>
+		<source>
+			<details id="233" section="Trusted Dump" d_date="2021-08-30" r_date="2021-08-30" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="CRC32 47E490A2 isn't totally clean. The ROM contains save data in last sectors (0x1f8000 and 0x1fa000). this one has had those areas removed." comment2="Cart #2 dump&#10;&#13;Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=27260#p27260"/>
+			<serials media_serial1="NEOP00230" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK47951V (9916)"/>
+			<file id="162" extension="ngc" size="2097152" crc32="9bc63f27" md5="269ee4a53a63ec36f996fd9d205513ae" sha1="72d2b8f19f51b7cd5da18ebe7f3e2c90263c0a0c" sha256="1355e58b88a255b0f6a56338f840df13aea7b4af7ae70ecc4a5873aa513fd3b8" version="15" serial="0023" format="Default"/>
+		</source>
+		<source>
+			<details id="327" section="Trusted Dump" d_date="2022-01-18" r_date="2022-01-18" region="USA" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni Cart Reader v7.3" comment1="This dump is coming from an USA cart, and matches the already redumped JPN and EUR ones." comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=28564#p28564"/>
+			<serials media_serial1="NEOP00231" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="38836V (9850)"/>
+			<file id="162" extension="ngc" size="2097152" crc32="9bc63f27" md5="269ee4a53a63ec36f996fd9d205513ae" sha1="72d2b8f19f51b7cd5da18ebe7f3e2c90263c0a0c" sha256="1355e58b88a255b0f6a56338f840df13aea7b4af7ae70ecc4a5873aa513fd3b8" version="15" serial="0023" format="Default"/>
+		</source>
+		<source>
+			<details id="328" section="Trusted Dump" d_date="2022-01-28" region="World" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni Cart Reader v7.3" comment1="Matches Retail JPN/EUR/USA version." comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=28696#p28696"/>
+			<serials pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="57254V (9938)"/>
+			<file id="162" extension="ngc" size="2097152" crc32="9bc63f27" md5="269ee4a53a63ec36f996fd9d205513ae" sha1="72d2b8f19f51b7cd5da18ebe7f3e2c90263c0a0c" sha256="1355e58b88a255b0f6a56338f840df13aea7b4af7ae70ecc4a5873aa513fd3b8" version="15" serial="0023" format="Default"/>
+		</source>
+		<source>
+			<details id="336" section="Trusted Dump" d_date="2022-02-12" r_date="2022-02-12" region="USA" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni Cart Reader v7.3" comment1="-This has been redumped already, here yet another source, USA retail cart&#10;&#13;-Matches previous clean redumps" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=28818#p28818"/>
+			<serials media_serial1="NEOP00231" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="35223V (9847)"/>
+			<file id="162" extension="ngc" size="2097152" crc32="9bc63f27" md5="269ee4a53a63ec36f996fd9d205513ae" sha1="72d2b8f19f51b7cd5da18ebe7f3e2c90263c0a0c" sha256="1355e58b88a255b0f6a56338f840df13aea7b4af7ae70ecc4a5873aa513fd3b8" version="15" serial="0023" format="Default"/>
+		</source>
+		<source>
+			<details id="352" section="Trusted Dump" d_date="2022-08-07" region="World" dumper="psykopat" project="No-Intro" originalformat="Default" tool="OSCR v9.4" comment2="Chip manufacturer ID: 0x98&#10;&#13;Chip device ID: 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=30988#p30988"/>
+			<serials media_serial1="NEOP00230" pcb_serial="NP-CFL16" mediastamp="15"/>
+			<file id="162" extension="ngc" size="2097152" crc32="9bc63f27" md5="269ee4a53a63ec36f996fd9d205513ae" sha1="72d2b8f19f51b7cd5da18ebe7f3e2c90263c0a0c" sha256="1355e58b88a255b0f6a56338f840df13aea7b4af7ae70ecc4a5873aa513fd3b8" version="15" serial="0023" format="Default"/>
+		</source>
+		<release>
+			<details id="33" dirname="King_of_Fighters_R2_JAP_NGPC-MNC" rominfo="Bad" nfoname="mnc-kfr2" nfosize="3550" nfocrc="a7898b1a" archivename="MNC-KFR2" originalformat="Default" date="1999-08-10" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="King of Fighters R-2 - Pocket Fighting Series (Japan) (En,Ja) (Demo 1)">
+		<archive number="0097" clone="0030" name="King of Fighters R-2 - Pocket Fighting Series" region="Japan" languages="En,Ja" devstatus="Demo 1" complete="0"/>
+		<source>
+			<details id="98" section="Trusted Dump" d_date="2008-12-25" r_date="2009-11-05" region="Japan" dumper="!unknown" project="nanocosmos.blogbus.com" originalformat="Default" link1="http://web.archive.org/web/20100427095400/http://nanocosmos.blogbus.com/logs/50284460.html" link2="https://forum.no-intro.org/viewtopic.php?f=7&amp;t=2087"/>
+			<serials/>
+			<file id="97" extension="ngc" size="2097152" crc32="e3ae79c0" md5="ff89d298a437d6d442a3efdfd8820888" sha1="6d138c34f3dc3c7f1b943c1f57f885007edfb12a" sha256="d1802d83a39c55988e3ed41f54bc1a5557bc856c2f8ddc07901fea5b94588303" version="06" serial="9004" format="Default"/>
+		</source>
+		<source>
+			<details id="235" section="Trusted Dump" d_date="2021-09-10" r_date="2021-09-10" region="Japan" dumper="psykopat" project="No-Intro" originalformat="" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=27309#p27309"/>
+			<serials pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK23351V (9833)"/>
+			<file id="97" extension="ngc" size="2097152" crc32="e3ae79c0" md5="ff89d298a437d6d442a3efdfd8820888" sha1="6d138c34f3dc3c7f1b943c1f57f885007edfb12a" sha256="d1802d83a39c55988e3ed41f54bc1a5557bc856c2f8ddc07901fea5b94588303" version="06" serial="9004" format="Default"/>
+		</source>
+	</game>
+	<game name="King of Fighters R-2 - Pocket Fighting Series (Japan) (En,Ja) (Demo 2)">
+		<archive number="0107" clone="0030" name="King of Fighters R-2 - Pocket Fighting Series" region="Japan" languages="En,Ja" devstatus="Demo 2" complete="0"/>
+		<source>
+			<details id="109" section="Trusted Dump" d_date="2011-07-06" d_date_info="0" r_date="2011-07-06" region="Japan" dumper="xxxddd" project="No-Intro" originalformat="Default" link1="http://forum.no-intro.org/viewtopic.php?f=7&amp;t=2087"/>
+			<serials/>
+			<file id="107" extension="ngc" size="2097152" crc32="76544c97" md5="a0290f929c2b1970832002ba0505a644" sha1="6b4414ebc99c72cc6c79aa7a01c38378b9ccd058" sha256="559ce3e47b5c52b4a679b1da27ba4fdd8ee4c1558674c82779a71a0b987c7d8b" version="03" serial="9006" format="Default"/>
+		</source>
+		<source>
+			<details id="329" section="Trusted Dump" d_date="2022-02-12" r_date="2022-02-12" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni Cart Reader v7.3" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=28810#p28810"/>
+			<serials pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="42835V (9908)"/>
+			<file id="107" extension="ngc" size="2097152" crc32="76544c97" md5="a0290f929c2b1970832002ba0505a644" sha1="6b4414ebc99c72cc6c79aa7a01c38378b9ccd058" sha256="559ce3e47b5c52b4a679b1da27ba4fdd8ee4c1558674c82779a71a0b987c7d8b" version="03" serial="9006" format="Default"/>
+		</source>
+	</game>
+	<game name="King of Fighters, The - Battle de Paradise (Japan)">
+		<archive number="0031" clone="P" regparent="(JPN PARENT)" name="King of Fighters, The - Battle de Paradise" region="Japan" languages="Ja"/>
+		<source>
+			<details id="351" section="Trusted Dump" d_date="2022-08-07" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="OSCR v9.4" comment2="Chip manufacturer ID: 0x98&#10;&#13;Chip device ID: 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=30986#p30986"/>
+			<serials media_serial1="NEOP00920" pcb_serial="NP-CFL16" mediastamp="05"/>
+			<file id="31" extension="ngc" size="2097152" crc32="77e37bac" md5="362e9c04ec255225eeb0a9dee8fcac1b" sha1="8aabdd45ba2b9e24bdcd8e51f6653736257d4644" sha256="1b188c99e4fc6f6e5fc55748a32dd7cdc82dda9335dc99deee45528fd6083780" version="05" serial="0092" format="Default"/>
+		</source>
+		<release>
+			<details id="37" dirname="The_King_of_Fighters_Battle_de_Paradise_JAP_NGPC-MNC" nfoname="mnc-bdpd" nfosize="2156" nfocrc="6da068dc" archivename="MNC-BDPD" originalformat="Default" date="2000-07-06" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Koi Koi Mahjong (Japan) (v0B)">
+		<archive number="0032" clone="P" regparent="(JPN PARENT)" name="Koi Koi Mahjong" region="Japan" languages="Ja" version="v0B"/>
+		<release>
+			<details id="34" dirname="Koi_Koi_Mahjong_JAP_NGPC-MNC" nfoname="mnc-kkmj" nfosize="1918" nfocrc="8066da66" archivename="MNC-KKMJ" originalformat="Default" date="2000-07-11" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Koi Koi Mahjong (Japan) (v08)">
+		<archive number="0126" clone="0032" name="Koi Koi Mahjong" region="Japan" languages="Ja" version="v08"/>
+		<source>
+			<details id="265" section="Trusted Dump" d_date="2021-11-11" r_date="2021-11-11" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0xab" link1="https://forum.no-intro.org/viewtopic.php?p=27996#p27996"/>
+			<serials media_serial1="NEOP00910" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNKR07746 (9947)"/>
+			<file id="172" extension="ngc" size="524288" crc32="75fe164c" md5="24b2ae1057a7286f68d727ca9357147b" sha1="4d707900c2b46f8e6f3c7fbe11d7ff347d72cfa0" sha256="1f2af132f349aca1b19c3e3c2657cfe4de2e4f248445bb8d205a170f0e6d8659" format="Default"/>
+		</source>
+	</game>
+	<game name="Last Blade, The - Beyond the Destiny (USA, Europe)">
+		<archive number="0033" clone="P" regparent="(EUR PARENT) (USA PARENT)" name="Last Blade, The - Beyond the Destiny" region="USA, Europe" languages="En"/>
+		<release>
+			<details id="36" dirname="The_Last_Blade_INT_NGPC-HS" nfoname="hs" nfosize="8619" nfocrc="b588c23b" archivename="HS-TLBLD" originalformat="Default" date="2000-06-01" group="High Society" region="Unknown" origin="Scene"/>
+			<serials media_serial1="NEOP0095"/>
+		</release>
+	</game>
+	<game name="Magical Drop Pocket (Japan)">
+		<archive number="0034" clone="0035" regparent="(JPN PARENT)" name="Magical Drop Pocket" region="Japan" languages="Ja"/>
+		<source>
+			<details id="138" section="Trusted Dump" d_date="2011-11-30" r_date="2011-11-30" region="Japan" dumper="xxxddd" project="No-Intro" originalformat="Default" comment1="According to the dumper: &#34;I cleaned the save data only&#34; - save area been cleaned and filled with FF instead of 00 (zeroes). The other ROM data is the same." link1="http://forum.no-intro.org/viewtopic.php?f=7&amp;t=2186"/>
+			<serials/>
+			<file id="153" extension="ngc" size="1048576" crc32="694ce2dc" md5="ae92cd3536577bd18f03f34b475c26d6" sha1="dfde0db9026b74988eaa1bdfc2a9ea0b0f52a48a" sha256="861fdbee68da69bd114f8ec1b7719ed84a8a650438b2f92fcb15fc91434c0aa7" version="04" serial="0048" format="Default"/>
+		</source>
+		<release>
+			<details id="40" dirname="Magical_Drop_Pocket_JAP_NGPC-MNC" rominfo="Bad" nfoname="mnc-mdrp" nfosize="2541" nfocrc="64fa1f42" archivename="MNC-MDRP" originalformat="Default" date="2000-05-04" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Magical Drop Pocket (USA, Europe)">
+		<archive number="0035" clone="P" regparent="(USA PARENT) (EUR PARENT)" name="Magical Drop Pocket" region="USA, Europe" languages="En"/>
+		<source>
+			<details id="137" section="Trusted Dump" d_date="2011-11-30" r_date="2011-11-30" region="Europe" dumper="xxxddd" project="No-Intro" originalformat="Default" comment1="Prototype cart dump" comment2="According to the dumper: &#34;I cleaned the save data only&#34; - save area been cleaned and filled with FF instead of 00 (zeroes). The other ROM data is the same." link1="http://forum.no-intro.org/viewtopic.php?f=7&amp;t=2186"/>
+			<serials/>
+			<file id="155" extension="ngc" size="1048576" crc32="7712f82d" md5="6acfef5fe57d592ea7321e0e440c4ecf" sha1="42717bda4f505083d51108fecd5aa37b08e904cb" sha256="fb3fc89575af69b2b14de942d5e54adb94584fcd5b8bc9c342fd275c4b0b7646" version="04" serial="0058" format="Default"/>
+		</source>
+		<source>
+			<details id="227" section="Trusted Dump" d_date="2011-11-30" r_date="2011-11-30" region="Europe" dumper="xxxddd" project="No-Intro" originalformat="Default" comment1="Regular cart dump" link1="http://forum.no-intro.org/viewtopic.php?f=7&amp;t=2186"/>
+			<serials/>
+			<file id="155" extension="ngc" size="1048576" crc32="7712f82d" md5="6acfef5fe57d592ea7321e0e440c4ecf" sha1="42717bda4f505083d51108fecd5aa37b08e904cb" sha256="fb3fc89575af69b2b14de942d5e54adb94584fcd5b8bc9c342fd275c4b0b7646" version="04" serial="0058" format="Default"/>
+		</source>
+		<release>
+			<details id="38" dirname="Magical_Drop_Pocket_USA_NGPC-RTW" rominfo="Bad" nfoname="rtw_mdrp" nfosize="533" nfocrc="286ee31e" archivename="RTW_MDRP" originalformat="Default" date="2000-05-30" group="RTW" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+		<release>
+			<details id="39" dirname="Magical_Drop_Pocket_USA_NGPC-MNC" rominfo="Bad" nfoname="mnc-drop" nfosize="2736" nfocrc="75ed22f5" archivename="MNC-DROP" originalformat="Default" date="2000-05-30" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Magical Drop Pocket (Japan) (Demo)">
+		<archive number="0104" clone="0035" name="Magical Drop Pocket" region="Japan" languages="Ja" devstatus="Demo" complete="0"/>
+		<source>
+			<details id="106" section="Third Party" rominfo="Bad" d_date="2011-06-03" d_date_info="0" r_date="2011-06-03" region="Japan" dumper="dragon2snow" project="nesbbs.com" originalformat="Default" link1="http://forum.no-intro.org/viewtopic.php?f=40&amp;t=2069"/>
+			<serials/>
+			<file id="127" extension="ngc" size="1048576" crc32="8d4bda47" md5="e9a432ef296d8f5ebd3ba5d5569d6d81" sha1="6d01298497ec1776b8d27123eff866c1cf25b744" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="143" section="Third Party" rominfo="Bad" d_date="2011-06-03" r_date="2011-06-03" r_date_info="0" region="Japan" dumper="!unknown" project="!unknown" originalformat="Default"/>
+			<serials/>
+			<file id="134" extension="ngc" size="1048576" crc32="d671f957" md5="4b21d83b1e648cbc06e8f41e9865d477" sha1="c2cc7e7a56ebca26ca8a13f9d627cfb608b854f5" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="105" section="Trusted Dump" d_date="2011-06-13" d_date_info="0" r_date="2011-06-13" region="Japan" dumper="xxxddd" project="No-Intro" originalformat="Default" comment1="According to the dumper: &#34;I cleaned the save data and redumped...&#34; - save area been cleaned and filled with FF instead of 00 (zeroes). The other ROM data is the same." link1="http://forum.no-intro.org/viewtopic.php?f=40&amp;t=2075"/>
+			<serials/>
+			<file id="156" extension="ngc" size="1048576" crc32="d76f1a47" md5="da3da8e3b77700249dda2052975cad5c" sha1="8e8da9345c37800d6f78619b096b65ee88dfe30d" sha256="1667a62ceb5fe155b64db4e4d16691db3f382fb750183cb8640e04745bfbbba1" version="01" serial="9011" format="Default"/>
+		</source>
+	</game>
+	<game name="Memories Off - Pure (Japan)">
+		<archive number="0036" clone="P" regparent="(JPN PARENT)" name="Memories Off - Pure" region="Japan" languages="Ja"/>
+		<source>
+			<details id="294" section="Third Party" rominfo="Bad" d_date="2000-05-05" r_date="2016-03-13" region="Japan" dumper="!unknown" project="GoodTools" originalformat="Default" comment1="Not verified according to GoodNGPx V3.27"/>
+			<serials/>
+			<file id="135" extension="ngc" size="1048576" crc32="3f592e99" md5="54052a69d1e978b74509a884f04eb1e1" sha1="5c0ac7584b82b2cbe094e996653b5bae7d8f69cd" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="37" section="Trusted Dump" d_date="2008-12-26" r_date="2009-05-01" region="Japan" dumper="!unknown" project="nanocosmos.blogbus.com" originalformat="Default" link1="http://web.archive.org/web/20100428085338/http://nanocosmos.blogbus.com:80/logs/38749965.html" link2="http://forum.no-intro.org/viewtopic.php?f=40&amp;t=1437"/>
+			<serials/>
+			<file id="36" extension="ngc" size="1048576" crc32="a7926e90" md5="2e518837dfebd4cb10ac117a339c5854" sha1="17d76b25f97acf0c803e5e30922c950331e4be8b" sha256="9b0ce4c2009eac755eb7613b3b98ce055f71f5f0623b9e8971312ee5ec90bc6a" version="07" serial="0087" format="Default"/>
+		</source>
+		<source>
+			<details id="266" section="Trusted Dump" d_date="2021-11-11" r_date="2021-11-11" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=27997#p27997"/>
+			<serials media_serial1="NEOP00870" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK56873V (9938)"/>
+			<file id="36" extension="ngc" size="1048576" crc32="a7926e90" md5="2e518837dfebd4cb10ac117a339c5854" sha1="17d76b25f97acf0c803e5e30922c950331e4be8b" sha256="9b0ce4c2009eac755eb7613b3b98ce055f71f5f0623b9e8971312ee5ec90bc6a" version="07" serial="0087" format="Default"/>
+		</source>
+		<release>
+			<details id="42" dirname="Memories_Off_Pure_JAP_NGPC-MNC" rominfo="Bad" nfoname="mnc-mop" nfosize="2121" nfocrc="52f8df15" archivename="MNC-MOP" originalformat="Default" date="2000-05-14" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Metal Slug - 1st Mission (World) (En,Ja)">
+		<archive number="0037" clone="P" regparent="(JPN PARENT) (USA PARENT) (EUR PARENT)" name="Metal Slug - 1st Mission" region="World" languages="En,Ja"/>
+		<source>
+			<details id="320" section="Trusted Dump" d_date="2021-12-16" r_date="2021-12-16" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="Japan *BEST Collection* cart" link1="https://forum.no-intro.org/viewtopic.php?p=28369#p28369"/>
+			<serials media_serial1="NEOP00217" pcb_serial="NP-CFL16-S 1998.6.23" romchip_serial1="SNK KOREA 943 R5H069AA"/>
+			<file id="196" extension="ngc" size="2097152" crc32="d29ec1ba" md5="054d066ca6ebcf0b0020dbeea2e80762" sha1="df0ccb349c71d2032b02512a645a4fc760bb8834" format="Default"/>
+		</source>
+		<release>
+			<details id="43" dirname="Metal_Slug_First_Mission_JAP_NGPC-MNC" rominfo="Bad" nfoname="mnc-mslg" nfosize="3585" nfocrc="18f66a12" archivename="MNC-MSLG" originalformat="Default" date="1999-08-10" group="Menace" comment="Contains save init from 0x1E0000 to 0x1E00FF" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Metal Slug - 2nd Mission (World) (En,Ja)">
+		<archive number="0038" clone="P" regparent="(JPN PARENT) (USA PARENT) (EUR PARENT)" name="Metal Slug - 2nd Mission" region="World" languages="En,Ja"/>
+		<source>
+			<details id="177" section="Third Party" rominfo="HasSave" d_date="2000-06-08" r_date="2016-03-13" region="USA" dumper="!unknown" project="GoodTools" originalformat="Default" comment1="Verified according to GoodNGPx V3.27" comment2="Has save data init from 0x1FA000 to 0x1FA2FF. This is created by the game after selecting the &#34;erase data&#34; option via in-game menu."/>
+			<serials/>
+			<file id="38" extension="ngc" size="4194304" crc32="ac549144" md5="a58f7c41cd9e6c96cd5b4b477f022570" sha1="9c1a829d4678dd9c51fdfe30c76b7f9670311bfb" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="291" section="Trusted Dump" d_date="2021-11-14" r_date="2021-11-14" region="Europe" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="The source cartridge for this dump has been bought via auctions in Europe, but its real origin is unknown. These stickers are usually used for press/review copies. Game serial and version is the same than retail copies." comment2="Chip manufacturer ID : 0x98 (dual chip)&#10;&#13;Chip device ID : 0x2f (dual chip)" link1="https://forum.no-intro.org/viewtopic.php?p=28029#p28029"/>
+			<serials pcb_serial="NP-CFL32-D 1999.7.13" romchip_serial1="SNK57821V (9947)" romchip_serial2="SNK57821V (9947)"/>
+			<file id="183" extension="ngc" size="4194304" crc32="18e692a5" md5="816b37b41aebe5055d5ef2c079997e7d" sha1="71e1f9bf01680e1566583dc10fc7a5556d6b82f2" sha256="2be1987d6418f61964cdac3f5840f29496fe5a62fbcd0833cd9e825e27dd7645" format="Default"/>
+		</source>
+		<source>
+			<details id="302" section="Trusted Dump" d_date="2021-11-14" d_date_info="0" r_date="2021-11-14" region="Japan" dumper="uu36" project="GitHub" originalformat="Default" tool="Sanni's cart dumper pre-v6.6 private debug build" comment2="Build made before new dumping code was merged into v6.6"/>
+			<serials media_serial1="NEOP00610" pcb_serial="NP-CFL32-D 1999.7.13" romchip_serial1="SNK47559V (9948)" romchip_serial2="SNK47559V (9948)"/>
+			<file id="183" extension="ngc" size="4194304" crc32="18e692a5" md5="816b37b41aebe5055d5ef2c079997e7d" sha1="71e1f9bf01680e1566583dc10fc7a5556d6b82f2" sha256="2be1987d6418f61964cdac3f5840f29496fe5a62fbcd0833cd9e825e27dd7645" format="Default"/>
+		</source>
+		<release>
+			<details id="44" dirname="Metal_Slug_2nd_Mission_JAP_NGPC-MNC" rominfo="Bad" nfoname="mnc-ms2m" nfosize="3162" nfocrc="ce1a84cf" archivename="MNC-MS2M" originalformat="Default" date="2000-04-02" group="Menace" comment="Contains a save data, with some missions cleared and hostages rescued. So not clean at all." region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+		<release>
+			<details id="94" dirname="Metal_Slug_2nd_Mission_FIX_NGPC-TFA" rominfo="Bad" nfoname="TFA-MS2F" nfosize="3972" nfocrc="0d3cdb41" archivename="TFA-MS2F" originalformat="Default" date="2000-04-18" group="The Flame Arrows" comment="ROM last modified date: 2000-04-09" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Metal Slug - 2nd Mission (World) (En,Ja) (Demo)">
+		<archive number="0108" clone="0038" name="Metal Slug - 2nd Mission" region="World" languages="En,Ja" devstatus="Demo" complete="0"/>
+		<source>
+			<details id="110" section="Trusted Dump" d_date="2011-07-06" r_date="2011-07-06" region="Japan" dumper="xxxddd" project="No-Intro" originalformat="Default" link1="http://forum.no-intro.org/viewtopic.php?f=7&amp;t=2087"/>
+			<serials/>
+			<file id="108" extension="ngc" size="2097152" crc32="8b1647d4" md5="3e46efdd356157e9d41056ca0885ab65" sha1="099a835930209a6ec15b7e9092c086b6e7a4ad9e" sha256="62998282b8c3b02e264c3a6cca3e273f9e4d18a12b01f71532d47064b391c6da" version="01" serial="9021" format="Default"/>
+		</source>
+		<source>
+			<details id="257" section="Trusted Dump" d_date="2021-10-18" r_date="2021-10-18" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=27708#p27708"/>
+			<serials pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNKL17391 (9915)"/>
+			<file id="108" extension="ngc" size="2097152" crc32="8b1647d4" md5="3e46efdd356157e9d41056ca0885ab65" sha1="099a835930209a6ec15b7e9092c086b6e7a4ad9e" sha256="62998282b8c3b02e264c3a6cca3e273f9e4d18a12b01f71532d47064b391c6da" version="01" serial="9021" format="Default"/>
+		</source>
+	</game>
+	<game name="Mezase! Kanji Ou (Japan)">
+		<archive number="0039" clone="P" regparent="(JPN PARENT)" name="Mezase! Kanji Ou" region="Japan" languages="Ja"/>
+		<source>
+			<details id="40" section="Trusted Dump" d_date="2008-12-27" r_date="2009-05-01" region="Japan" dumper="!unknown" project="nanocosmos.blogbus.com" originalformat="Default" link1="http://web.archive.org/web/20100428085338/http://nanocosmos.blogbus.com:80/logs/38749965.html" link2="http://forum.no-intro.org/viewtopic.php?f=7&amp;t=2186"/>
+			<serials/>
+			<file id="39" extension="ngc" size="2097152" crc32="a52e1c82" md5="2fd2ffa3e15e05fc4512a10d98fbdd95" sha1="030a59f990e96649001582be2d5acc9af18424fe" sha256="5f68d39f8dfb7d86caec61c7b3301c4a1abea003f1379e5fc9512ccf31b68d29" version="06" serial="0063" format="Default"/>
+		</source>
+		<source>
+			<details id="231" section="Trusted Dump" d_date="2021-08-30" r_date="2021-08-30" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=27259#p27259"/>
+			<serials media_serial1="NEOP00630" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK57567V (9947)"/>
+			<file id="39" extension="ngc" size="2097152" crc32="a52e1c82" md5="2fd2ffa3e15e05fc4512a10d98fbdd95" sha1="030a59f990e96649001582be2d5acc9af18424fe" sha256="5f68d39f8dfb7d86caec61c7b3301c4a1abea003f1379e5fc9512ccf31b68d29" version="06" serial="0063" format="Default"/>
+		</source>
+		<release>
+			<details id="45" dirname="Mezase_Kanji_Ou_JAP_NGPC-MNC" rominfo="Bad" nfoname="mnc-kanj" nfosize="2439" nfocrc="db2de996" archivename="MNC-KANJ" originalformat="Default" date="2000-06-01" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Mizuki Shigeru no Youkai Shashinkan (Japan)">
+		<archive number="0040" clone="P" regparent="(JPN PARENT)" name="Mizuki Shigeru no Youkai Shashinkan" region="Japan" languages="Ja"/>
+		<source>
+			<details id="246" section="Trusted Dump" d_date="2021-09-13" r_date="2021-09-13" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0xec&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=27368#p27368"/>
+			<serials media_serial1="NEOP00620" pcb_serial="NP-CFL16-S 1998.6.23" romchip_serial1="SNK KOREA 940 R5FE70AA"/>
+			<file id="40" extension="ngc" size="2097152" crc32="dde08335" md5="89b605a1fc6db5855b432ccc62f9e6e3" sha1="8025d09368598951da94f8601729c16972b96830" sha256="e1d59f8765b893fc9a636c8dabb8853bfa63a1fd186fa6eac6ec08a08240c00e" version="03" serial="0062" format="Default"/>
+		</source>
+		<release>
+			<details id="46" dirname="Mizuki_Shigeru_Youkai_Shashin_Kan_JAP_NGPC-MNC" nfoname="mnc-mizu" nfosize="2205" nfocrc="b8efe918" archivename="MNC-MIZU" originalformat="Default" date="2000-06-06" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Neo 21 - Pocket Casino Series (World)">
+		<archive number="0041" clone="P" regparent="(JPN PARENT) (USA PARENT) (EUR PARENT)" name="Neo 21 - Pocket Casino Series" region="World" languages="En"/>
+		<source>
+			<details id="179" section="Third Party" rominfo="HasSave" d_date="2000-07-01" r_date="2016-03-13" region="USA" dumper="!unknown" project="GoodTools" originalformat="Default" comment1="Verified according to GoodNGPx V3.27&#10;&#13;Save data area initialized (starting at 0xe0000)"/>
+			<serials/>
+			<file id="41" extension="ngc" size="1048576" crc32="0a2a2f28" md5="0865f375ead2febbc86ab3fb9274b9b7" sha1="359dc14577c7b8fb8f2c8cfa63c12bccb30fcc11" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="283" section="Trusted Dump" d_date="2021-11-14" r_date="2021-11-14" region="Europe" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="The source cartridge for this dump has been bought via auctions in Europe, but its real origin is unknown. These stickers are usually used for press/review copies. Game serial and version is the same than retail copies." comment2="Chip manufacturer ID : 0xec&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=28015#p28015"/>
+			<serials pcb_serial="NP-CFL16-S 1998.6.23" romchip_serial1="SNK KOREA 931 R8F023A2"/>
+			<file id="178" extension="ngc" size="1048576" crc32="95c38985" md5="a60719b4839dd94bb3a8aa93ce91983d" sha1="98463a834e3f42dc02662b620e8e66f3856b1d4f" sha256="7586a27a800b1f2b45eff8a0aa9b268f380fdbdef66330abcdf2d2b82bc09dd2" format="Default"/>
+		</source>
+		<release>
+			<details id="47" dirname="Neo_21_JAP_NGPC-NIL" rominfo="Bad" nfoname="nil-no21" nfosize="3137" nfocrc="a8deb4e3" archivename="NIL-NO21" originalformat="Default" date="2000-04-25" group="Network International Ltd." comment="Save data area initialized (starting at 0xe0000)" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Neo Baccarat - Pocket Casino Series (Japan, Europe) (En) (v16)">
+		<archive number="0042" clone="P" regparent="(JPN PARENT) (EUR PARENT)" name="Neo Baccarat - Pocket Casino Series" region="Japan, Europe" languages="En" version="v16"/>
+		<source>
+			<details id="180" section="Third Party" d_date="2000-10-03" r_date="2016-03-13" region="Europe" dumper="!unknown" project="GoodTools" originalformat="Default" comment1="Verified according to GoodNGPx V3.27"/>
+			<serials/>
+			<file id="42" extension="ngc" size="1048576" crc32="22aab454" md5="1018f765f460588d975c9b4e9385a547" sha1="80218804eb591e50831d098b5bd213a3586849a5" sha256="4056a358ea804d61f53dc876c3ce9da6dc3dd1a24a3916cdd8cb14c45839d6ce" version="16" serial="0098" format="Default"/>
+		</source>
+		<release>
+			<details id="48" dirname="Neo_Baccarat_USA_NGPC-LFC" rominfo="Bad" nfoname="lfc-nbu" nfosize="7159" nfocrc="c2161d94" archivename="LFC-NBU" originalformat="Default" date="2000-06-15" group="Lightforce" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Neo Baccarat - Pocket Casino Series (Japan, Europe) (En) (Beta)">
+		<archive number="0117" clone="0042" name="Neo Baccarat - Pocket Casino Series" region="Japan, Europe" languages="En" devstatus="Beta" complete="0"/>
+		<source>
+			<details id="118" section="Trusted Dump" d_date="2011-04-05" r_date="2011-11-30" region="Japan" dumper="xxxddd" project="No-Intro" originalformat="Default" link1="http://forum.no-intro.org/viewtopic.php?f=7&amp;t=2186"/>
+			<serials/>
+			<file id="116" extension="ngc" size="1048576" crc32="80880498" md5="2685ad9eba4e9c86e1055e39917dc3ed" sha1="aeb77b92155e0a291d00ef3c97319788cc3d1006" sha256="6b2d57511d5818fdadec9116e1e665472a20496c027e00ed20d28981e1216ed4" version="A4" serial="0098" format="Default"/>
+		</source>
+	</game>
+	<game name="Neo Baccarat - Pocket Casino Series (Japan, Europe) (En) (v11)">
+		<archive number="0123" clone="0042" regparent="(JPN PARENT) (EUR PARENT)" name="Neo Baccarat - Pocket Casino Series" region="Japan, Europe" languages="En" version="v11"/>
+		<source>
+			<details id="222" section="Trusted Dump" d_date="2018-10-27" d_date_info="0" r_date="2018-10-27" region="Japan" dumper="anonFriend" project="P2P" originalformat="Default" tool="Pasofami" comment1="Part of release spree by anonymous dumper of october 2018. Many games from that bundle were later redumped and verified by trusted dumpers, or were known hashes to the internal team."/>
+			<serials media_serial1="NEOP00190" pcb_serial="NP-CFL16-S 1998.6.23" romchip_serial1="SNK KOREA 940 R8F062A1"/>
+			<file id="149" extension="ngc" size="1048576" crc32="495071a9" md5="b94513b88f622a9c4d3142d2bb7a442e" sha1="7749e828a508fdd399ee2bbf60a71befb8e9bb0e" sha256="9cfc014609a185f93d68d8cf9af402b359e5ea3420838b5054447963cbdb9b01" version="11" serial="0019" format="Default"/>
+		</source>
+	</game>
+	<game name="Neo Cherry Master Color - Pocket Casino Series (World) (En,Ja)">
+		<archive number="0043" clone="P" regparent="(JPN PARENT) (USA PARENT) (EUR PARENT)" name="Neo Cherry Master Color - Pocket Casino Series" region="World" languages="En,Ja"/>
+		<source>
+			<details id="181" section="Third Party" rominfo="HasSave" d_date="2000-06-15" r_date="2016-03-13" region="USA" dumper="!unknown" project="GoodTools" originalformat="Default" comment1="Verified according to GoodNGPx V3.27&#10;&#13;Contains save data from 0xF8000 to 0xF80FF"/>
+			<serials/>
+			<file id="43" extension="ngc" size="1048576" crc32="a6dca584" md5="7992904f8c4040aee0cde040afbf757d" sha1="17d51967cf1992b6aa779a2583dac46a6590d50a" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="256" section="Trusted Dump" d_date="2021-10-18" r_date="2021-10-18" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=27697#p27697"/>
+			<serials media_serial1="NEOP00240" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK32098V (9841)"/>
+			<file id="140" extension="ngc" size="1048576" crc32="2f6eb991" md5="279b9bf6ec9b7c473d310cfd6e3cee4d" sha1="745ced46bb5b7c911dd808a66d3b4fcfeffefa6c" sha256="71e6310d5bf0f0e1d724af795120f42b47fac831ad45eab693a9a0ebdae602e6" version="10" serial="0024" format="Default"/>
+		</source>
+		<source>
+			<details id="318" section="Trusted Dump" d_date="2021-11-17" r_date="2021-11-17" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=28043#p28043"/>
+			<serials media_serial1="NEOP00240" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK33371V (9841)"/>
+			<file id="140" extension="ngc" size="1048576" crc32="2f6eb991" md5="279b9bf6ec9b7c473d310cfd6e3cee4d" sha1="745ced46bb5b7c911dd808a66d3b4fcfeffefa6c" sha256="71e6310d5bf0f0e1d724af795120f42b47fac831ad45eab693a9a0ebdae602e6" version="10" serial="0024" format="Default"/>
+		</source>
+		<release>
+			<details id="49" dirname="Neo_Cherry_Master_Color_JAP_NGPC-MNC" nfoname="mnc-chry" nfosize="2535" nfocrc="331bb2a9" archivename="MNC-CHRY" originalformat="Default" date="2000-04-25" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Neo Cherry Master Color - Pocket Casino Series (World) (En,Ja) (Demo)">
+		<archive number="0098" clone="0043" name="Neo Cherry Master Color - Pocket Casino Series" region="World" languages="En,Ja" devstatus="Demo" complete="0"/>
+		<source>
+			<details id="99" section="Trusted Dump" rominfo="HasSave" d_date="2008-12-25" r_date="2009-11-05" region="Japan" dumper="!unknown" project="nanocosmos.blogbus.com" originalformat="Default" comment1="Contains save data from 0xF8000 to 0xF80FF." link1="http://web.archive.org/web/20100427095400/http://nanocosmos.blogbus.com/logs/50284460.html" link2="http://forum.no-intro.org/viewtopic.php?f=40&amp;t=1437"/>
+			<serials/>
+			<file id="98" extension="ngc" size="1048576" crc32="939a9912" md5="27bea85082cde31600b01dc27a99b82a" sha1="9b53e545388d487a2782e5ea7232979ee33e2b4f" sha256="679754e47a2354a01700772d72f45d12abf712ded0627d37281faca292b64120" version="06" serial="0024" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="321" section="Trusted Dump" d_date="2021-12-16" r_date="2021-12-16" origin="Japan *DEMO CART*" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=28370#p28370"/>
+			<serials pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK28912V (9835)"/>
+			<file id="197" extension="ngc" size="1048576" crc32="1a288507" md5="608b25f117cfe8a475f868e0ca17f39c" sha1="7ed1d49481a0dbb131a79b361592680b835618b8" format="Default"/>
+		</source>
+	</game>
+	<game name="Neo Derby Champ Daiyosou (Japan)">
+		<archive number="0044" clone="P" regparent="(JPN PARENT)" name="Neo Derby Champ Daiyosou" region="Japan" languages="Ja"/>
+		<source>
+			<details id="354" section="Trusted Dump" d_date="2022-09-10" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="OSCR v9.5" comment2="Chip manufacturer ID: 0xec&#10;&#13;Chip device ID: 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=31174#p31174"/>
+			<serials media_serial1="NEOP00170" pcb_serial="NP-CFL16-S"/>
+			<file id="207" extension="ngc" size="2097152" crc32="4760564a" md5="62374e839f4f7023d3eba2a6df1cc90a" sha1="34ebc515977c099032fc66ff477674b945326fc8" sha256="41bd954a376ebf6ade3e108d3f4b2d56a7dcb7572c4c099d8a7c62d5e89136ad" version="13" serial="0017" format="Default"/>
+		</source>
+		<release>
+			<details id="51" dirname="Neo_Derby_Champ_JAP_NGPC-MNC" rominfo="Bad" nfoname="mnc-ndc" nfosize="2550" nfocrc="5c5396f5" archivename="MNC-NDC" originalformat="Default" date="2000-05-15" group="Menace" comment="Neo_Derby_Champ_JAP_NGPC-MNC only haves save init data from 0x1e0000 to 0x1e4000. This redump doesn't" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Neo Dragon's Wild - Real Casino Series (World) (En,Ja) (v11)">
+		<archive number="0045" clone="0046" name="Neo Dragon's Wild - Real Casino Series" region="World" languages="En,Ja" version="v11" complete="0"/>
+		<source>
+			<details id="264" section="Trusted Dump" d_date="2021-11-11" r_date="2021-11-11" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=27995#p27995"/>
+			<serials media_serial1="NEOP00150" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNKK85024 (9835)"/>
+			<file id="45" extension="ngc" size="1048576" crc32="225fd7f9" md5="c0ced1d22506e46c4667bc0e926d921e" sha1="b80a2ab886c80ad17a6cb0968ea3ad6218922fa1" sha256="3d6bcdced28ecd516018c0577084904ed860608540e8f71c54141c346e288d2a" version="11" serial="0015" format="Default"/>
+		</source>
+		<release>
+			<details id="50" dirname="Neo_Dragons_Wild_Color_JAP_NGPC-MNC" nfoname="mnc-drag" nfosize="2535" nfocrc="0e857075" archivename="MNC-DRAG" originalformat="Default" date="2000-04-25" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Neo Dragon's Wild - Real Casino Series (World) (En,Ja) (v13)">
+		<archive number="0046" clone="P" regparent="(JPN PARENT) (USA PARENT) (EUR PARENT)" name="Neo Dragon's Wild - Real Casino Series" region="World" languages="En,Ja" version="v13"/>
+		<source>
+			<details id="183" section="Third Party" d_date="2001-03-27" r_date="2016-03-13" region="USA" dumper="!unknown" project="GoodTools" originalformat="Default" comment1="Verified according to GoodNGPx V3.27"/>
+			<serials/>
+			<file id="46" extension="ngc" size="1048576" crc32="5d028c99" md5="f0fdd57f4d1a1470b826082586ead479" sha1="b83f713370169e146a1687424ae8ce56b35a23da" sha256="40a006d32d1b0cbc249903100accb9a90c975a460e0d11d4ff460e2002ccd333" version="13" serial="0015" format="Default"/>
+		</source>
+	</game>
+	<game name="Neo Mystery Bonus - Pocket Casino Series (World) (En,Ja)">
+		<archive number="0048" clone="P" regparent="(JPN PARENT) (USA PARENT) (EUR PARENT)" name="Neo Mystery Bonus - Pocket Casino Series" region="World" languages="En,Ja"/>
+		<source>
+			<details id="269" section="Trusted Dump" d_date="2021-11-12" r_date="2021-11-12" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=28004#p28004"/>
+			<serials media_serial1="NEOP00160" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNKN14268 (9842)"/>
+			<file id="48" extension="ngc" size="1048576" crc32="e79dc5b3" md5="cef050e2591435a5c41ff851afa55a82" sha1="0d137a2cac0a03ab55dfeb4dbaf3929477cfb5d0" sha256="421914d275e780ef6dd2d23a47a92156df9130dcb1928f2c771249336bdc9631" version="12" serial="0016" format="Default"/>
+		</source>
+		<release>
+			<details id="53" dirname="Neo_Mystery_Bonus_JAP_NGPC-MNC" nfoname="mnc-nmyb" nfosize="2466" nfocrc="620eddeb" archivename="MNC-NMYB" originalformat="Default" date="2000-05-04" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Neo Poke Pro Yakyuu (Japan) (v32)">
+		<archive number="0049" clone="0124" name="Neo Poke Pro Yakyuu" region="Japan" languages="Ja" version="v32"/>
+		<source>
+			<details id="242" section="Trusted Dump" d_date="2021-09-11" r_date="2021-09-11" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=27320#p27320"/>
+			<serials media_serial1="NEOP00260" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK33087V (9845)"/>
+			<file id="165" extension="ngc" size="1048576" crc32="c624388f" md5="c5f81f7d06bec3d921ce55e53060a98f" sha1="80b0037ddfb83090f13189b59c486fcd54d3276c" sha256="ee5cdd1360924cb86eb4fe8431ad5159e62ebac3d660f6d7a26346bfad385dd6" version="32" serial="0026" format="Default"/>
+		</source>
+		<release>
+			<details id="54" dirname="Neo_Poke_Pro_Yakyuu_JAP_NGPC-MNC" rominfo="Bad" nfoname="mnc-nppy" nfosize="2437" nfocrc="512a99d1" archivename="MNC-NPPY" originalformat="Default" date="2000-05-27" group="Menace" comment="Contains save data from 0xf8000 to 0xf88ff" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Neo Poke Pro Yakyuu (Japan) (v1F)">
+		<archive number="0124" clone="P" regparent="(JPN PARENT)" name="Neo Poke Pro Yakyuu" region="Japan" languages="Ja" version="v1F" sticky_note="Name bug fix in this ROM version: yanagida &gt;&gt; yanagita"/>
+		<source>
+			<details id="223" section="Third Party" rominfo="HasSave" d_date="2018-10-27" r_date="2018-10-27" r_date_info="0" region="Japan" dumper="anonFriend" project="P2P" originalformat="Default" comment1="Part of release spree by anonymous dumper of october 2018. Many games from that bundle were later redumped and verified by trusted dumpers, or were known hashes to the internal team." comment2="Contains save data init from 0xF8000 to 0xF8900"/>
+			<serials/>
+			<file id="150" extension="ngc" size="1048576" crc32="0e5b3438" md5="2ec7eb7d83456ceaea0a41c2bebcaf98" sha1="73c0a5deda91c571c69997f9537b538450a0110d" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="296" section="Trusted Dump" d_date="2021-11-16" r_date="2021-11-16" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=28035#p28035"/>
+			<serials media_serial1="NEOP00260" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK33159V (9844)"/>
+			<file id="186" extension="ngc" size="1048576" crc32="3ca883a5" md5="ff5b122066dcc0f29ac4bcbcb3ab020a" sha1="bb5dca72bc973eb8bc83952c9ba60e3247cd578a" sha256="ae3ed9c4a995c692385c7a4645c17bf3fb6c81d87385c342b0956894040d1219" format="Default"/>
+		</source>
+	</game>
+	<game name="Neo Turf Masters (World) (En,Ja)">
+		<archive number="0050" clone="P" regparent="(JPN PARENT) (USA PARENT) (EUR PARENT)" name="Neo Turf Masters" region="World" languages="En,Ja"/>
+		<source>
+			<details id="189" section="Third Party" rominfo="HasSave" d_date="2000-06-15" r_date="2016-03-13" region="USA" dumper="!unknown" project="GoodTools" originalformat="Default" comment1="Verified according to GoodNGPx V3.27&#10;&#13;ROM has save data."/>
+			<serials/>
+			<file id="50" extension="ngc" size="2097152" crc32="317a66d2" md5="e055837bb0e227c1ddc3e68b0aa89ae9" sha1="d425bb812290b93a800032925d7be14f75820159" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="280" section="Trusted Dump" d_date="2021-11-14" r_date="2021-11-14" region="Europe" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=28013#p28013"/>
+			<serials media_serial1="NEOP00350" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK55395V (9932)"/>
+			<file id="141" extension="ngc" size="2097152" crc32="e0e853dd" md5="1222a2eca8db9b54f044fa2fe2f50a61" sha1="308361297bd28ebb8fb60713ae5e00cee514415c" sha256="92c7b5a3d6d28f8918c030afb95f9e4c13038326b8391d7fb05feac26917051a" version="11" serial="0035" format="Default"/>
+		</source>
+		<source>
+			<details id="339" section="Trusted Dump" d_date="2022-02-15" r_date="2022-02-15" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni Cart Reader v7.3" comment1="Cool fact: this dump is coming from JPN cart with Samsung chip, and matches EUR cart with Toshiba chip" comment2="Chip manufacturer ID : 0xec&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=28836#p28836"/>
+			<serials media_serial1="NEOP00350" pcb_serial="NP-CFL16-S 1998.6.23" romchip_serial1="919 (S8V12)"/>
+			<file id="141" extension="ngc" size="2097152" crc32="e0e853dd" md5="1222a2eca8db9b54f044fa2fe2f50a61" sha1="308361297bd28ebb8fb60713ae5e00cee514415c" sha256="92c7b5a3d6d28f8918c030afb95f9e4c13038326b8391d7fb05feac26917051a" version="11" serial="0035" format="Default"/>
+		</source>
+		<release>
+			<details id="101" dirname="Neo_Turf_Masters_JAP_NGPC-MNC" nfoname="mnc-turf" nfosize="2464" nfocrc="e1b18049" archivename="MNC-TURF" originalformat="Default" date="2000-05-04" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Neo Turf Masters (World) (En,Ja) (Demo)">
+		<archive number="0111" clone="0050" name="Neo Turf Masters" region="World" languages="En,Ja" devstatus="Demo" complete="0"/>
+		<source>
+			<details id="113" section="Third Party" d_date="2006-06-02" r_date="2012-02-27" region="Japan" dumper="!unknown" project="nesbbs.com" originalformat="Default" link1="https://forum.no-intro.org/viewtopic.php?p=10895#p10895"/>
+			<serials/>
+			<file id="111" extension="ngc" size="2097152" crc32="9dca6ed6" md5="f78476c51c398b28e1d2257299d14758" sha1="8581b18d986baf50fdb5dd9ba8fa5cf35b04ac2f" sha256="77739fc078257f4bb03d702ccfc50205a3b8195d210c31869ccbbbce914a0361" version="11" serial="0035" format="Default"/>
+		</source>
+	</game>
+	<game name="NeoGeo Cup '98 Plus Color - Pocket Sports Series (World) (En,Ja)">
+		<archive number="0047" clone="P" regparent="(JPN PARENT) (USA PARENT) (EUR PARENT)" name="NeoGeo Cup '98 Plus Color - Pocket Sports Series" region="World" languages="En,Ja"/>
+		<source>
+			<details id="267" section="Trusted Dump" d_date="2021-11-11" r_date="2021-11-11" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=27998#p27998"/>
+			<serials media_serial1="NEOP00390" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNKN20179 (9843)"/>
+			<file id="47" extension="ngc" size="1048576" crc32="c0da4fe9" md5="a6c3369f28558e4a9719dc54d50be713" sha1="a8bb64f093b418a88e674d9fab62a34fc220ea9f" sha256="ab897e8bfa112a0056b75926ce771009cbcb2b05b4b256c2f1fc8f98350c1cb4" version="0E" serial="0039" format="Default"/>
+		</source>
+		<release>
+			<details id="52" dirname="Neo_Geo_World_Cup_98_Plus_JAP_NGPC_EUR" nfoname="eur-wc98" nfosize="2199" nfocrc="e0cef79f" archivename="EUR-WC98" originalformat="Default" date="1999-08-09" group="Eurasia" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Nige-ron-pa (Japan)">
+		<archive number="0051" clone="P" regparent="(JPN PARENT)" name="Nige-ron-pa" region="Japan" languages="Ja"/>
+		<release>
+			<details id="56" dirname="Nige-Ron-Pa_JAP_NGPC-MNC" nfoname="mnc-nige" nfosize="4674" nfocrc="5da69ff8" archivename="MNC-NIGE" originalformat="Default" date="2000-12-01" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Oekaki Puzzle (Japan)">
+		<archive number="0052" clone="0065" regparent="(JPN PARENT)" name="Oekaki Puzzle" region="Japan" languages="Ja"/>
+		<source>
+			<details id="53" section="Third Party" rominfo="Bad" d_date="2009-01-05" r_date="2009-05-01" region="Japan" dumper="!unknown" project="nanocosmos.blogbus.com" originalformat="Default" comment1="Data was set to &#34;00&#34; from 0x7a000 to 0x7bfff. Probably by system init." link1="http://web.archive.org/web/20100428085338/http://nanocosmos.blogbus.com:80/logs/38749965.html" link2="http://forum.no-intro.org/viewtopic.php?f=7&amp;t=2186"/>
+			<serials/>
+			<file id="52" extension="ngc" size="524288" crc32="59ab1e0f" md5="883056abbb872de893cdb1f4f697dbf8" sha1="792a6cbb736526f4518df97b5ac79ecb45e46eec" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="255" section="Trusted Dump" d_date="2021-10-18" r_date="2021-10-18" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x20&#10;&#13;Chip device ID : 0x4c" link1="https://forum.no-intro.org/viewtopic.php?p=27696#p27696"/>
+			<serials media_serial1="NEOP00810" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNKN33815 (9847)"/>
+			<file id="168" extension="ngc" size="524288" crc32="a9118e82" md5="da4c66daa902d5c1c6a26123c75d7894" sha1="c4231f90d69fc2b7d794aa9eadc59244473441e6" sha256="f7c3913a1513d4e261d59a8cf38617f6645db511050c3266f60f520a6edf0feb" version="0B" serial="0081" format="Default"/>
+		</source>
+		<release>
+			<details id="57" dirname="Oekaki_Puzzle_JAP_NGPC-MNC" rominfo="Bad" nfoname="mnc-oeka" nfosize="2147" nfocrc="50f1ef5c" archivename="MNC-OEKA" originalformat="Default" date="2000-06-05" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Pac-Man (World) (En,Ja)">
+		<archive number="0053" clone="P" regparent="(JPN PARENT) (USA PARENT) (EUR PARENT)" name="Pac-Man" region="World" languages="En,Ja"/>
+		<source>
+			<details id="136" section="Trusted Dump" d_date="2009-11-05" d_date_info="0" r_date="2009-11-05" region="Europe" dumper="!unknown" project="nanocosmos.blogbus.com" originalformat="Default" link1="https://forum.no-intro.org/viewtopic.php?p=6056#p6056"/>
+			<serials/>
+			<file id="53" extension="ngc" size="524288" crc32="21e8cc15" md5="ac5ad76d5e6614ae576c2c837f0fab1d" sha1="ec64ab4be669f9860c216151094b9eea898c64b9" sha256="8c5485e736b6061729e5028f97d03e46c7db911059cd01df8490d6860e46f843" version="80" serial="0055" format="Default"/>
+		</source>
+		<source>
+			<details id="284" section="Trusted Dump" d_date="2021-11-14" r_date="2021-11-14" region="USA" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0xab" link1="https://forum.no-intro.org/viewtopic.php?p=28016#p28016"/>
+			<serials media_serial1="NEOP00551" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNKN47832 (9852)"/>
+			<file id="53" extension="ngc" size="524288" crc32="21e8cc15" md5="ac5ad76d5e6614ae576c2c837f0fab1d" sha1="ec64ab4be669f9860c216151094b9eea898c64b9" sha256="8c5485e736b6061729e5028f97d03e46c7db911059cd01df8490d6860e46f843" version="80" serial="0055" format="Default"/>
+		</source>
+		<release>
+			<details id="60" dirname="Pac-Man_JAP_NGPC-MNC" nfoname="mnc-pacm" nfosize="2538" nfocrc="278cc907" archivename="MNC-PACM" originalformat="Default" date="2000-04-25" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+		<release>
+			<details id="96" dirname="Pac-Man_RESIZE_JAP_NGPC-NPT" rominfo="Other" category="Tool" nfoname="npt-pcmn.txt" nfosize="930" nfocrc="8a20afcc" archivename="NPT-PCMN" originalformat="Default" date="2000-04-29" group="NGPC Patch Team" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+		<release>
+			<details id="95" dirname="Pac-Man_JAP_Plus1_Trainer-CPL" rominfo="Other" category="Tool" nfoname="CPL-PCTR" nfosize="3546" nfocrc="7a39d947" archivename="CPL-PCTR" originalformat="Default" date="2000-05-30" group="Capital" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Pachi-slot Aruze Oukoku - Porcano 2 (Japan)">
+		<archive number="0061" clone="P" regparent="(JPN PARENT)" name="Pachi-slot Aruze Oukoku - Porcano 2" region="Japan" languages="Ja"/>
+		<source>
+			<details id="275" section="Trusted Dump" d_date="2021-11-13" r_date="2021-11-13" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=28008#p28008"/>
+			<serials media_serial1="NEOP01020" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNKL96410 (9936)"/>
+			<file id="61" extension="ngc" size="1048576" crc32="96ddfbe3" md5="8efd3c40988452782e55548f7369a050" sha1="fd51a5a649cebfe5692ee498d11c48fd84661dc4" sha256="ee5e4df0f4f84b065b96c37cd5f7ecbe6c6ccda35c744d7869c07e4bd9eef268" version="02" serial="0102" format="Default"/>
+		</source>
+		<release>
+			<details id="61" dirname="Pachi-slot_Aruze_Oukoku_Porcano_2_JAP_NGPC-MNC" nfoname="mnc-por2" nfosize="1799" nfocrc="636deb56" archivename="MNC-POR2" originalformat="Default" date="2000-08-05" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Pachi-Slot Aruze Oukoku Pocket - Azteca (Japan) (v04)">
+		<archive number="0054" clone="0128" name="Pachi-Slot Aruze Oukoku Pocket - Azteca" region="Japan" languages="Ja" version="v04"/>
+		<source>
+			<details id="224" section="Trusted Dump" d_date="2018-10-27" d_date_info="0" r_date="2018-10-27" region="Japan" dumper="anonFriend" project="P2P" originalformat="Default" comment1="Part of release spree by anonymous dumper of october 2018. Many games from that bundle were later redumped and verified by trusted dumpers, or were known hashes to the internal team."/>
+			<serials media_serial1="NEOP00740" pcb_serial="NP-CFL16-S 1998.6.23" romchip_serial1="SNK KOREA 940 R8G002AA"/>
+			<file id="151" extension="ngc" size="1048576" crc32="25b783b5" md5="be22a7192d8ac3bb9356d7add54f8302" sha1="0a6fdc98c5fa2b683d29603a204c616d8c9ae696" sha256="d8de19fb127c125427dd1739b37657c8c7a2911ffed0eca7ec611c3f8b2eb6a7" version="04" serial="0074" format="Default"/>
+		</source>
+		<release>
+			<details id="65" dirname="Pachisuro_Azire_Ooko_Pocket_Azteca_JAP_NGPC-MNC" rominfo="Bad" nfoname="mnc-aztc" nfosize="2437" nfocrc="0ab05edf" archivename="MNC-AZTC" originalformat="Default" date="2000-05-28" group="Menace" comment="2000-02-24" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Pachi-Slot Aruze Oukoku Pocket - Azteca (Japan) (v03)">
+		<archive number="0127" clone="0128" name="Pachi-Slot Aruze Oukoku Pocket - Azteca" region="Japan" languages="Ja" version="v03"/>
+		<source>
+			<details id="270" section="Trusted Dump" d_date="2021-11-13" r_date="2021-11-13" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0xab" link1="https://forum.no-intro.org/viewtopic.php?p=28005#p28005"/>
+			<serials media_serial1="NEOP00740" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNKR20205 (9949)"/>
+			<file id="173" extension="ngc" size="524288" crc32="2314440a" md5="055def75bba47ee4b195c3337deaf3c6" sha1="449054f72eee89bd76bbcdf47ee0bc814ae8a4c0" sha256="6ceba1945d85c0c301e5141be5176ff1485106f908faa23199d090e683a025ff" format="Default"/>
+		</source>
+	</game>
+	<game name="Pachi-Slot Aruze Oukoku Pocket - Azteca (Japan) (v06)">
+		<archive number="0128" clone="P" regparent="(JPN PARENT)" name="Pachi-Slot Aruze Oukoku Pocket - Azteca" region="Japan" languages="Ja" version="v06"/>
+		<source>
+			<details id="271" section="Trusted Dump" d_date="2021-11-13" r_date="2021-11-13" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="Cart #1 dump" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=28006#p28006"/>
+			<serials media_serial1="NEOP00740" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNKJ21971 (9941)"/>
+			<file id="174" extension="ngc" size="1048576" crc32="c9b55e6b" md5="0e80317aa0d68e769a4a20019a8eb4bd" sha1="3dd183d9b2bdf358d604331fd78de423de287160" sha256="7b117ccb78659493b907b3c530833a16094f970e680d6bf94ce448a313b081c3" format="Default"/>
+		</source>
+		<source>
+			<details id="272" section="Trusted Dump" d_date="2021-11-13" r_date="2021-11-13" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="Cart #2 dump" comment2="Chip manufacturer ID : 0xec&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=28006#p28006"/>
+			<serials media_serial1="NEOP00740" pcb_serial="NP-CFL16-S 1998.6.23" romchip_serial1="SNK KOREA 940 R8F064AA"/>
+			<file id="174" extension="ngc" size="1048576" crc32="c9b55e6b" md5="0e80317aa0d68e769a4a20019a8eb4bd" sha1="3dd183d9b2bdf358d604331fd78de423de287160" sha256="7b117ccb78659493b907b3c530833a16094f970e680d6bf94ce448a313b081c3" format="Default"/>
+		</source>
+	</game>
+	<game name="Pachi-Slot Aruze Oukoku Pocket - Dekahel 2 (Japan)">
+		<archive number="0055" clone="P" regparent="(JPN PARENT)" name="Pachi-Slot Aruze Oukoku Pocket - Dekahel 2" region="Japan" languages="Ja"/>
+		<source>
+			<details id="191" section="Third Party" d_date="2001-09-02" r_date="2016-03-13" region="Japan" dumper="!unknown" project="GoodTools" originalformat="Default" comment1="Verified according to GoodNGPx V3.27"/>
+			<serials/>
+			<file id="55" extension="ngc" size="1048576" crc32="346f3c46" md5="1cbb6692db2357f80691bc7462ed4eae" sha1="7f5446cfe6535db63678d6fc26f598ed3ff73b7f" sha256="2d3f48467c624ead27fdce93e1cfb0168fc5d7787210ef61098cdf10c3656fa9" version="01" serial="0108" format="Default"/>
+		</source>
+		<source>
+			<details id="251" section="Trusted Dump" d_date="2021-10-17" r_date="2021-10-17" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=27691#p27691"/>
+			<serials media_serial1="NEOP01080" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK58726V (9938)"/>
+			<file id="55" extension="ngc" size="1048576" crc32="346f3c46" md5="1cbb6692db2357f80691bc7462ed4eae" sha1="7f5446cfe6535db63678d6fc26f598ed3ff73b7f" sha256="2d3f48467c624ead27fdce93e1cfb0168fc5d7787210ef61098cdf10c3656fa9" version="01" serial="0108" format="Default"/>
+		</source>
+		<source>
+			<details id="317" section="Trusted Dump" d_date="2021-11-17" r_date="2021-11-17" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=28043#p28043"/>
+			<serials media_serial1="NEOP01080" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK58540V (9939)"/>
+			<file id="55" extension="ngc" size="1048576" crc32="346f3c46" md5="1cbb6692db2357f80691bc7462ed4eae" sha1="7f5446cfe6535db63678d6fc26f598ed3ff73b7f" sha256="2d3f48467c624ead27fdce93e1cfb0168fc5d7787210ef61098cdf10c3656fa9" version="01" serial="0108" format="Default"/>
+		</source>
+	</game>
+	<game name="Pachi-Slot Aruze Oukoku Pocket - Delsol 2 (Japan)">
+		<archive number="0056" clone="P" regparent="(JPN PARENT)" name="Pachi-Slot Aruze Oukoku Pocket - Delsol 2" region="Japan" languages="Ja"/>
+		<source>
+			<details id="312" section="Third Party" rominfo="Bad" d_date="2001-07-11" r_date="2016-03-13" region="Japan" dumper="!unknown" project="GoodTools" originalformat="Default" comment1="Verified according to GoodNGPx V3.27"/>
+			<serials/>
+			<file id="194" extension="ngc" size="1048576" crc32="b98b498a" md5="a6469a984ea1da6349f1f94a2f50fabc" sha1="e9196ac0330a19e6b23b6f128b055bdc4da9a917" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="57" section="Trusted Dump" d_date="2009-01-04" r_date="2009-05-01" region="Japan" dumper="!unknown" project="nanocosmos.blogbus.com" originalformat="Default" link1="http://web.archive.org/web/20100428085338/http://nanocosmos.blogbus.com:80/logs/38749965.html" link2="http://forum.no-intro.org/viewtopic.php?f=7&amp;t=2186"/>
+			<serials/>
+			<file id="56" extension="ngc" size="1048576" crc32="1ea69db1" md5="59c600d2ffe3a44e8cfa96824dc90c8e" sha1="df3da196c01be73b0dea64b86ab27ec7dde5b594" sha256="3835c6e7be0cbc03df6f4c55675392393b069e0907b032a26005654c690b4e5c" version="03" serial="0107" format="Default"/>
+		</source>
+		<source>
+			<details id="247" section="Trusted Dump" d_date="2021-09-17" r_date="2021-09-17" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="Cart #1 dump" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=27424#p27424"/>
+			<serials media_serial1="NEOP01070" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNKL96374 (9936)"/>
+			<file id="56" extension="ngc" size="1048576" crc32="1ea69db1" md5="59c600d2ffe3a44e8cfa96824dc90c8e" sha1="df3da196c01be73b0dea64b86ab27ec7dde5b594" sha256="3835c6e7be0cbc03df6f4c55675392393b069e0907b032a26005654c690b4e5c" version="03" serial="0107" format="Default"/>
+		</source>
+		<source>
+			<details id="248" section="Trusted Dump" d_date="2021-09-17" r_date="2021-09-17" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="Cart #2 dump" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=27424#p27424"/>
+			<serials media_serial1="NEOP01070" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK43631V (9908)"/>
+			<file id="56" extension="ngc" size="1048576" crc32="1ea69db1" md5="59c600d2ffe3a44e8cfa96824dc90c8e" sha1="df3da196c01be73b0dea64b86ab27ec7dde5b594" sha256="3835c6e7be0cbc03df6f4c55675392393b069e0907b032a26005654c690b4e5c" version="03" serial="0107" format="Default"/>
+		</source>
+		<source>
+			<details id="316" section="Trusted Dump" d_date="2021-11-17" r_date="2021-11-17" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0xec&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=28043#p28043"/>
+			<serials media_serial1="NEOP01070" pcb_serial="NP-CFL16-S 1998.6.23" romchip_serial1="SNK KOREA 931 R8F026B1"/>
+			<file id="56" extension="ngc" size="1048576" crc32="1ea69db1" md5="59c600d2ffe3a44e8cfa96824dc90c8e" sha1="df3da196c01be73b0dea64b86ab27ec7dde5b594" sha256="3835c6e7be0cbc03df6f4c55675392393b069e0907b032a26005654c690b4e5c" version="03" serial="0107" format="Default"/>
+		</source>
+	</game>
+	<game name="Pachi-Slot Aruze Oukoku Pocket - e-CUP (Japan) (v04)">
+		<archive number="0057" clone="P" regparent="(JPN PARENT)" name="Pachi-Slot Aruze Oukoku Pocket - e-CUP" region="Japan" languages="Ja" version="v04"/>
+		<source>
+			<details id="193" section="Third Party" d_date="2001-08-14" r_date="2016-03-13" region="Japan" dumper="!unknown" project="GoodTools" originalformat="Default" comment1="Verified according to GoodNGPx V3.27"/>
+			<serials/>
+			<file id="57" extension="ngc" size="1048576" crc32="0a7c32df" md5="0dbeba28e62ece2e9b08c62890650ff5" sha1="e46aa1eb7c33c2f71bb236d279ca1d7c5d841e74" sha256="97275fb5ffb3e38b25059af693f6d0c74c3b90eebec27202b7801a8b64079c54" version="04" serial="0112" format="Default"/>
+		</source>
+	</game>
+	<game name="Pachi-Slot Aruze Oukoku Pocket - e-CUP (Japan) (v03)">
+		<archive number="0129" clone="0057" regparent="(JPN PARENT)" name="Pachi-Slot Aruze Oukoku Pocket - e-CUP" region="Japan" languages="Ja" version="v03"/>
+		<source>
+			<details id="273" section="Trusted Dump" d_date="2021-11-13" r_date="2021-11-13" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="Cart #2 dump" comment2="Chip manufacturer ID : 0xec&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=28007#p28007"/>
+			<serials media_serial1="NEOP01120" pcb_serial="NP-CFL16-S 1998.6.23" romchip_serial1="SNK KOREA 937 R8F021A1"/>
+			<file id="175" extension="ngc" size="1048576" crc32="b5311753" md5="e590485361586f739cd4ef9cb7bae391" sha1="13ae4c1513c56a62a2b670d43a3065facb251bc6" sha256="7f1518e613d537f8c67767a6fbd6a0220d6e301066ba888149b838b61915a685" format="Default"/>
+		</source>
+		<source>
+			<details id="274" section="Trusted Dump" d_date="2021-11-13" r_date="2021-11-13" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="Cart #1 dump" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=28007#p28007"/>
+			<serials media_serial1="NEOP01120" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK57009V (9937)"/>
+			<file id="175" extension="ngc" size="1048576" crc32="b5311753" md5="e590485361586f739cd4ef9cb7bae391" sha1="13ae4c1513c56a62a2b670d43a3065facb251bc6" sha256="7f1518e613d537f8c67767a6fbd6a0220d6e301066ba888149b838b61915a685" format="Default"/>
+		</source>
+	</game>
+	<game name="Pachi-Slot Aruze Oukoku Pocket - Hanabi (Japan) (v03)">
+		<archive number="0058" clone="0059" regparent="(JPN PARENT)" name="Pachi-Slot Aruze Oukoku Pocket - Hanabi" region="Japan" languages="Ja" version="v03" complete="0"/>
+		<source>
+			<details id="298" section="Trusted Dump" d_date="2021-11-16" r_date="2021-11-16" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="Cart #1 dump" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0xab" link1="https://forum.no-intro.org/viewtopic.php?p=28033#p28033"/>
+			<serials media_serial1="NEOP00520" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK31608V (9845)"/>
+			<file id="188" extension="ngc" size="524288" crc32="4014ff42" md5="e8e2fd11e237887d7253552b9b60bc87" sha1="479eb217aa85f9d115682b88c21dfb8ee30ad0e7" sha256="8154263104942341d36917d8d57035c7bc778ebaaa52b5b11dbf4a920851cc7f" format="Default"/>
+		</source>
+		<source>
+			<details id="299" section="Trusted Dump" d_date="2021-11-16" r_date="2021-11-16" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="Cart #2 dump" comment2="Chip manufacturer ID : 0x20&#10;&#13;Chip device ID : 0x4c" link1="https://forum.no-intro.org/viewtopic.php?p=28033#p28033"/>
+			<serials media_serial1="NEOP00520" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNKR06655 (9946)"/>
+			<file id="188" extension="ngc" size="524288" crc32="4014ff42" md5="e8e2fd11e237887d7253552b9b60bc87" sha1="479eb217aa85f9d115682b88c21dfb8ee30ad0e7" sha256="8154263104942341d36917d8d57035c7bc778ebaaa52b5b11dbf4a920851cc7f" format="Default"/>
+		</source>
+		<source>
+			<details id="300" section="Trusted Dump" d_date="2021-11-16" r_date="2021-11-16" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="Cart #3 dump" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0xab" link1="https://forum.no-intro.org/viewtopic.php?p=28033#p28033"/>
+			<serials media_serial1="NEOP00520" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNKR03676 (9945)"/>
+			<file id="188" extension="ngc" size="524288" crc32="4014ff42" md5="e8e2fd11e237887d7253552b9b60bc87" sha1="479eb217aa85f9d115682b88c21dfb8ee30ad0e7" sha256="8154263104942341d36917d8d57035c7bc778ebaaa52b5b11dbf4a920851cc7f" format="Default"/>
+		</source>
+		<release>
+			<details id="63" dirname="Pachisuro_Aruze_Ooko_Pocket_Hanabi_JAP_NGPC-MNC" rominfo="Bad" nfoname="mnc-hana" nfosize="2549" nfocrc="7ac8594e" archivename="MNC-HANA" originalformat="Default" date="2000-05-30" group="Menace" comment="ROM isn't clean and contains save data init from 0x60000 to the end." region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Pachi-Slot Aruze Oukoku Pocket - Hanabi (Japan) (v05)">
+		<archive number="0059" clone="P" regparent="(JPN PARENT)" name="Pachi-Slot Aruze Oukoku Pocket - Hanabi" region="Japan" languages="Ja" version="v05"/>
+		<source>
+			<details id="195" section="Third Party" d_date="2001-07-11" r_date="2016-03-13" region="Japan" dumper="!unknown" project="GoodTools" originalformat="Default" comment1="Verified according to GoodNGPx V3.27"/>
+			<serials/>
+			<file id="59" extension="ngc" size="524288" crc32="a0c26f9b" md5="b3edf9ad99cbd433c8e62836f32092ec" sha1="9d30e0c67851bc99e4a77e89e3fbc101b358b458" sha256="0a07e5647b60dd4f2c8433440a313512e6a791d1c34dc5f73f18a4e4d8e5752b" version="05" serial="0052" format="Default"/>
+		</source>
+	</game>
+	<game name="Pachi-Slot Aruze Oukoku Pocket - Hanabi (Japan) (v04)">
+		<archive number="0133" clone="0059" regparent="(JPN PARENT)" name="Pachi-Slot Aruze Oukoku Pocket - Hanabi" region="Japan" languages="Ja" version="v04"/>
+		<source>
+			<details id="301" section="Trusted Dump" d_date="2021-11-16" r_date="2021-11-16" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="This ROM is really 8 Mbits, it's not a mistake. And v03 is 4 Mbits, I confirmed it with redumps. But v05 is 4 Mbits again. So v05 could be a trimmed rom (in that case, no important data would be missing since game data ends at 0x60000, the rest is just padding). It would be cool to find and redump this v05 to really confirm the chip used, out of curiosity." comment2="Chip manufacturer ID : 0xec&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=28033#p28033"/>
+			<serials media_serial1="NEOP00520" pcb_serial="NP-CFL16-S 1998.6.23" romchip_serial1="SNK KOREA 940 R8G007AA"/>
+			<file id="189" extension="ngc" size="1048576" crc32="2a4f45ab" md5="4815d650ed99245dbdb62ec463052329" sha1="710a8f700e640785675225c54349a3cd7770a975" sha256="94375f84d2a463dd491155638152c90182d2edb0cb38b240940019c782cab8b8" format="Default"/>
+		</source>
+	</game>
+	<game name="Pachi-Slot Aruze Oukoku Pocket - Ohanabi (Japan)">
+		<archive number="0060" clone="P" regparent="(JPN PARENT)" name="Pachi-Slot Aruze Oukoku Pocket - Ohanabi" region="Japan" languages="Ja"/>
+		<source>
+			<details id="132" section="Trusted Dump" d_date="2008-04-17" d_date_info="0" r_date="2008-04-17" region="Japan" dumper="geezup" project="No-Intro" originalformat="Default" link1="http://forum.no-intro.org/viewtopic.php?t=519"/>
+			<serials/>
+			<file id="60" extension="ngc" size="1048576" crc32="8a88c50f" md5="3c340fe221635ba52aae8adcc8e43758" sha1="a99e8aabefd36a5a297fef59e376cf24f8f619f8" sha256="f61106d10d8654afc5206ddf46e7d66d228d9c2bd4c0a6ada154d3cf8d09d528" version="01" serial="0110" format="Default"/>
+		</source>
+		<source>
+			<details id="243" section="Trusted Dump" d_date="2021-09-10" r_date="2021-09-10" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="Cart #1 dump" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=27321#p27321"/>
+			<serials media_serial1="NEOP01100" pcb_serial="NP-CFL16-S 1998.6.23" romchip_serial1="SNK KOREA 937 R8F037AA"/>
+			<file id="60" extension="ngc" size="1048576" crc32="8a88c50f" md5="3c340fe221635ba52aae8adcc8e43758" sha1="a99e8aabefd36a5a297fef59e376cf24f8f619f8" sha256="f61106d10d8654afc5206ddf46e7d66d228d9c2bd4c0a6ada154d3cf8d09d528" version="01" serial="0110" format="Default"/>
+		</source>
+		<source>
+			<details id="303" section="Trusted Dump" d_date="2021-09-10" r_date="2021-09-10" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="Cart #2 dump" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=27321#p27321"/>
+			<serials media_serial1="NEOP01100" pcb_serial="NP-CFL16-S 1998.6.23" romchip_serial1="SNK KOREA 937 R8F050AA"/>
+			<file id="60" extension="ngc" size="1048576" crc32="8a88c50f" md5="3c340fe221635ba52aae8adcc8e43758" sha1="a99e8aabefd36a5a297fef59e376cf24f8f619f8" sha256="f61106d10d8654afc5206ddf46e7d66d228d9c2bd4c0a6ada154d3cf8d09d528" version="01" serial="0110" format="Default"/>
+		</source>
+		<source>
+			<details id="304" section="Trusted Dump" d_date="2021-09-10" r_date="2021-09-10" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="Cart #3 dump" comment2="Chip manufacturer ID : 0xec&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=27321#p27321"/>
+			<serials media_serial1="NEOP01100" pcb_serial="NP-CFL16" romchip_serial1="SNK58981V (9938)"/>
+			<file id="60" extension="ngc" size="1048576" crc32="8a88c50f" md5="3c340fe221635ba52aae8adcc8e43758" sha1="a99e8aabefd36a5a297fef59e376cf24f8f619f8" sha256="f61106d10d8654afc5206ddf46e7d66d228d9c2bd4c0a6ada154d3cf8d09d528" version="01" serial="0110" format="Default"/>
+		</source>
+		<source>
+			<details id="305" section="Trusted Dump" d_date="2021-09-10" r_date="2021-09-10" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="Cart #4 dump" comment2="Chip manufacturer ID : 0xec&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=27321#p27321"/>
+			<serials media_serial1="NEOP01100" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK48091V (9916)"/>
+			<file id="60" extension="ngc" size="1048576" crc32="8a88c50f" md5="3c340fe221635ba52aae8adcc8e43758" sha1="a99e8aabefd36a5a297fef59e376cf24f8f619f8" sha256="f61106d10d8654afc5206ddf46e7d66d228d9c2bd4c0a6ada154d3cf8d09d528" version="01" serial="0110" format="Default"/>
+		</source>
+		<source>
+			<details id="319" section="Trusted Dump" d_date="2021-11-17" r_date="2021-11-17" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=28043#p28043"/>
+			<serials media_serial1="NEOP01100" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNKJ11060 (9938)"/>
+			<file id="60" extension="ngc" size="1048576" crc32="8a88c50f" md5="3c340fe221635ba52aae8adcc8e43758" sha1="a99e8aabefd36a5a297fef59e376cf24f8f619f8" sha256="f61106d10d8654afc5206ddf46e7d66d228d9c2bd4c0a6ada154d3cf8d09d528" version="01" serial="0110" format="Default"/>
+		</source>
+		<release>
+			<details id="66" dirname="Pachisurou_Aruze_Ookoku_Ohanabi_NGPC_JAP-OS" nfoname="OS-PAOOK" nfosize="3682" nfocrc="e93a0e4a" archivename="OS-PAOOK" originalformat="Default" date="2000-11-22" group="OldSkool" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Pachi-Slot Aruze Oukoku Pocket - Ward of Lights (Japan) (v03)">
+		<archive number="0062" clone="0132" regparent="(JPN PARENT)" name="Pachi-Slot Aruze Oukoku Pocket - Ward of Lights" region="Japan" languages="Ja" version="v03"/>
+		<source>
+			<details id="63" section="Trusted Dump" d_date="2009-01-04" r_date="2009-05-01" region="Japan" dumper="!unknown" project="nanocosmos.blogbus.com" originalformat="Default" link1="http://web.archive.org/web/20100428085338/http://nanocosmos.blogbus.com:80/logs/38749965.html" link2="http://forum.no-intro.org/viewtopic.php?f=7&amp;t=2186"/>
+			<serials/>
+			<file id="62" extension="ngc" size="524288" crc32="d46cbc54" md5="da41c689c64815ad2b374a7ff52e819b" sha1="c17a535195719e0dafb5de76663c7649d209f0ff" sha256="891b59d744a15b8e481c039d6e87519ea7ddb47d17697297809d412d46708932" version="03" serial="0084" format="Default"/>
+		</source>
+		<source>
+			<details id="249" section="Trusted Dump" d_date="2021-09-17" r_date="2021-09-17" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="Cart #1 dump" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0xab" link1="https://forum.no-intro.org/viewtopic.php?p=27425#p27425"/>
+			<serials media_serial1="NEOP00840" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK63874V (9949)"/>
+			<file id="62" extension="ngc" size="524288" crc32="d46cbc54" md5="da41c689c64815ad2b374a7ff52e819b" sha1="c17a535195719e0dafb5de76663c7649d209f0ff" sha256="891b59d744a15b8e481c039d6e87519ea7ddb47d17697297809d412d46708932" version="03" serial="0084" format="Default"/>
+		</source>
+		<source>
+			<details id="250" section="Trusted Dump" d_date="2021-09-17" r_date="2021-09-17" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="Cart #2 dump" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0xab" link1="https://forum.no-intro.org/viewtopic.php?p=27425#p27425"/>
+			<serials media_serial1="NEOP00840" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK63874V (9949)"/>
+			<file id="62" extension="ngc" size="524288" crc32="d46cbc54" md5="da41c689c64815ad2b374a7ff52e819b" sha1="c17a535195719e0dafb5de76663c7649d209f0ff" sha256="891b59d744a15b8e481c039d6e87519ea7ddb47d17697297809d412d46708932" version="03" serial="0084" format="Default"/>
+		</source>
+		<release>
+			<details id="64" dirname="Pachisuro_Aruze_Ooko_Pocket_Ward_of_Lights_JAP_NGPC-MNC" rominfo="Bad" nfoname="mnc-ward" nfosize="2549" nfocrc="0605ccf2" archivename="MNC-WARD" originalformat="Default" date="2000-05-30" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Pachi-Slot Aruze Oukoku Pocket - Ward of Lights (Japan) (v04)">
+		<archive number="0132" clone="P" regparent="(JPN PARENT)" name="Pachi-Slot Aruze Oukoku Pocket - Ward of Lights" region="Japan" languages="Ja" version="v04"/>
+		<source>
+			<details id="297" section="Trusted Dump" d_date="2021-11-16" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" link1="https://forum.no-intro.org/viewtopic.php?p=28034#p28034"/>
+			<serials media_serial1="NEOP00840" pcb_serial="NP-CFL16-S"/>
+			<file id="187" extension="ngc" size="1048576" crc32="a54ec305" md5="910591868ba9ac522f151e6d3888fd03" sha1="7645e84b645223534002b13ee88e825fada4b80d" sha256="d9c9495538ee8c46b0b65fe50a4d5c17714bc43fd07448846df08880efc71f98" format="Default"/>
+		</source>
+	</game>
+	<game name="Pachinko Hisshou Guide - Pocket Parlor (Japan)">
+		<archive number="0063" clone="P" regparent="(JPN PARENT)" name="Pachinko Hisshou Guide - Pocket Parlor" region="Japan" languages="Ja"/>
+		<source>
+			<details id="276" section="Trusted Dump" d_date="2021-11-13" r_date="2021-11-13" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="Cart #1 dump" comment2="Chip manufacturer ID : 0xec&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=28009#p28009"/>
+			<serials media_serial1="NEOP00460" pcb_serial="NP-CFL16-S 1998.6.23" romchip_serial1="SNK KOREA 940 R8F053AA"/>
+			<file id="176" extension="ngc" size="1048576" crc32="543dc257" md5="90dd6442d5bb8f6c51f9e0836ba2b428" sha1="db839c56dc849b0f1924a029b4e8104bf8c738cf" sha256="fb6082cca40cbc0de12a80fbd2a66502f52030487d5078824d7007a15f93bf9b" format="Default"/>
+		</source>
+		<source>
+			<details id="277" section="Trusted Dump" d_date="2021-11-13" r_date="2021-11-13" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="Cart #2 dump" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=28009#p28009"/>
+			<serials media_serial1="NEOP00460" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNKL70051 (9929)"/>
+			<file id="176" extension="ngc" size="1048576" crc32="543dc257" md5="90dd6442d5bb8f6c51f9e0836ba2b428" sha1="db839c56dc849b0f1924a029b4e8104bf8c738cf" sha256="fb6082cca40cbc0de12a80fbd2a66502f52030487d5078824d7007a15f93bf9b" format="Default"/>
+		</source>
+		<release>
+			<details id="62" dirname="Pachinko_Hissyou_Guide_Pocket_Parlor_JAP_NGPC-MNC" rominfo="Bad" nfoname="mnc-phgp" nfosize="2465" nfocrc="5ae1a5ae" archivename="MNC-PHGP" originalformat="Default" date="2000-06-04" group="Menace" comment="Contains save init data from 0xD0000 to 0xFC000" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Pachinko Hisshou Guide - Pocket Parlor (Japan) (Beta)">
+		<archive number="0131" clone="0063" regparent="(JPN PARENT)" name="Pachinko Hisshou Guide - Pocket Parlor" region="Japan" languages="Ja" devstatus="Beta"/>
+		<source>
+			<details id="292" section="Trusted Dump" d_date="2021-11-15" r_date="2021-11-15" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="Prototype cart dump" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=28030#p28030"/>
+			<serials pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNKN16533 (9843)"/>
+			<file id="184" extension="ngc" size="1048576" crc32="ccf07c2f" md5="0813f72d72521ea6afd61eb6c7d416bd" sha1="63fd9e4be7ba482e70fcafde6e50773046a5fe40" sha256="b69aba38592e37684a85fc3f6c8268d20a130dfa2445207f00e6492003d7bc97" version="01" serial="0000" format="Default"/>
+		</source>
+	</game>
+	<game name="Party Mail (Japan)">
+		<archive number="0064" clone="P" regparent="(JPN PARENT)" name="Party Mail" region="Japan" languages="Ja"/>
+		<release>
+			<details id="67" dirname="Party_Mail_JAP_NGPC-MNC" nfoname="mnc-mail" nfosize="2512" nfocrc="30ce044c" archivename="MNC-MAIL" originalformat="Default" date="2000-05-29" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Party Mail (Japan) (Beta)">
+		<archive number="0118" clone="0064" name="Party Mail" region="Japan" languages="Ja" devstatus="Beta" complete="0"/>
+		<source>
+			<details id="119" section="Trusted Dump" d_date="2011-04-05" r_date="2011-11-30" region="Japan" dumper="xxxddd" project="No-Intro" originalformat="Default" link1="http://forum.no-intro.org/viewtopic.php?f=7&amp;t=2186"/>
+			<serials/>
+			<file id="117" extension="ngc" size="2097152" crc32="f2284a95" md5="f60ea82fe428e83355ce870bf5cff5d5" sha1="d781a1a1e74ba822249d38dbe60e160a29ec2824" sha256="3e98f89511643fc1f37308d44d784896e488c51084116b8d3233f6cfa4348176" version="00" serial="0032" format="Default"/>
+		</source>
+	</game>
+	<game name="Picture Puzzle (Europe)">
+		<archive number="0065" clone="P" regparent="(EUR PARENT)" name="Picture Puzzle" region="Europe" languages="En"/>
+		<source>
+			<details id="188" section="Third Party" rominfo="Bad" d_date="2000-10-03" r_date="2016-03-13" region="USA" dumper="!unknown" project="GoodTools" originalformat="Default" comment1="Verified according to GoodNGPx V3.27" comment2="It seems this dump is bad and there is a save data."/>
+			<serials/>
+			<file id="65" extension="ngc" size="1048576" crc32="67e6dc56" md5="81d3c10271ad5b09032dd00321b41aa0" sha1="387d37cf60562da4e95ba18440ad6e0a4cccb537" sha256="5c83328f884eba850754b100251cdae772c88b006f8dd7d635d1783f9863063f" version="03" serial="0106" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="311" section="Trusted Modification" d_date="2021-11-17" r_date="2021-11-17" region="Europe" dumper="omonim2007" project="No-Intro" originalformat="Default" comment1="Two blocks of data started at $070000 and $078000 filled with FF (CRC32 83C42BDC is the base)"/>
+			<serials/>
+			<file id="193" extension="ngc" size="524288" crc32="6f2d35e6" md5="9a58387d2110138dbcb7199e208174da" sha1="f6f4a7e412eca2235dfdd575cd0df64adaa2f476" format="Default"/>
+		</source>
+		<release>
+			<details id="58" dirname="Picture_Puzzle_USA_NGPC-LFC" rominfo="Bad" nfoname="lfc-ppu" nfosize="7079" nfocrc="ceb3b910" archivename="LFC-PPU" originalformat="Default" date="2000-06-15" group="Lightforce" region="Unknown" origin="Scene"/>
+			<serials media_serial1="NEOP0006"/>
+		</release>
+	</game>
+	<game name="Pocket Love - if (Japan)">
+		<archive number="0066" clone="P" regparent="(JPN PARENT)" name="Pocket Love - if" region="Japan" languages="Ja"/>
+		<source>
+			<details id="239" section="Trusted Dump" d_date="2021-09-11" r_date="2021-09-11" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=27317#p27317"/>
+			<serials media_serial1="NEOP00440" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK56463V (9934)"/>
+			<file id="66" extension="ngc" size="2097152" crc32="c2ee1ee5" md5="62347264d918559a95034be7cea8756d" sha1="2b5d9628b7b5911f90c28321227d47a527a719ea" sha256="9aa72a5bd6b224ef182c3d05ae3346fc53ad513198da4917767c5960aec62f30" version="08" serial="0044" format="Default"/>
+		</source>
+		<release>
+			<details id="68" dirname="Pocket_Love_If_JAP_NGPC-MNC" nfoname="mnc-love" nfosize="2438" nfocrc="70b03c10" archivename="MNC-LOVE" originalformat="Default" date="2000-05-23" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Pocket Reversi (Europe) (vA1)">
+		<archive number="0067" clone="P" regparent="(EUR PARENT)" name="Pocket Reversi" region="Europe" languages="En" version="vA1"/>
+		<source>
+			<details id="326" section="Trusted Modification" d_date="2021-12-29" r_date="2021-12-29" region="Europe" dumper="omonim2007" project="No-Intro" originalformat="Default" comment1="Trimmed to 4Mbit, save data cleaned (filled with FF from 0x70000 to the end), bad data starting from 0x0004BEB0 has been replaced by the one from verified v03 dump)."/>
+			<serials/>
+			<file id="201" extension="ngc" size="524288" crc32="22c07c25" md5="17e31ed811e4f55f4e258465f1f56fc4" sha1="b7678e5e38a83ab227f320dc356a74628ea8b6e4" sha256="8b51f3dc837566c386d367e949de89eeb89e9a84ce720173a5039e490ef7893f" version="03" format="Default"/>
+		</source>
+		<release>
+			<details id="69" dirname="Pocket_Reversi_USA_NGPC-LFC" rominfo="Bad" nfoname="lfc-pru" nfosize="7079" nfocrc="b87d5ded" archivename="LFC-PRU" originalformat="Default" date="2000-06-15" group="Lightforce" comment="[Overdumped][Bad]" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Pocket Reversi (Japan)">
+		<archive number="0068" clone="0067" regparent="(JPN PARENT)" name="Pocket Reversi" region="Japan" languages="Ja"/>
+		<release>
+			<details id="70" dirname="Pocket_Reversi_JAP_NGPC-MNC" nfoname="mnc-prev" nfosize="2437" nfocrc="1346af25" archivename="MNC-PREV" originalformat="Default" date="2000-05-27" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Pocket Reversi (Europe) (v03)">
+		<archive number="0134" clone="0067" name="Pocket Reversi" region="Europe" languages="En" version="v03"/>
+		<source>
+			<details id="313" section="Trusted Dump" d_date="2021-12-22" r_date="2021-12-22" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0xab" link1="https://forum.no-intro.org/viewtopic.php?p=28404#p28404"/>
+			<serials media_serial1="NEOP00104" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNKR20205 (9949)"/>
+			<file id="198" extension="ngc" size="524288" crc32="9589f2f2" md5="48b11e8772b752db938685639b667e2f" sha1="e1698b96dd37aca3d0b977235234550292baaa74" sha256="fde70f1e88bdcbca7d5f4d4b32d5d504c55f15a491ac734acb2a1b7b85aa2cad" format="Default"/>
+		</source>
+	</game>
+	<game name="Pocket Tennis Color - Pocket Sports Series (World) (En,Ja)">
+		<archive number="0069" clone="P" regparent="(JPN PARENT) (USA PARENT) (EUR PARENT)" name="Pocket Tennis Color - Pocket Sports Series" region="World" languages="En,Ja"/>
+		<source>
+			<details id="133" section="Third Party" rominfo="HasSave" d_date="2008-04-17" d_date_info="0" r_date="2008-04-17" region="Europe" dumper="geezup" project="No-Intro" originalformat="Default" comment1="Save data were wiped by using the in-game option, but data are still writes in ROM from 0x7A000 to 0x7A0FF." link1="http://forum.no-intro.org/viewtopic.php?t=519"/>
+			<serials/>
+			<file id="69" extension="ngc" size="524288" crc32="d8590b96" md5="c7bfc59b4cb593409541d4ccffe083b4" sha1="d14251209ca5da8000643cd5bf6e5196a5e56ee4" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="278" section="Trusted Dump" d_date="2021-11-13" r_date="2021-11-13" region="Europe" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0xab" link1="https://forum.no-intro.org/viewtopic.php?p=28010#p28010"/>
+			<serials media_serial1="NEOP0028" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK60472V (9940)"/>
+			<file id="177" extension="ngc" size="524288" crc32="e0b9aa22" md5="8b7105aee46be795f1ee0a0f9efdb445" sha1="680a1631120ae3418db9f60b16206e65e4ec9b33" sha256="7001531c3e19b348efe5c68607c8c061c501dfc17221761d473d19e83ab95b37" format="Default"/>
+		</source>
+		<source>
+			<details id="279" section="Trusted Dump" d_date="2021-11-13" r_date="2021-11-13" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x20&#10;&#13;Chip device ID : 0x4c" link1="https://forum.no-intro.org/viewtopic.php?p=28010#p28010"/>
+			<serials media_serial1="NEOP00280" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK28907V (9833)"/>
+			<file id="177" extension="ngc" size="524288" crc32="e0b9aa22" md5="8b7105aee46be795f1ee0a0f9efdb445" sha1="680a1631120ae3418db9f60b16206e65e4ec9b33" sha256="7001531c3e19b348efe5c68607c8c061c501dfc17221761d473d19e83ab95b37" format="Default"/>
+		</source>
+		<release>
+			<details id="71" dirname="Pocket_Tennis_Color_JAP_NGPC-MNC" rominfo="Bad" nfoname="mnc-pktc" nfosize="2530" nfocrc="be0aadf1" archivename="MNC-PKTC" originalformat="Default" date="2000-04-25" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="PP-AA01 - Pusher - Program - Hontai Controller Gawa (Japan)">
+		<archive number="0105" clone="P" regparent="(JPN PARENT)" name="PP-AA01 - Pusher - Program - Hontai Controller Gawa" region="Japan" languages="Ja"/>
+		<source>
+			<details id="107" section="Trusted Dump" d_date="2011-06-02" r_date="2011-06-03" region="Japan" dumper="dragon2snow" project="nesbbs.com" originalformat="Default" link1="https://forum.no-intro.org/viewtopic.php?f=40&amp;t=2069"/>
+			<serials/>
+			<file id="105" extension="ngc" size="524288" crc32="78acdbcb" md5="806778d680bb9f41a3e610499e318f85" sha1="8c5677b51f18fac55fffbb2e15baefba3af8fa1d" sha256="c5faa5cd1d00566493dd098067aaf7cadf6a506e6d4e8f277bd06b205f82ff4a" version="00" serial="fffe" format="Default"/>
+		</source>
+	</game>
+	<game name="Puyo Pop (World) (En,Ja) (v05)">
+		<archive number="0070" clone="0071" regparent="(JPN PARENT) (USA PARENT) (EUR PARENT)" name="Puyo Pop" region="World" languages="En,Ja" version="v05"/>
+		<source>
+			<details id="241" section="Trusted Dump" d_date="2021-09-11" r_date="2021-09-11" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=27319#p27319"/>
+			<serials media_serial1="NEOP00410" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNKL19045 (9917)"/>
+			<file id="70" extension="ngc" size="1048576" crc32="3090b2fd" md5="7ff625dc216783b034b011351c98255f" sha1="27c3250fb17f291832fa7189a35478d017a0ef5e" sha256="205b6472832c609286b9881ef7eef9a4322320a519440d4cbb8cb67b591acf2f" version="05" serial="0041" format="Default"/>
+		</source>
+		<release>
+			<details id="72" dirname="Puyo_Pop_JAP_NGPC-NIL" nfoname="nil-puyo" nfosize="3137" nfocrc="e9078086" archivename="NIL-PUYO" originalformat="Default" date="2000-04-25" group="Network International Ltd." region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Puyo Pop (World) (En,Ja) (v06)">
+		<archive number="0071" clone="P" regparent="(JPN PARENT) (USA PARENT) (EUR PARENT)" name="Puyo Pop" region="World" languages="En,Ja" version="v06"/>
+		<source>
+			<details id="202" section="Third Party" d_date="2000-09-07" r_date="2016-03-13" region="USA" dumper="!unknown" project="GoodTools" originalformat="Default" comment1="Not verified according to GoodNGPx V3.27"/>
+			<serials/>
+			<file id="71" extension="ngc" size="1048576" crc32="5c649d1e" md5="d40dc57b9cc3a30a2400f8cfd8724578" sha1="8971d3d64e47950cf01648d7b341d4b01a2c4eb0" sha256="7be64b6d129454df8f6f434b4173065222079a10c6ecf80a3df472af7570586f" version="06" serial="0041" format="Default"/>
+		</source>
+	</game>
+	<game name="Puzzle Bobble Mini (Japan, Europe) (En)">
+		<archive number="0073" clone="P" regparent="(JPN PARENT) (EUR PARENT)" name="Puzzle Bobble Mini" region="Japan, Europe" languages="En"/>
+		<source>
+			<details id="307" section="Third Party" rominfo="HasSave" d_date="2000-06-01" r_date="2016-03-13" region="Japan" dumper="!unknown" project="GoodTools" originalformat="Default" comment1="Verified according to GoodNGPx V3.27" comment2="Contains save data init between 0x60000 to 0x7FFFF. You can get this result by selecting data erase from the in-game menu."/>
+			<serials/>
+			<file id="73" extension="ngc" size="1048576" crc32="e69eae3e" md5="94537fd169751658f3a50a3b7a80cef2" sha1="c217bc81012c8011ec268e6a21adf5b26566b4b5" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="286" section="Trusted Dump" d_date="2021-11-14" r_date="2021-11-14" region="Europe" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=28018#p28018"/>
+			<serials media_serial1="NEOP0020" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK58601V (9939)"/>
+			<file id="180" extension="ngc" size="1048576" crc32="d31312dc" md5="f371e9278973926ad01a0982772f16ae" sha1="0966c6ea1ae5b6ae15f769be5aae41f65acfb3f7" sha256="b4161959916e5e7247dd88e1cda8f57de90b7de81589f990256d6dad6681cbd7" format="Default"/>
+		</source>
+		<release>
+			<details id="8" dirname="Puzzle_Bobble_Mini_INT_NGPC-HS" rominfo="Bad" nfoname="hs" nfosize="8261" nfocrc="096a2917" archivename="HS-PUZB" originalformat="Default" date="2000-06-01" group="High Society" region="Unknown" origin="Scene"/>
+			<serials media_serial1="NEOP0020"/>
+		</release>
+	</game>
+	<game name="Puzzle Bobble Mini (Japan, Europe) (En,Ja) (Demo)">
+		<archive number="0100" clone="0073" name="Puzzle Bobble Mini" region="Japan, Europe" languages="En,Ja" devstatus="Demo" complete="0"/>
+		<source>
+			<details id="226" section="Third Party" rominfo="HasSave" d_date="2000-09-07" r_date="2016-03-13" region="Europe" dumper="!unknown" project="GoodTools" originalformat="Default" comment1="Alternative according to GoodNGPx V3.27&#10;&#13;Contains save data from 0x60000 to 0x7ffff."/>
+			<serials/>
+			<file id="100" extension="ngc" size="1048576" crc32="e3d9f38e" md5="d69f1c4b9a015666184580737c6b2024" sha1="deccefd50c3d2654f7190bdd629cd1f0ba3c30df" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="101" section="Third Party" rominfo="HasSave" d_date="2009-12-18" r_date="2009-12-18" region="Japan" dumper="!unknown" project="nanocosmos.blogbus.com" originalformat="Default" comment1="Contains save data from 0x60000 to 0x7ffff." link1="http://web.archive.org/web/20100427095400/http://nanocosmos.blogbus.com/logs/50284460.html"/>
+			<serials/>
+			<file id="100" extension="ngc" size="1048576" crc32="e3d9f38e" md5="d69f1c4b9a015666184580737c6b2024" sha1="deccefd50c3d2654f7190bdd629cd1f0ba3c30df" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="236" section="Trusted Dump" d_date="2021-09-10" r_date="2021-09-10" region="Japan" dumper="psykopat" project="No-Intro" originalformat="" tool="Sanni's cart reader v6.6" comment1="This redump was save-cleaned." comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=27310#p27310"/>
+			<serials pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNKK82660 (9835)"/>
+			<file id="164" extension="ngc" size="1048576" crc32="d6544f6c" md5="25582ba7d573db17de4ff717f08d0221" sha1="0e9e5e60f60d7795430f4e3d4b655e796998f856" sha256="cbaec1afd02f7d8ce5e4811b66a90bc5ba60f4632f73595ae2db8f8cf2c39dfe" version="09" serial="0020" format="Default"/>
+		</source>
+		<release>
+			<details id="9" dirname="Puzzle_Bobble_Mini_JAP_NGPC-MNC" rominfo="Bad" nfoname="mnc-pbmn" nfosize="3584" nfocrc="1adf8721" archivename="MNC-PBMN" originalformat="Default" date="1999-08-10" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Puzzle Link (USA, Europe)">
+		<archive number="0074" clone="P" regparent="(USA PARENT) (EUR PARENT)" name="Puzzle Link" region="USA, Europe" languages="En"/>
+		<source>
+			<details id="141" section="Trusted Dump" d_date="2011-11-30" r_date="2011-11-30" region="Europe" dumper="xxxddd" project="No-Intro" originalformat="Default" link1="http://forum.no-intro.org/viewtopic.php?f=7&amp;t=2186"/>
+			<serials/>
+			<file id="74" extension="ngc" size="524288" crc32="8d0610ac" md5="df694e1f69ded1df68a4ac52a13fb44a" sha1="2507d1bdeb67bdb6379424817707693549efb487" sha256="a75ad5d83994d09f9acc7f8e1c538a0f58e0593d4fe362f2b03b9154ff118ad5" version="20" serial="0054" format="Default"/>
+		</source>
+		<source>
+			<details id="252" section="Trusted Dump" d_date="2021-10-17" r_date="2021-10-17" region="Europe" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0xab" link1="https://forum.no-intro.org/viewtopic.php?p=27692#p27692"/>
+			<serials media_serial1="NEOP00054" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNKJ19705 (9940)"/>
+			<file id="74" extension="ngc" size="524288" crc32="8d0610ac" md5="df694e1f69ded1df68a4ac52a13fb44a" sha1="2507d1bdeb67bdb6379424817707693549efb487" sha256="a75ad5d83994d09f9acc7f8e1c538a0f58e0593d4fe362f2b03b9154ff118ad5" version="20" serial="0054" format="Default"/>
+		</source>
+		<release>
+			<details id="73" dirname="Puzzle_Link_USA_NGPC-RTW" rominfo="Bad" nfoname="rtw_pzll" nfosize="374" nfocrc="f01e9689" archivename="RTW_PZLL" originalformat="Default" date="2000-05-30" group="RTW" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Puzzle Link 2 (USA, Europe)">
+		<archive number="0075" clone="P" regparent="(USA PARENT) (EUR PARENT)" name="Puzzle Link 2" region="USA, Europe" languages="En"/>
+		<source>
+			<details id="125" section="Third Party" rominfo="Bad" d_date="2000-09-07" r_date="2016-03-13" region="USA" dumper="!unknown" project="GoodTools" originalformat="Default" comment1="Verified according to GoodNGPx V3.27"/>
+			<serials/>
+			<file id="124" extension="ngc" size="1048576" crc32="e2a09bb7" md5="7108cc38b0c5e14eec247db0f2f3b84c" sha1="d4522d1a454968cccd57b03c2aff99616d0b5174" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="139" section="Trusted Dump" d_date="2011-11-30" r_date="2011-11-30" region="USA" dumper="xxxddd" project="No-Intro" originalformat="Default" link1="http://forum.no-intro.org/viewtopic.php?f=7&amp;t=2186"/>
+			<serials/>
+			<file id="75" extension="ngc" size="1048576" crc32="ba9ca21c" md5="9b30216da76c9de87caea93f13977396" sha1="57e44ee5168b69fd3b0ede0fe0dda44070e0aad1" sha256="7fb201f71eb4dac08fb351ab6c6bdc1dd3fde5681f0cc460a800696953a70d6e" version="30" serial="0076" format="Default"/>
+		</source>
+		<source>
+			<details id="253" section="Trusted Dump" d_date="2021-10-17" r_date="2021-10-17" region="USA" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=27693#p27693"/>
+			<serials media_serial1="NEOP00761" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNKL76723 (9932)"/>
+			<file id="75" extension="ngc" size="1048576" crc32="ba9ca21c" md5="9b30216da76c9de87caea93f13977396" sha1="57e44ee5168b69fd3b0ede0fe0dda44070e0aad1" sha256="7fb201f71eb4dac08fb351ab6c6bdc1dd3fde5681f0cc460a800696953a70d6e" version="30" serial="0076" format="Default"/>
+		</source>
+		<release>
+			<details id="75" dirname="Puzzle_Link_2_USA_NGPC-MNC" rominfo="Bad" nfoname="mnc-pln2" nfosize="2546" nfocrc="cb6113f4" archivename="MNC-PLN2" originalformat="Default" date="2000-05-15" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Renketsu Puzzle Tsunagete Pon! Color (Japan)">
+		<archive number="0076" clone="0074" regparent="(JPN PARENT)" name="Renketsu Puzzle Tsunagete Pon! Color" region="Japan" languages="Ja"/>
+		<source>
+			<details id="142" section="Trusted Dump" d_date="2011-11-30" r_date="2011-11-30" region="Japan" dumper="xxxddd" project="No-Intro" originalformat="Default" link1="http://forum.no-intro.org/viewtopic.php?f=7&amp;t=2186"/>
+			<serials/>
+			<file id="76" extension="ngc" size="524288" crc32="c3f3e83c" md5="72119f96aa1ebd5a01562b0395089bcf" sha1="e8e903bc4baf5ab61726626af7c0d1a571db4a40" sha256="b28b9276eb2ededeadcc4a0255bf11cc68fe998659aeef1020acae17872711c3" version="30" serial="0029" format="Default"/>
+		</source>
+		<release>
+			<details id="74" dirname="Puzzle_Tsunagete_Pon_JAP_NGPC-MNC" rominfo="Bad" nfoname="mnc-plnk" nfosize="3599" nfocrc="9e268e7e" archivename="MNC-PLNK" originalformat="Default" date="1999-11-26" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Rockman - Battle &amp; Fighters (Japan)">
+		<archive number="0077" clone="P" regparent="(JPN PARENT)" name="Rockman - Battle &amp; Fighters" region="Japan" languages="Ja"/>
+		<release>
+			<details id="77" dirname="Rockman_Battle_and_Fighters_JAP_NGPC-MNC" nfoname="mnc-rock" nfosize="2215" nfocrc="d05dff66" archivename="MNC-ROCK" originalformat="Default" date="2000-07-06" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Rockman - Battle &amp; Fighters (Japan) (Demo)">
+		<archive number="0112" clone="0077" name="Rockman - Battle &amp; Fighters" region="Japan" languages="Ja" devstatus="Demo" complete="0"/>
+		<source>
+			<details id="114" section="Third Party" d_date="2006-06-02" r_date="2012-02-27" region="Japan" dumper="!unknown" project="nesbbs.com" originalformat="Default" link1="https://forum.no-intro.org/viewtopic.php?p=10895#p10895"/>
+			<serials/>
+			<file id="112" extension="ngc" size="2097152" crc32="16a98ac4" md5="62ec0e37acfe58cc41eba8bd8a5f14a2" sha1="852f31360de057723c16564c0578070306d62c97" sha256="ea026e91b7a3a5ab78fa365e3af67435bac531e3d24c850f14a90b67c0e06f45" version="05" serial="9025" format="Default"/>
+		</source>
+	</game>
+	<game name="Samurai Shodown! 2 - Pocket Fighting Series (World) (En,Ja)">
+		<archive number="0078" clone="P" regparent="(JPN PARENT) (USA PARENT) (EUR PARENT)" name="Samurai Shodown! 2 - Pocket Fighting Series" region="World" languages="En,Ja"/>
+		<source>
+			<details id="333" section="Trusted Dump" d_date="2022-02-12" r_date="2022-02-12" region="USA" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni Cart Reader v7.3" comment1="-Samurai_Shodown_2_JAP_NGPC-EUR (crc 4f7fb156) contains save data from 0x1F0000 to 0x1F01FF&#10;&#13;-Samurai_Shodown_2_INT_NGPC-LFC (crc d356e6f8) contains save data from 0x1F0000 to 0x1F73FF" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=28816#p28816"/>
+			<serials media_serial1="NEOP00301" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="46515V (9911)"/>
+			<file id="203" extension="ngc" size="2097152" crc32="58a62fb2" md5="9b11b2632f926301096a40491042a089" sha1="5c87a9109bb2c7c99f7dd1b9b9a7b807776862b1" sha256="a6b9e772fd9034bfc55922e691afa7a9e01e4facb6788cdb8a60aadb93c4b1b8" version="1A" serial="0030" format="Default"/>
+		</source>
+		<source>
+			<details id="348" section="Trusted Dump" d_date="2022-04-09" r_date="2022-04-09" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni Cart Reader v7.3" comment1="-Clean redump, without save data. Matches the &#34;classic&#34; version I redumped earlier, nothing new is this &#34;Best Collection&#34; version.&#10;&#13;-Samurai_Shodown_2_JAP_NGPC-EUR (crc 4f7fb156) contains save data from 0x1F0000 to 0x1F01FF&#10;&#13;-Samurai_Shodown_2_INT_NGPC-LFC (crc d356e6f8) contains save data from 0x1F0000 to 0x1F73FF" comment2="Chip manufacturer ID : 0xec&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=29171#p29171"/>
+			<serials media_serial1="NEOP00307" pcb_serial="NP-CFL16-S 1998.6.23" romchip_serial1="943 (S8V12)"/>
+			<file id="203" extension="ngc" size="2097152" crc32="58a62fb2" md5="9b11b2632f926301096a40491042a089" sha1="5c87a9109bb2c7c99f7dd1b9b9a7b807776862b1" sha256="a6b9e772fd9034bfc55922e691afa7a9e01e4facb6788cdb8a60aadb93c4b1b8" version="1A" serial="0030" format="Default"/>
+		</source>
+		<release>
+			<details id="78" dirname="Samurai_Shodown_2_JAP_NGPC-EUR" rominfo="Bad" nfoname="eur-ss2n" nfosize="2798" nfocrc="1267b1fa" archivename="EUR-SS2N" originalformat="Default" date="1999-08-10" group="Eurasia" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+		<release>
+			<details id="79" dirname="Samurai_Shodown_2_INT_NGPC-LFC" rominfo="Bad" nfoname="lfc-ss2u" nfosize="6920" nfocrc="fbe2e285" archivename="LFC-SS2U" originalformat="Default" date="2000-05-30" group="Lightforce" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Shanghai Mini (World) (En,Ja)">
+		<archive number="0079" clone="P" regparent="(JPN PARENT) (USA PARENT) (EUR PARENT)" name="Shanghai Mini" region="World" languages="En,Ja"/>
+		<source>
+			<details id="259" section="Trusted Dump" d_date="2021-11-10" r_date="2021-11-10" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0xec&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=27989#p27989"/>
+			<serials media_serial1="NEOP00400" pcb_serial="NP-CFL16-S 1998.6.23" romchip_serial1="SNK KOREA 940 R8F064AA"/>
+			<file id="79" extension="ngc" size="1048576" crc32="90732d53" md5="7c262a2c6390445170d0bf83290c939c" sha1="3e3e625852ac4997d3e3739e59c16e9a74f40f19" sha256="df62c25ab53620263cc7478708e982bf81e3a3fcdd1ef6c8b36a82f9226312a5" version="03" serial="0040" format="Default"/>
+		</source>
+		<release>
+			<details id="80" dirname="Shanghai_Mini_JAP_NGPC-NIL" nfoname="nil-shai" nfosize="3491" nfocrc="e7b292c5" archivename="NIL-SHAI" originalformat="Default" date="2000-04-25" group="Network International Ltd." region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Shanghai Mini (World) (En,Ja) (Beta 1)">
+		<archive number="0120" clone="0079" name="Shanghai Mini" region="World" languages="En,Ja" devstatus="Beta 1" complete="0"/>
+		<source>
+			<details id="120" section="Trusted Dump" d_date="2009-01-23" r_date="2011-11-30" region="Japan" dumper="xxxddd" project="No-Intro" originalformat="Default" link1="http://forum.no-intro.org/viewtopic.php?f=7&amp;t=2186"/>
+			<serials/>
+			<file id="118" extension="ngc" size="1048576" crc32="79620c3f" md5="100760e5f548abff92a36761fcf6ee14" sha1="cd72fc48d6981d3b521d9ef2a339664d0c229f3c" sha256="b310dcb43d2ef20ee890403ed08a08452c0a4898be6365d08b19cda249623988" version="04" serial="0040" format="Default"/>
+		</source>
+		<source>
+			<details id="260" section="Trusted Dump" d_date="2021-11-11" r_date="2021-11-11" region="Europe" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="This source cartridge has been bought via auctions in Europe, but it's real origin is unknown. These stickers are usually used for press/review copies." comment2="Chip manufacturer ID : 0xec&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=27990#p27990"/>
+			<serials pcb_serial="NP-CFL16-S 1998.6.23" romchip_serial1="SNK KOREA 931 R8F003P1"/>
+			<file id="118" extension="ngc" size="1048576" crc32="79620c3f" md5="100760e5f548abff92a36761fcf6ee14" sha1="cd72fc48d6981d3b521d9ef2a339664d0c229f3c" sha256="b310dcb43d2ef20ee890403ed08a08452c0a4898be6365d08b19cda249623988" version="04" serial="0040" format="Default"/>
+		</source>
+	</game>
+	<game name="Shanghai Mini (World) (En,Ja) (Beta 2)">
+		<archive number="0121" clone="0079" name="Shanghai Mini" region="World" languages="En,Ja" devstatus="Beta 2" complete="0"/>
+		<source>
+			<details id="121" section="Trusted Dump" d_date="2009-01-23" r_date="2011-11-30" region="Japan" dumper="xxxddd" project="No-Intro" originalformat="Default" link1="http://forum.no-intro.org/viewtopic.php?f=7&amp;t=2186"/>
+			<serials/>
+			<file id="119" extension="ngc" size="1048576" crc32="920af0ed" md5="f547e657f717223c8a286e51aa159f86" sha1="83955172d78b5dc855b651e574132cfdf8d3d675" sha256="ba094be1fb25e6562094a62bd3bce736862f74495fe31ba1974bb594e906a0ba" version="01" serial="0000" format="Default"/>
+		</source>
+	</game>
+	<game name="Shinki Sekai Evolution - Hateshinai Dungeon (Japan)">
+		<archive number="0080" clone="0021" regparent="(JPN PARENT)" name="Shinki Sekai Evolution - Hateshinai Dungeon" region="Japan" languages="Ja"/>
+		<source>
+			<details id="343" section="Trusted Dump" d_date="2022-03-10" r_date="2022-03-10" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni Cart Reader v7.3" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=28957#p28957"/>
+			<serials media_serial1="NEOP00820" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="50155V (9926)"/>
+			<file id="80" extension="ngc" size="2097152" crc32="e006f42f" md5="3ab7276071d35cd11f316b6b936cee38" sha1="61827b7a13b3efe6a6b60f314fb0589a29c1bfd2" sha256="bb2abad4bf803a916ff3c730e938742e1c4cc1a716d4300088c52d8253db8eba" version="08" serial="0082" format="Default"/>
+		</source>
+		<release>
+			<details id="25" dirname="Evolution_JAP_NGPC-MNC" nfoname="mnc-evln" nfosize="2540" nfocrc="d3db440f" archivename="MNC-EVLN" originalformat="Default" date="2000-04-19" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Shougi no Tatsujin Color (Japan)">
+		<archive number="0081" clone="P" regparent="(JPN PARENT)" name="Shougi no Tatsujin Color" region="Japan" languages="Ja"/>
+		<source>
+			<details id="268" section="Trusted Dump" d_date="2021-11-11" r_date="2021-11-11" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x20&#10;&#13;Chip device ID : 0x4c" link1="https://forum.no-intro.org/viewtopic.php?p=28000#p28000"/>
+			<serials media_serial1="NEOP00270" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNKN12945 (9841)"/>
+			<file id="81" extension="ngc" size="524288" crc32="1f2872ed" md5="a874c1d95bade2143c0712d22ddbd452" sha1="9f420d0a7cc1115f60bda1c0916247935118ce98" sha256="c87a5fa1a5698b4cd0e25aae54dad52ef996a61068183eb0c2ad9c1d21753586" version="04" serial="0027" format="Default"/>
+		</source>
+		<release>
+			<details id="81" dirname="Shogi_Color_JAP_NGPC-EUR" nfoname="eur-shog" nfosize="2184" nfocrc="fb12e50f" archivename="EUR-SHOG" originalformat="Default" date="1999-08-09" group="Eurasia" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+		<release>
+			<details id="41" dirname="Master_of_Syougi_REAL_NGPC-LFC" category="Dupe" nfoname="LFC-Maos" nfosize="3704" nfocrc="a9f3c442" archivename="LFC-MAOS" originalformat="Default" date="2001-02-25" group="Lightforce" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="SNK Gals' Fighters (Japan)">
+		<archive number="0082" clone="0083" regparent="(JPN PARENT)" name="SNK Gals' Fighters" region="Japan" languages="Ja"/>
+		<source>
+			<details id="323" section="Trusted Modification" d_date="2021-12-28" r_date="2021-12-28" region="Japan" dumper="omonim2007" project="No-Intro" originalformat="Default" comment1="Save init data at 0x1f8000 is cleaned up"/>
+			<serials/>
+			<file id="199" extension="ngc" size="2097152" crc32="d73b5b9f" md5="6beb5fe00811f44c456030b052b7a325" sha1="32b16d5200a6029f7babc5c233c91e9277550c80" format="Default"/>
+		</source>
+		<release>
+			<details id="85" dirname="SNK_Gals_Fighters_JAP_NGPC-MNC" rominfo="Bad" nfoname="mnc-galf" nfosize="2739" nfocrc="1000d48e" archivename="MNC-GALF" originalformat="Default" date="2000-04-02" group="Menace" comment="Contains save init data at 0x1f8000" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="SNK Gals' Fighters (USA, Europe)">
+		<archive number="0083" clone="P" regparent="(USA PARENT) (EUR PARENT)" name="SNK Gals' Fighters" region="USA, Europe" languages="En"/>
+		<source>
+			<details id="209" section="Third Party" d_date="2000-06-15" r_date="2016-03-13" region="USA" dumper="!unknown" project="GoodTools" originalformat="Default" comment1="Verified according to GoodNGPx V3.27" comment2="It seems a save data exist starting from $1F8000, so redump is needed"/>
+			<serials/>
+			<file id="83" extension="ngc" size="2097152" crc32="b02c2be7" md5="08922d2bdc6c80d56ddf50836ccad77c" sha1="09a74b42ef9b63aca675aead5854512ad0b585a1" sha256="b002ff9568107834c170a4da03912e3a4b54d6cb767967fc6dae7fcaaa89c782" version="30" serial="0093" format="Default"/>
+		</source>
+		<source>
+			<details id="322" section="Trusted Dump" d_date="2021-12-22" r_date="2021-12-22" region="USA" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=28405#p28405"/>
+			<serials media_serial1="NEOP00931" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK49897V (9925)"/>
+			<file id="83" extension="ngc" size="2097152" crc32="b02c2be7" md5="08922d2bdc6c80d56ddf50836ccad77c" sha1="09a74b42ef9b63aca675aead5854512ad0b585a1" sha256="b002ff9568107834c170a4da03912e3a4b54d6cb767967fc6dae7fcaaa89c782" version="30" serial="0093" format="Default"/>
+		</source>
+		<release>
+			<details id="86" dirname="SNK_Gals_Fighters_USA_NGPC-MNC" rominfo="Bad" nfoname="mnc-gals" nfosize="2682" nfocrc="d70246d4" archivename="MNC-GALS" originalformat="Default" date="2000-05-19" group="Menace" comment="Contains save init data at 0x1f8000" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="[BIOS] SNK Neo Geo Pocket Color (World) (En,Ja)">
+		<archive number="0095" clone="P" regparent="(EUR PARENT) (USA PARENT) (JPN PARENT)" name="SNK Neo Geo Pocket Color" region="World" languages="En,Ja" bios="1"/>
+		<source>
+			<details id="96" section="Third Party" d_date="2001-12-31" r_date="2016-03-13" region="Japan" dumper="!unknown" project="GoodTools" originalformat="Default" comment1="Not verified according to GoodNGPx V3.27"/>
+			<serials/>
+			<file id="95" extension="ngp" size="65536" crc32="6eeb6f40" md5="3655aacebb43a963607d4cf821fc1301" sha1="edc13192054a59be49c6d55f83b70e2510968e86" format="Default"/>
+		</source>
+	</game>
+	<game name="SNK vs. Capcom - Card Fighters 2 - Expand Edition (Japan)">
+		<archive number="0084" clone="P" regparent="(JPN PARENT)" name="SNK vs. Capcom - Card Fighters 2 - Expand Edition" region="Japan" languages="Ja"/>
+		<release>
+			<details id="99" dirname="SNK_VS_Capcom_Card_Fighters_Clash_2_EXP_ED_JAP_NGPC-iND" nfoname="HM-001.txt" nfosize="367" nfocrc="ae4738d2" archivename="IND-CPM2" originalformat="Default" date="2001-10-16" group="Independent" comment="ROM last modified date: 2001-10-06" region="Unknown" origin="Scene"/>
+			<serials media_serial1="NEOP01160"/>
+		</release>
+	</game>
+	<game name="SNK vs. Capcom - Card Fighters' Clash - Capcom Version (USA, Europe)">
+		<archive number="0085" clone="P" regparent="(USA PARENT) (EUR PARENT)" name="SNK vs. Capcom - Card Fighters' Clash - Capcom Version" region="USA, Europe" languages="En"/>
+		<source>
+			<details id="325" section="Trusted Dump" d_date="2021-12-22" r_date="2021-12-22" region="Europe" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=28407#p28407"/>
+			<serials media_serial1="NEOP01068" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK55598V (9934)"/>
+			<file id="85" extension="ngc" size="2097152" crc32="80ce137b" md5="3bcc1c9ef59a75e3c2e6b49be6b84bab" sha1="2a95ab1fe62b6a9dc30a05131ad212ba2de5c3cd" sha256="e59e0ebf810200a634c6063fcbdf3489635d7d3521b43e569f7251236a4548f6" version="03" serial="0068" format="Default"/>
+		</source>
+		<source>
+			<details id="346" section="Trusted Dump" d_date="2022-03-10" r_date="2022-03-10" region="USA" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni Cart Reader v7.3" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=28960#p28960"/>
+			<serials media_serial1="NEOP00681" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="55082V (9930)"/>
+			<file id="85" extension="ngc" size="2097152" crc32="80ce137b" md5="3bcc1c9ef59a75e3c2e6b49be6b84bab" sha1="2a95ab1fe62b6a9dc30a05131ad212ba2de5c3cd" sha256="e59e0ebf810200a634c6063fcbdf3489635d7d3521b43e569f7251236a4548f6" version="03" serial="0068" format="Default"/>
+		</source>
+		<release>
+			<details id="92" dirname="SNK_vs_Capcom_Card_Fighters_Clash_Capcom_Version_USA_NGPC-MNC" nfoname="mnc-cfcc" nfosize="2941" nfocrc="b799f5ab" archivename="MNC-CFCC" originalformat="Default" date="2000-05-16" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="SNK vs. Capcom - Card Fighters' Clash - SNK Version (USA, Europe)">
+		<archive number="0086" clone="P" regparent="(USA PARENT) (EUR PARENT)" name="SNK vs. Capcom - Card Fighters' Clash - SNK Version" region="USA, Europe" languages="En"/>
+		<source>
+			<details id="345" section="Trusted Dump" d_date="2022-03-10" r_date="2022-03-10" region="USA" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni Cart Reader v7.3" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=28959#p28959"/>
+			<serials media_serial1="NEOP00671" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="56193V (9932)"/>
+			<file id="86" extension="ngc" size="2097152" crc32="94b63a97" md5="74e8381e94565e21a3197449bb4423bf" sha1="dfb232a527647337d6274ddf9d8b3d94281fd86d" sha256="3c0e17694c9476fa8995b56b74a9f92966451025a5712ab8f9a7e08cffd86baf" version="03" serial="0067" format="Default"/>
+		</source>
+		<release>
+			<details id="90" dirname="SNK_VS_Capcom_Card_Fighters_Clash_SNK_Version_USA_NGPC-MNC" nfoname="mnc-svcs" nfosize="2937" nfocrc="ac3d0e17" archivename="MNC-SVCS" originalformat="Default" date="2000-05-12" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="SNK vs. Capcom - Gekitotsu Card Fighters (Japan) (Demo)">
+		<archive number="0102" clone="P" regparent="(JPN PARENT)" name="SNK vs. Capcom - Gekitotsu Card Fighters" region="Japan" languages="Ja" devstatus="Demo" complete="0"/>
+		<source>
+			<details id="103" section="Trusted Dump" d_date="2009-02-25" d_date_info="0" r_date="2009-11-05" region="Japan" dumper="!unknown" project="nanocosmos.blogbus.com" originalformat="Default" link1="http://web.archive.org/web/20100427095400/http://nanocosmos.blogbus.com/logs/50284460.html"/>
+			<serials/>
+			<file id="102" extension="ngc" size="2097152" crc32="4a41a56e" md5="e8292bf000355e30c09eb64a3d381243" sha1="4b2f613f978cefae8e952a43440d2d395b1012d5" sha256="13a199e72f929359067403b046ba9450e102538fd9cb1c0ac6f1ea3ab90fd1e9" version="02" serial="9015" format="Default"/>
+		</source>
+	</game>
+	<game name="SNK vs. Capcom - Gekitotsu Card Fighters - Capcom Supporter Version (Japan)">
+		<archive number="0087" clone="0085" regparent="(JPN PARENT)" name="SNK vs. Capcom - Gekitotsu Card Fighters - Capcom Supporter Version" region="Japan" languages="Ja"/>
+		<source>
+			<details id="228" section="Third Party" d_date="1999-11-27" r_date="2016-03-13" region="Japan" dumper="!unknown" project="GoodTools" originalformat="Default" comment1="Not verified according to GoodNGPx V3.27"/>
+			<serials/>
+			<file id="87" extension="ngc" size="2097152" crc32="9217159b" md5="e99ac2011126b8b617e77caff032d744" sha1="3b1d5ac5b4aaf1aa04479e46961c4d7c458d70fb" sha256="e231a728bb54d919635ce3bc4be5f2ad77195c1cd87efe3d17960e8ffbd1c392" version="07" serial="0057" format="Default"/>
+		</source>
+		<source>
+			<details id="350" section="Trusted Dump" d_date="2022-08-07" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="OSCR v9.4" comment2="Chip manufacturer ID: 0x98&#10;&#13;Chip device ID: 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=30987#p30987"/>
+			<serials media_serial1="NEOP00570" pcb_serial="NP-CFL16" mediastamp="07"/>
+			<file id="87" extension="ngc" size="2097152" crc32="9217159b" md5="e99ac2011126b8b617e77caff032d744" sha1="3b1d5ac5b4aaf1aa04479e46961c4d7c458d70fb" sha256="e231a728bb54d919635ce3bc4be5f2ad77195c1cd87efe3d17960e8ffbd1c392" version="07" serial="0057" format="Default"/>
+		</source>
+		<release>
+			<details id="91" dirname="SNK_VS_Capcom_Card_Fighters_Clash_Capcom_Version_JAP_NGPC-MNC" rominfo="Bad" nfoname="mnc-svcc" nfosize="2479" nfocrc="49328c6c" archivename="MNC-SVCC" originalformat="Default" date="2000-05-04" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="SNK vs. Capcom - Gekitotsu Card Fighters - SNK Supporter Version (Japan)">
+		<archive number="0088" clone="0086" regparent="(JPN PARENT)" name="SNK vs. Capcom - Gekitotsu Card Fighters - SNK Supporter Version" region="Japan" languages="Ja"/>
+		<source>
+			<details id="281" section="Trusted Dump" d_date="2021-11-14" r_date="2021-11-14" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="Cart #1 dump" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=28014#p28014"/>
+			<serials media_serial1="NEOP00560" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK56459V (9936)"/>
+			<file id="88" extension="ngc" size="2097152" crc32="7065295c" md5="6cf60c8e14d7caacca38ff13963f5a32" sha1="551ceb97d1e3e6384221be738b11efb5d936ffd6" sha256="5405869c77fa0f5c6b978f92cd9557bd7740d42d22169d9830a4cf3706cc5787" version="07" serial="0056" format="Default"/>
+		</source>
+		<source>
+			<details id="282" section="Trusted Dump" d_date="2021-11-14" r_date="2021-11-14" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="Cart #2 dump" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=28014#p28014"/>
+			<serials media_serial1="NEOP00560" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK55860V (9933)"/>
+			<file id="88" extension="ngc" size="2097152" crc32="7065295c" md5="6cf60c8e14d7caacca38ff13963f5a32" sha1="551ceb97d1e3e6384221be738b11efb5d936ffd6" sha256="5405869c77fa0f5c6b978f92cd9557bd7740d42d22169d9830a4cf3706cc5787" version="07" serial="0056" format="Default"/>
+		</source>
+		<source>
+			<details id="330" section="Trusted Dump" d_date="2022-02-12" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni Cart Reader v7.3" comment1="This dump is coming from the *BEST Collection* edition" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=28811#p28811"/>
+			<serials media_serial1="NEOP00567" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="55792Q (9938)"/>
+			<file id="88" extension="ngc" size="2097152" crc32="7065295c" md5="6cf60c8e14d7caacca38ff13963f5a32" sha1="551ceb97d1e3e6384221be738b11efb5d936ffd6" sha256="5405869c77fa0f5c6b978f92cd9557bd7740d42d22169d9830a4cf3706cc5787" version="07" serial="0056" format="Default"/>
+		</source>
+		<release>
+			<details id="88" dirname="SNK_vs_Capcom_Card_Fighting_SNK_JAP-OS" nfoname="OS-SVCS" nfosize="3270" nfocrc="f9cf8d27" archivename="OS-SVCS" originalformat="Default" date="1999-12-06" group="OldSkool" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+		<release>
+			<details id="89" dirname="SNK_vs_Capcom_Card_Fighters_Clash_SNK_ver_JAP_NGPC-iND" category="Dupe" nfoname="!missing" nfosize="0" nfocrc="0" archivename="SVCS" originalformat="Default" date="2000-01-13" group="Independent" comment="ROM last modified date: 1999-11-27" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="SNK vs. Capcom - Gekitotsu Card Fighters - SNK Supporter Version (Japan) (Beta)">
+		<archive number="0101" clone="0086" name="SNK vs. Capcom - Gekitotsu Card Fighters - SNK Supporter Version" region="Japan" languages="Ja" devstatus="Beta" complete="0"/>
+		<source>
+			<details id="102" section="Trusted Dump" d_date="2009-02-25" r_date="2009-11-05" region="Japan" dumper="!unknown" project="nanocosmos.blogbus.com" originalformat="Default" link1="http://web.archive.org/web/20100427095400/http://nanocosmos.blogbus.com/logs/50284460.html" link2="https://forum.no-intro.org/viewtopic.php?p=6056#p6056"/>
+			<serials/>
+			<file id="101" extension="ngc" size="2097152" crc32="e70e3f1a" md5="748f76d010b83c3d3c95fca28b4d080f" sha1="584b30b050c22082dae3abe685f406dbe4decf98" sha256="b7e9f897f8f8e60c33faf966bdd18f29da2084db73c24713540f3ae9efd769c7" version="06" serial="0056" format="Default"/>
+		</source>
+	</game>
+	<game name="SNK vs. Capcom - The Match of the Millennium (World) (En,Ja)">
+		<archive number="0089" clone="P" regparent="(JPN PARENT) (USA PARENT) (EUR PARENT)" name="SNK vs. Capcom - The Match of the Millennium" region="World" languages="En,Ja"/>
+		<source>
+			<details id="225" section="Third Party" rominfo="Bad" d_date="2000-06-16" r_date="2016-03-13" region="USA" dumper="!unknown" project="GoodTools" originalformat="Default" comment1="Verified according to GoodNGPx V3.27"/>
+			<serials/>
+			<file id="89" extension="ngc" size="4194304" crc32="b173030a" md5="dfea3ad9af4a631de6f97d86589b971e" sha1="7629ea5520d3daee4ef658d4f4b48f45e17217ae" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="258" section="Trusted Dump" d_date="2021-10-18" r_date="2021-10-18" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment1="CRC32 B173030A isn't fine, save data is present from 0x1F8000 to 0x1FA0FF. This redump is clean." comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f (dual chip)" link1="https://forum.no-intro.org/viewtopic.php?p=27709#p27709"/>
+			<serials media_serial1="NEOP00690" pcb_serial="NP-CFL32-D 1999.7.13" romchip_serial1="SNK57566V (9944)" romchip_serial2="SNK57566V (9944)"/>
+			<file id="169" extension="ngc" size="4194304" crc32="682a7a7b" md5="dd285dbdb0e46a1b0e8ea9a5d840e070" sha1="0806e4a0cff55180e158c9af0060fac17ee9243a" sha256="a95d23259d855375d71f0a09a3ec09a4f1433c721d8c58b6f85ea83f66e2c716" version="15" serial="0069" format="Default"/>
+		</source>
+		<source>
+			<details id="334" section="Trusted Dump" d_date="2022-02-12" r_date="2022-02-12" region="USA" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni Cart Reader v7.3" comment1="This source is a USA cart, and dump matches earlier JPN redump." comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f (dual chips)" link1="https://forum.no-intro.org/viewtopic.php?p=28815#p28815"/>
+			<serials media_serial1="NEOP00691" pcb_serial="NP-CFL32-D 1999.7.13" romchip_serial1="57320V (9940)" romchip_serial2="56518V (9937)"/>
+			<file id="169" extension="ngc" size="4194304" crc32="682a7a7b" md5="dd285dbdb0e46a1b0e8ea9a5d840e070" sha1="0806e4a0cff55180e158c9af0060fac17ee9243a" sha256="a95d23259d855375d71f0a09a3ec09a4f1433c721d8c58b6f85ea83f66e2c716" version="15" serial="0069" format="Default"/>
+		</source>
+		<release>
+			<details id="87" dirname="SNK_vs_Capcom_Match_of_The_Millennium_JAP_NGPC-iND" rominfo="Bad" nfoname="!missing" nfosize="0" nfocrc="0" archivename="SVCM" originalformat="Default" date="2001-08-12" group="Independent" comment="ROM last modified date: 1999-12-17" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="SNK vs. Capcom - The Match of the Millennium (Japan) (Demo)">
+		<archive number="0125" clone="0089" regparent="(JPN PARENT)" name="SNK vs. Capcom - The Match of the Millennium" region="Japan" languages="Ja" devstatus="Demo" complete="0"/>
+		<source>
+			<details id="244" section="Trusted Dump" d_date="2021-09-13" r_date="2021-09-13" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" link1="https://forum.no-intro.org/viewtopic.php?p=27366#p27366"/>
+			<serials pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK44000V (9909)"/>
+			<file id="166" extension="ngc" size="2097152" crc32="1e19e307" md5="46d7b058b1c753409df10c16be1669e6" sha1="ebdd4188d2fdfd0098d61913d234d2e23adaaf9d" sha256="cb35d13dc79a8a7d2f329c0dbc3f3d55c4b1aec94fdb7f1eba2520bc1caadc35" version="04" serial="9020" format="Default"/>
+		</source>
+	</game>
+	<game name="Sonic The Hedgehog - Pocket Adventure (World)">
+		<archive number="0090" clone="P" regparent="(JPN PARENT) (USA PARENT) (EUR PARENT)" name="Sonic The Hedgehog - Pocket Adventure" region="World" languages="En"/>
+		<source>
+			<details id="134" section="Third Party" rominfo="HasSave" d_date="2008-04-17" d_date_info="0" r_date="2008-04-17" region="Europe" dumper="geezup" project="No-Intro" originalformat="Default" comment1="Contain save data init from 0x1f8000 to 0x1FAC00." link1="http://forum.no-intro.org/viewtopic.php?t=519"/>
+			<serials/>
+			<file id="90" extension="ngc" size="2097152" crc32="356f0849" md5="b8a899ae2b0f1dfa0db5417de745a51e" sha1="3fe15d4374c4ca073aa0393fcfcad0055bd345ab" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="287" section="Trusted Dump" d_date="2021-11-14" r_date="2021-11-14" region="USA" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=28025#p28025"/>
+			<serials media_serial1="NEOP00591" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK55083V (9931)"/>
+			<file id="181" extension="ngc" size="2097152" crc32="8bd22145" md5="6123e8a783b146bdcdc6a9fa95abb0bd" sha1="5a881d8124d902b4a98d76362ad62566a86f0aba" sha256="ead73b11039667fe0dab8a4619605bacc5c5d7c708f083c29f5090fe96c6a091" format="Default"/>
+		</source>
+		<release>
+			<details id="82" dirname="Sonic_the_Hedgehog_Pocket_Adventure_JAP_NGPC-MNC" rominfo="Bad" nfoname="mnc-shpa" nfosize="4082" nfocrc="773fb67e" archivename="MNC-SHPA" originalformat="Default" date="2000-01-12" group="Menace" comment="Contain save data init from 0x1f8000 to 0x1FAC00." region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Sonic The Hedgehog - Pocket Adventure (World) (Demo)">
+		<archive number="0099" clone="0090" name="Sonic The Hedgehog - Pocket Adventure" region="World" languages="En" devstatus="Demo" complete="0"/>
+		<source>
+			<details id="221" section="Third Party" rominfo="Bad" d_date="2007-04-13" r_date="2007-04-13" region="Japan" dumper="True Dude" project="Sonic Retro" originalformat="Default" comment1="Cover's text translation: &#34;Sonic the Hedgehog - Neo Geo Pocket Color - TrialSoft&#34;" link1="http://info.sonicretro.org/Sonic_the_Hedgehog_Pocket_Adventure_Taikenban"/>
+			<serials/>
+			<file id="148" extension="ngc" size="2097152" crc32="72a34c84" md5="2a94b4928cf3b0872bf4044e27433022" sha1="1e2a5855e2e458e1366228896090fd4e7b2e2eb6" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="104" section="Third Party" rominfo="Bad" d_date="2009-02-25" r_date="2009-11-05" region="Japan" dumper="!unknown" project="nanocosmos.blogbus.com" originalformat="Default" link1="http://web.archive.org/web/20100427095400/http://nanocosmos.blogbus.com/logs/50284460.html"/>
+			<serials/>
+			<file id="103" extension="ngc" size="2097152" crc32="622176ce" md5="67a4b4c481625860d1c33978b28959b1" sha1="a11283703fe6007c2e96ce81dfc56081eff6f593" sha256="9646e0d7c7bac6ee1f4848bc70aa434c9ac95d63bca86f62beb6952671e86a2c" version="02" serial="9019" bad="1" format="Default"/>
+		</source>
+		<source>
+			<details id="332" section="Trusted Dump" d_date="2022-02-12" r_date="2022-02-12" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni Cart Reader v7.3" comment1="Current trusted dump (crc 622176ce) isn't clean and contains save data from 0xF8000 to the end" comment2="Chip manufacturer ID : 0xec&#10;&#13;Chip device ID : 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=28814#p28814"/>
+			<serials pcb_serial="NP-CFL16-S 1998.6.23" romchip_serial1="937 (S8V12)"/>
+			<file id="202" extension="ngc" size="2097152" crc32="189a9141" md5="67bb8f5377e1673c0277e3222186435d" sha1="0d7d7495bafc499e38eef4212d8c92cd46cd96c5" sha256="1f504128150f801456c558765ca182a6ae6887afc1601bb5b46ca54c9856bc75" version="02" serial="9019" format="Default"/>
+		</source>
+	</game>
+	<game name="Sonic The Hedgehog - Pocket Adventure (World) (Beta) (1999-10-22)">
+		<archive number="0122" clone="0090" name="Sonic The Hedgehog - Pocket Adventure" region="World" languages="En" devstatus="Beta" additional="1999-10-22" complete="0"/>
+		<source>
+			<details id="128" section="Trusted Dump" d_date="2016-06-09" r_date="2016-12-25" region="Japan" media_title="SNK (P) ソニック ロックマン Ver. 10/22 セガ承認用 99.10.22 10D7" dumper="drx" project="Hidden Palace" originalformat="Default" tool="Tengu Neo Geo Pocket Dumper"/>
+			<serials/>
+			<file id="128" extension="ngc" size="2097152" crc32="45fc3bca" md5="69c5d58770f111037f565efbcc366b53" sha1="fb34cc0f6a19fb47ffeae4e6f4113ed66d14e1bd" sha256="ff22cdf136256be6d9b7a6c553e9c0f93949bd1d1498b2b610fb519b45965e35" version="0F" serial="0039" format="Default"/>
+		</source>
+	</game>
+	<game name="Soreike!! Hanafuda Doujou (Japan)">
+		<archive number="0091" clone="P" regparent="(JPN PARENT)" name="Soreike!! Hanafuda Doujou" region="Japan" languages="Ja"/>
+		<source>
+			<details id="245" section="Trusted Dump" d_date="2021-09-13" r_date="2021-09-13" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0xab" link1="https://forum.no-intro.org/viewtopic.php?p=27367#p27367"/>
+			<serials media_serial1="NEOP00780" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNK62203V (9946)"/>
+			<file id="91" extension="ngc" size="524288" crc32="05fa3eb0" md5="8b12fec8e96dad41380ab419a216ad08" sha1="f4a4264eaf1605086ccbc526f21da222aa6341bf" sha256="bb8041999e622996221cd6ebc8bcfff2e1ae4b36cc8af2f5c12359b596fa578e" version="03" serial="0078" format="Default"/>
+		</source>
+		<release>
+			<details id="83" dirname="Soreike_Hanafuda_Doujyou_JAP_NGPC-MNC" nfoname="mnc-sore" nfosize="2455" nfocrc="1a64373c" archivename="MNC-SORE" originalformat="Default" date="2000-06-01" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Super Real Mahjong - Premium Collection (Japan)">
+		<archive number="0092" clone="P" regparent="(JPN PARENT)" name="Super Real Mahjong - Premium Collection" region="Japan" languages="Ja"/>
+		<source>
+			<details id="356" section="Trusted Dump" d_date="2022-10-22" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="OSCR HW3 v10.3" comment1="Note: Super_Real_Mahjong_NGPC-iND is fine. No save and perfect data." comment2="Chip manufacturer ID: 0x98&#10;&#13;Chip device ID: 0x2f" link1="https://forum.no-intro.org/viewtopic.php?p=31473#p31473"/>
+			<serials media_serial1="NEOP01110" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="43271V"/>
+			<file id="92" extension="ngc" size="2097152" crc32="c6e620c3" md5="07873a332ef8ac5cb5177ee3c304ff2b" sha1="c61847bca43c5387d19096a86ef109560d71ca9b" sha256="154dece5fdce8dde43eb63b9bb3ad05539eb538b73e3bc9cbc0d2ff855df2885" version="02" serial="0111" format="Default"/>
+		</source>
+		<release>
+			<details id="84" dirname="Super_Real_Mahjong_NGPC-iND" nfoname="srm" nfosize="13220" nfocrc="c7ceeeb1" archivename="SRM" originalformat="Default" date="2001-06-25" group="Independent" comment="ROM last modified date: 2001-06-21" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Tsunagete Pon! 2 (Japan)">
+		<archive number="0093" clone="0075" regparent="(JPN PARENT)" name="Tsunagete Pon! 2" region="Japan" languages="Ja"/>
+		<source>
+			<details id="140" section="Trusted Dump" d_date="2011-11-30" r_date="2011-11-30" region="Japan" dumper="xxxddd" project="No-Intro" originalformat="Default" link1="http://forum.no-intro.org/viewtopic.php?f=7&amp;t=2186"/>
+			<serials/>
+			<file id="93" extension="ngc" size="1048576" crc32="129091bb" md5="2a8f9cb76e56000769e08200d8b25182" sha1="db030e02819d50315f15c00b93c3a46f1f89d126" sha256="966d5330646bf87b54cc304f71d8874d951cd17fda010a4ad8f385d2980cae33" version="50" serial="0049" format="Default"/>
+		</source>
+		<source>
+			<details id="240" section="Trusted Dump" d_date="2021-09-11" r_date="2021-09-11" region="Japan" dumper="psykopat" project="No-Intro" originalformat="Default" tool="Sanni's cart reader v6.6" comment2="Chip manufacturer ID : 0x98&#10;&#13;Chip device ID : 0x2c" link1="https://forum.no-intro.org/viewtopic.php?p=27318#p27318"/>
+			<serials media_serial1="NEOP00490" pcb_serial="NP-CFL16 1998.4.9" romchip_serial1="SNKJ11546 (9939)"/>
+			<file id="93" extension="ngc" size="1048576" crc32="129091bb" md5="2a8f9cb76e56000769e08200d8b25182" sha1="db030e02819d50315f15c00b93c3a46f1f89d126" sha256="966d5330646bf87b54cc304f71d8874d951cd17fda010a4ad8f385d2980cae33" version="50" serial="0049" format="Default"/>
+		</source>
+		<release>
+			<details id="76" dirname="Puzzle_Tsunagete_Pon_2_JAP_NGPC-MNC" rominfo="Bad" nfoname="mnc-ptp2" nfosize="2464" nfocrc="e9d60dc7" archivename="MNC-PTP2" originalformat="Default" date="2000-05-04" group="Menace" region="Unknown" origin="Scene"/>
+			<serials/>
+		</release>
+	</game>
+	<game name="Wrestling Madness (Japan) (En) (Beta)">
+		<archive number="0094" clone="0003" name="Wrestling Madness" region="Japan" languages="En" devstatus="Beta" complete="0"/>
+		<release>
+			<details id="3" dirname="Wrestling_Madness_INT_NGPC-LFC" nfoname="lfc-wmi" nfosize="6999" nfocrc="3a11e2b6" archivename="LFC-WMI" originalformat="Default" date="2000-06-15" group="Lightforce" region="Unknown" origin="Scene"/>
+			<serials media_serial1="NEOP0066"/>
+		</release>
+	</game>
+</datafile>
